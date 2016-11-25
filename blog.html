@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Security First.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+	<script src="assets/js/Chart.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Security first.</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">HOME</a></li>
+            <!-- <li><a href="umbrella.html">UMBRELLA</a></li> -->
+            <li><a href="training.html">TRAINING</a></li>
+            <li><a href="team.html">TEAM</a></li>
+            <li><a href="contribute.html">CONTRIBUTE</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li class="active"><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="yellow">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h4>BLOG</h4>
+				<!-- <p>ONE LINE?</p> -->
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!--  bluewrap -->
+
+
+	<div class="container w">
+
+    <div class="row">
+      <br><br>
+      <div class="col-lg-8 col-lg-offset-2">
+      <h2>Hi everyone,</h2>
+      
+      <p>In keeping with our philosophy of supporting open source code and greater transparency for security tools, today we are releasing the results of a recent code audit of Umbrella App by iSEC Partners (made possible thanks to the folks at the Open Technology Fund.)</p>
+
+      <p>In total, the code audit found three vulnerabilities rated as “low” and seven rated as “informational.” We have described the vulnerabilities found and our response to them below.</p>
+
+      <p>Our code is available here: <a class="bold" href="https://github.com/securityfirst/Umbrella_android" target="_blank">https://github.com/securityfirst/Umbrella_android</a></p>
+
+      <p>Please compile it, review it, test it, break it, hack it and tell us what you find. We are passionate about what we do and really care for the security of people who use Umbrella. We warmly welcome any advice on other methods of mitigating vulnerabilities.</p>
+
+      <p>If you find something please add any issues to the bug tracker or drop a mail to rory@secfirst.org (PGP: 2C1D3B4D). If it is a security vulnerability we ask that you see our responsible disclosure policy.</p>
+
+      <p>Thanks,<br>Rory</p>
+
+      <h3>1. Insufficient TLS/SSL certificate validation – Low Severity</h3>
+      <p>Response: Two of the sources (ReliefWeb and the Centers for Disease Control) for the security dashboard feed could not be validly retrieved via HTTPS (one had invalid TLS settings and the other didn’t offer content via https at all). In a preliminary discussion with iSEC it was understood that it was better to offer any type of additional security layer then relying on misconfigured or a non-existent SSL connection. For that we needed the client to be more tolerant. Since this was exposed as the biggest risk, we have resorted to proxying requests from 3rd party sources through our servers. For speed and providing a more effective feed we have added basic caching of data drawn from the third party sources, thus adding the security layer of having a correctly configured server. We will be publishing the code that we use for the backend on our GitHub. As mention in our privacy policy, we have configured the server to not store any personally identifiable data. The only data that we are storing is aggregated and non-identifiable information thats tells us what countries are requested on the dashboard the most. The reason to do this is so that in future, if for example we know that Sudan is a very popular feed, then we might try to find more specific and reliable security related feeds for Sudan. At present we think this offers a sensible and useful advantage to our users but we are willing to listen and if they disagree we will change the process.
+      </p>
+
+      <h3>2. Excessive session timeout – Low Severity</h3>
+      <p>Response: We were aiming to find a middle ground between security and usability and felt what we had in place was a reasonable approach, particularly as logout is an option for the user. We will revisit this and probably enable it as an option in the settings. 
+      </p>
+
+      <h3>3. Weak TLS/SSL ciphers supported Response – Low Severity</h3>
+      <p>Look at response for pt.5 </p>
+
+      <h3>4. SQL Injection in search and password functionality - Informational</h3>
+      <p>Response: We have sanitised the input parameters using ORMLite SelectArg class in both cases. The lines quoted in the report have been changed to:
+      <pre>
+      where.like(Segment.FIELD_BODY, new SelectArg(“%"+query+"%")); <br>
+      getOrmHelper().getWritableDatabase(getOrmHelper().getPassword()).rawExecSQL("PRAGMA rekey = '" + new SelectArg(pw) + “‘;"); 
+      </pre>
+      </p>
+
+      <h3>5. SSL enabled and vulnerable to POODLE attack - Informational</h3>
+      <p>Response: The function in question was not able to be executed on account of the functionality being disabled, so the server was in development mode. We have fixed the server config to safer settings, namely:
+      <pre>
+      SSLProtocol All -SSLv2 -SSLv3 SSLCompression off SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH 
+      </pre>
+      The server now receives A for overall rating in Qualys SSL Labs test. 
+      </p>
+
+      <h3>6. Hard-coded encryption key in source code - Informational</h3>
+      <p>Response: While we don’t see a proper attack vector in this case, we have updated the code to now get the default password from the resource files.</p>
+
+      <h3>7. Verbose debug error messages logged - Informational</h3>
+      <p>Response: We have changed all error logging in multiple places to only be visible in debug configurations, with the like of:
+      <pre>
+      if (BuildConfig.BUILD_TYPE.equals(“debug")) Log.getStackTraceString(e.getCause());
+      </pre>
+      </p>
+
+      <h3>8. Reflected Cross-Site Scripting in search functionality  - Informational</h3>
+      <p>Response: We sanitised html using Jsoup.clean function so the chunk now looks like this: <br>
+          <pre>String queryText = ""; 
+          if (mQueries != null && mQueries.size() > 0) { 
+          queryText = Jsoup.clean(mQueries.get(0), Whitelist.simpleText()); } 
+          holder.mSearchText.setText(Html.fromHtml("result while searching for: &lt;b>" + queryText + “&lt;/ b>")); 
+          </pre>
+          and the queryText gets passed to a method which does the replace as well. 
+      </p>
+
+      <h3>9. Certificate pinning not implemented in mobile application - Informational</h3>
+      <p>Response: As the code to query our server was not executed at all, we didn’t change the settings on that call. Since then, we have reenable that functionality and are using a different client for the calls to Security First API, which is strict and uses SSL pinning to ensure validity of the certificate against CA breaches. The library used for that purpose is <a class="bold" href="https://github.com/moxie0/ AndroidPinning" target="_blank">https://github.com/moxie0/ AndroidPinning</a></p>
+
+      <h3>10. Application does not lock when focus is lost - Informational</h3>
+      <p>Response: Again, as with pt. 4, we were aiming for approach that combines user friendliness. We have a timer to lock out the session and we have added a screenshot protection so the content of the app can’t be acquired via screenshot. Code change in BaseActivity: <br>
+      <pre>getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
+        if (BuildConfig.BUILD_TYPE.equals(“debug")) Log.getStackTraceString(e.getCause()); 
+        </pre>
+      </p>
+      <br>
+      <p>Click here to read the download the full code audit <a class="bold" href="https://secfirst.org/150922_iSEC_Security%20First_Umbrella_Final_2015-06-26_v1.1.pdf" target="_blank">paper</a>.</p>
+
+      </div>
+    </div>    
+
+		<div class="row">
+			<br><br>
+			<div class="col-lg-8 col-lg-offset-2">
+
+				<h2>Dear friend,</h2>
+				<p>We are writing to you because you signed-up for more information about Security First. We have been busy over the past few months working away on developing our first test version and because you kindly showed an early interest in our work – you will be getting a sneak preview before we show-case our full version to everyone else at the RightsCon Conference in San Francisco in March. We have tried to make it look as unlike most security tools as possible (i.e.: boring and complicated) so here it is (we hope you like it!):</p>
+				
+        <p>We decided to tackle what we see as one of the first parts of the security problem, planning and risk assessment – to help users mitigate threats before they even occur. Our first version currently allows you to pick from a wide range of security scenarios, from arranging a secure meeting to conducting counter-surveillance and sending a secure mail. The app provides users with the most up-to-date information and advanced security methodologies available. They can also easily implement these through the use of the checklists for each task. These are customisable, so people can fit best practice with their reality on the ground. Users can also increase the security of others by sharing these security checklists with colleagues or across their organisation.</p>
+				
+        <p>Once we get back from RightsCon, we would love to get feedback from some of you early test users. We will also start to look at building more interactivity into the planning process. If your interested in our full development plan for the app – feel free to take a peak here.</p>
+				
+        <p>With everyone volunteering on this project our current capacity is limited. If you want to help us save lives, know more, contribute (funding, time, skills) or connect us to others please drop me a mail to <a class="bold" href="mailto:rory@secfirst.org?Subject=Volunteering">rory@secfirst.org</a></p>
+				
+        <p>All the best,<br>
+				Rory
+        </p>
+
+				<p>Share on Facebook, Twitter etc.</p>
+				
+        <p>P.S The currently version is still very much in a testing phase and lacks many of the features and development time that would be necessary before we would be happy to let human rights defenders on the ground use it. Please treat it as such and only use it for testing!</p>
+
+				
+			</div><!-- col-lg-6 -->
+
+		</div><!-- row -->
+		
+		<br>
+		<br>
+	</div><!-- container -->
+
+
+	
+
+
+	
+	<div id="r">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h4>Securing human rights defenders</h4>
+          <p>Simply. Comprehensively. <br>
+          Because security must come first.
+          </p>
+        </div>
+      </div><!-- row -->
+    </div><!-- container -->
+  </div><!-- r wrap -->
+	
+	
+	<!-- FOOTER -->
+  <div id="f">
+    <div class="container">
+      <div class="row centered">
+        <a href="legal.html">Legal and ethical</a>
+        <br>
+        <a href="https://twitter.com/_SecurityFirst" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/secfirst.org" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/security-first-" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://instagram.com/securityfirst" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://github.com/securityfirst" target="_blank"><i class="fa fa-github"></i></a>
+      </div><!-- row -->
+    </div><!-- container -->
+  </div><!-- Footer -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
