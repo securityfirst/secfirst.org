@@ -1,0 +1,67 @@
+baseURL: http://example.org/
+title: Security First
+
+menu:
+  # main menu (top)
+  main:
+  - name: home
+    url: /
+    weight: 1
+  - name: umbrella
+    url: /umbrella/
+    weight: 2
+  - name: tent
+    url: /tent/
+    weight: 3
+  - name: training
+    url: /training/
+    weight: 4
+  - name: about
+    url: /about/
+    weight: 5
+  - name: faq
+    url: /faq/
+    weight: 6
+  - name: contribute
+    url: /contribute/
+    weight: 7
+  - name: blog
+    url: /blog/
+    weight: 8
+  - name: contact
+    url: /contact/
+    weight: 9
+  # product menu (bottom)
+  product:
+  - name: umbrella
+    url: /umbrella/
+  - name: tent
+    url: /tent/
+  - name: training
+    url: /training/
+  # info menu (bottom)
+  info:
+  - name: legal & ethical
+    url: /legal/
+  - name: terms & conditions
+    url: /terms/
+  # company menu (bottom)
+  company:
+  - name: about
+    url: /about/
+  - name: mission
+    url: /mission/
+  - name: principles
+    url: /principles/
+
+languages:
+  en:
+    languageName: "eng"
+    weight: 1
+    params:
+      flag: "US"
+  es:
+    languageName: "esp"
+    weight: 2
+    params:
+      flag: "ES"

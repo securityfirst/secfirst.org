@@ -1,0 +1,255 @@
+@import "variables.scss";
+
+body {
+	height: 100%;
+	font-family: $f_0, $f_1;
+	min-height: auto;
+	.header {
+		height: 60px;
+		background-image: linear-gradient(to bottom, $c_blue, $c_bondi_blue);
+    }
+    .intro {
+        background-image: linear-gradient(to bottom, $c_blue, $c_bondi_blue);
+        height: 660px;
+        padding: 0 0 0 20px;
+    }
+	&.landing {
+		.header {
+			background-image: linear-gradient(to bottom, $c_charm, $c_charm2);
+		}
+		.intro {
+			background-image: linear-gradient(to bottom, $c_charm2, $c_night_shadz);
+		}
+    }
+    &.umbrella {
+		.header {
+			background-image: linear-gradient(to bottom, $c_energy_yellow, $c_energy_yellow2);
+		}
+		.intro {
+			background-image: linear-gradient(to bottom, $c_energy_yellow2, $c_saffron);
+		}
+	}
+}
+
+.header {
+	a {
+		font-family: $f_0;
+		font-size: 12px;
+		font-weight: bold;
+		color: $c_white;
+		text-transform: uppercase;
+		&.active {
+			color: $c_gravel;
+		}
+	}
+	h4 {
+		font-family: $f_0;
+		font-size: 24px;
+		font-weight: bold;
+		text-align: left;
+		color: $c_gravel;
+	}
+}
+
+.intro {
+	h1 {
+		padding-top: 160px;
+		font-size: 48px;
+		font-weight: bold;
+		color: $c_white;
+	}
+	.home-description {
+		font-family: $f_0;
+		font-size: 18px;
+		color: $c_white;
+		line-height: 1.8;
+	}
+	.home-download {
+		font-family: $f_0;
+		font-size: 10px;
+		padding: 10px 0;
+		color: $c_white;
+		text-transform: uppercase;
+		font-weight: bold;
+    }
+    .list-inline-item {
+        margin-right: 40px;
+    }
+}
+
+.hero-app {
+    margin-right: 60px;
+}
+
+.pull-up {
+	margin-top: -400px;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.spacer-top150 {
+	margin-top: 150px;
+}
+
+.spacer-bottom150 {
+	margin-bottom: 150px;
+}
+
+.spacer-bottom30 {
+	margin-bottom: 30px;
+}
+
+.spacer-top30 {
+	margin-top: 30px;
+}
+
+.spacer-top70 {
+	padding-top: 70px;
+}
+
+.spacer-bottom400 {
+	margin-bottom: 400px;
+}
+
+.spacer-bottom200 {
+	margin-bottom: 200px;
+}
+
+.stores {
+	padding-top: 15px;
+}
+
+.app-name {
+	font-family: $f_0;
+	font-size: 65px;
+	font-weight: bold;
+	text-align: left;
+	color: $c_star_dust;
+	margin-top: 100px;
+}
+
+.newsletter {
+	background-color: $c_black_haze;
+	padding: 100px 0;
+	background-image: $u_0;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mask {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 12px;
+	background-color: $c_white;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 2px 15px 0 $black_35;
+	padding: 30px;
+}
+
+.copy {
+	color: $c_fuscous_gray;
+	padding: 20px 0;
+	border-top: $c_heavy_metal 1px solid;
+}
+
+.btn-primary {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 22.5px;
+	background-color: $c_sushi;
+	border: $c_sushi 1px solid;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 2px 15px 0 $black_35;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+.btn {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 1.5rem;
+}
+
+.data {
+	text-align: center;
+	color: $c_mountain_mist;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.yellow {
+	background-color: $c_saffron;
+	padding-bottom: 70px;
+}
+footer {
+	background-color: $c_log_cabin;
+	color: $c_star_dust;
+	font-size: 14px;
+	min-height: 200px;
+	h5 {
+		text-transform: capitalize;
+	}
+	li {
+		text-transform: capitalize;
+	}
+	ul {
+		padding: 0;
+		li {
+			list-style-type: none;
+			list-style: none;
+		}
+	}
+}
+
+.fab {
+	color: $c_saffron;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	.dropdown-content {
+		display: none;
+		padding: 0;
+		position: absolute;
+		z-index: 1;
+		text-align: right;
+	}
+	&:hover .dropdown-content {
+		display: block;
+	}
+	img.flag {
+		width: 16px;
+		margin-right: 5px;
+	}
+}
+
+.homepage h3 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.yellow-before img {
+	width: 100%;
+}
+
+.dropdown-content div {
+	display: block;
+	a:hover {
+		cursor: pointer;
+	}
+}

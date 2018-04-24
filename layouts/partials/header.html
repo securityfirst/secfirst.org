@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>{{.Site.Title}}.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="{{.Params.class}}">
+  <div id="top" class="header">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
+        <h4 class="my-0 mr-md-auto font-weight-normal">
+          <b>{{.Site.Title | upper}}.</b>
+        </h4>
+        <nav class="my-2 my-md-0 mr-md-3">
+          {{ $currentPage := . }}
+          {{ range (.Site.Menus.main) }}
+          <a class="p-2 {{if eq ($.Page.Title | lower) (.Name | lower) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">
+            {{ or (i18n .Name) .Name }}
+          </a>
+          {{ end }}
+          <div class="dropdown">
+            <a class="p-2 text-white">
+              <img class="flag" src="/imgs/flags/{{$.Page.Language.Params.flag}}.png"/>
+              {{ $.Page.Language.LanguageName }} 
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-content">
+              {{ range $.Page.AllTranslations }}
+              {{if not (eq $.Page.Language .Language) }}
+              <div class="p-2">
+                <img class="flag" src="/imgs/flags/{{.Language.Params.flag}}.png" />
+                <a href="{{ .Permalink }}">
+                  {{ .Language.LanguageName }}
+                </a>
+              </div>
+              {{end}}
+              {{end}}
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>

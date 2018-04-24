@@ -1,0 +1,16 @@
+{{partial "header" .}}
+  <div class="content container background-white">
+    <div class="row">
+      <div class="col-12 center">
+        <h1>Blog Post Archive</h1>
+        <ul class="list-unstyled">
+          {{ range .Data.Pages }}
+          <li>
+            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+{{partial "footer" .}}

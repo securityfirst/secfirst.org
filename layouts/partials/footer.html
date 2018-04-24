@@ -1,0 +1,43 @@
+    <footer>
+      <div class="container">
+        <div class="row spacer-top70 spacer-bottom30">
+          {{ range (slice "product" "info" "company")}}
+            <div class="col-2">
+              <h5>{{or (i18n .) . }}</h5>
+              <ul>
+                {{range (index $.Site.Menus .)}}
+                  <li>{{or (i18n .Name) .Name}}</li>
+                {{end}}
+              </ul>
+            </div>
+          {{end}}
+          <div class="col-6">
+            <a href="https://github.com/securityfirst" target="_blank">
+              <i class="float-right fab fa-github"></i>
+            </a>
+            <a href="https://instagram.com/securityfirst" target="_blank">
+              <i class="float-right fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/security-first-" target="_blank">
+              <i class="float-right fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.facebook.com/secfirst.org" target="_blank">
+              <i class="float-right fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/_SecurityFirst" target="_blank">
+              <i class="float-right fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy">
+        <div class="container">
+          <div class="row spacer-bottom30">
+            <h2>{{.Site.Title | upper}}.</h2>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
