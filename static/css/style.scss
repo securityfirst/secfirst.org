@@ -6,7 +6,7 @@ body {
 	min-height: auto;
 	.header {
 		height: 60px;
-		background-image: linear-gradient(to bottom, $c_blue, $c_bondi_blue);
+		background-color: $c_blue;
     }
     .intro {
         background-image: linear-gradient(to bottom, $c_blue, $c_bondi_blue);
@@ -15,18 +15,18 @@ body {
     }
 	&.landing {
 		.header {
-			background-image: linear-gradient(to bottom, $c_charm, $c_charm2);
+			background-color: $c_charm;
 		}
 		.intro {
-			background-image: linear-gradient(to bottom, $c_charm2, $c_night_shadz);
+			background-image: linear-gradient(to bottom, $c_charm, $c_night_shadz);
 		}
     }
     &.umbrella {
 		.header {
-			background-image: linear-gradient(to bottom, $c_energy_yellow, $c_energy_yellow2);
+			background-color: $c_energy_yellow;
 		}
 		.intro {
-			background-image: linear-gradient(to bottom, $c_energy_yellow2, $c_saffron);
+			background-image: linear-gradient(to bottom, $c_energy_yellow, $c_saffron);
 		}
 	}
 }
@@ -57,12 +57,14 @@ body {
 		font-size: 48px;
 		font-weight: bold;
 		color: $c_white;
+		height: 300px;
 	}
 	.home-description {
 		font-family: $f_0;
 		font-size: 18px;
 		color: $c_white;
 		line-height: 1.8;
+		height: 100px;
 	}
 	.home-download {
 		font-family: $f_0;

@@ -4,19 +4,19 @@ body {
   min-height: auto; }
   body .header {
     height: 60px;
-    background-image: linear-gradient(to bottom, #000BE5, #0093BF); }
+    background-color: #000BE5; }
   body .intro {
     background-image: linear-gradient(to bottom, #000BE5, #0093BF);
     height: 660px;
     padding: 0 0 0 20px; }
   body.landing .header {
-    background-image: linear-gradient(to bottom, #dd6790, #d9628a); }
+    background-color: #dd6790; }
   body.landing .intro {
-    background-image: linear-gradient(to bottom, #d9628a, #b83657); }
+    background-image: linear-gradient(to bottom, #dd6790, #b83657); }
   body.umbrella .header {
-    background-image: linear-gradient(to bottom, #f4e05e, #f3dc58); }
+    background-color: #f4e05e; }
   body.umbrella .intro {
-    background-image: linear-gradient(to bottom, #f3dc58, #f3bc2b); }
+    background-image: linear-gradient(to bottom, #f4e05e, #f3bc2b); }
 
 .header a {
   font-family: Lato;
@@ -37,12 +37,14 @@ body {
   padding-top: 160px;
   font-size: 48px;
   font-weight: bold;
-  color: white; }
+  color: white;
+  height: 300px; }
 .intro .home-description {
   font-family: Lato;
   font-size: 18px;
   color: white;
-  line-height: 1.8; }
+  line-height: 1.8;
+  height: 100px; }
 .intro .home-download {
   font-family: Lato;
   font-size: 10px;
