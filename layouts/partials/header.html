@@ -14,37 +14,39 @@
 <body class="{{.Params.class}}">
   <div id="top" class="header">
     <div class="container">
-      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
-        <h4 class="my-0 mr-md-auto font-weight-normal">
+      <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+        <a class="navbar-brand" href="#">
           <b>{{.Site.Title | upper}}.</b>
-        </h4>
-        <nav class="my-2 my-md-0 mr-md-3">
-          {{ $currentPage := . }}
-          {{ range (.Site.Menus.main) }}
-          <a class="p-2 {{if eq ($.Page.Title | lower) (.Name | lower) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">
-            {{ or (i18n .Name) .Name }}
-          </a>
-          {{ end }}
-          <div class="dropdown">
-            <a class="p-2 text-white">
-              <img class="flag" src="/imgs/flags/{{$.Page.Language.Params.flag}}.png"/>
-              {{ $.Page.Language.LanguageName }} 
-              <i class="fa fa-angle-down" aria-hidden="true"></i>
-            </a>
-            <div class="dropdown-content">
-              {{ range $.Page.AllTranslations }}
-              {{if not (eq $.Page.Language .Language) }}
-              <div class="p-2">
-                <img class="flag" src="/imgs/flags/{{.Language.Params.flag}}.png" />
-                <a href="{{ .Permalink }}">
-                  {{ .Language.LanguageName }}
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+          <div class="navbar-nav mr-auto"></div>
+          <ul class="navbar-nav">
+            {{ $currentPage := . }} {{ range (.Site.Menus.main) }} {{ $active := eq ($.Page.Title | lower) (.Name | lower) }}
+            <li class="nav-item{{if $active}} active{{end}}">
+              <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">
+                {{ or (i18n .Name) .Name }}
+              </a>
+            </li>
+            {{ end }}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <img class="flag" src="/imgs/flags/{{$.Page.Language.Params.flag}}.png" /> {{ $.Page.Language.LanguageName | upper}}
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                {{ range $.Page.AllTranslations }} {{if not (eq $.Page.Language .Language) }}
+                <a class="dropdown-item" href="{{ .Permalink }}">
+                  <img class="flag" src="/imgs/flags/{{.Language.Params.flag}}.png" /> {{ .Language.LanguageName | upper }}
                 </a>
+                {{end}} {{end}}
               </div>
-              {{end}}
-              {{end}}
-            </div>
-          </div>
-        </nav>
-      </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </div>

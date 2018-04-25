@@ -5,8 +5,29 @@ body {
 	font-family: $f_0, $f_1;
 	min-height: auto;
 	.header {
-		height: 60px;
+		min-height: 60px;
 		background-color: $c_blue;
+		.navbar-brand {
+			font-family: $f_0;
+			font-size: 24px;
+			font-weight: bold;
+			color: $c_gravel;
+		}
+		.navbar-light .navbar-nav {
+			.nav-link {
+				font-family: $f_0;
+				font-size: 12px;
+				font-weight: bold;
+				color: $c_white;
+				text-transform: uppercase;
+			}
+			.active .nav-link {
+				color: $c_gravel;
+			}
+		}
+		.dropdown-menu a {
+			color: $c_gravel;
+		}
     }
     .intro {
         background-image: linear-gradient(to bottom, $c_blue, $c_bondi_blue);
@@ -37,26 +58,6 @@ body {
 		.intro {
 			background-image: linear-gradient(to bottom, rgba(135, 189, 52, 0.73), #87bd34);
 		}
-	}
-}
-
-.header {
-	a {
-		font-family: $f_0;
-		font-size: 12px;
-		font-weight: bold;
-		color: $c_white;
-		text-transform: uppercase;
-		&.active {
-			color: $c_gravel;
-		}
-	}
-	h4 {
-		font-family: $f_0;
-		font-size: 24px;
-		font-weight: bold;
-		text-align: left;
-		color: $c_gravel;
 	}
 }
 

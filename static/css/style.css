@@ -3,8 +3,23 @@ body {
   font-family: Lato, sans-serif;
   min-height: auto; }
   body .header {
-    height: 60px;
+    min-height: 60px;
     background-color: #000BE5; }
+    body .header .navbar-brand {
+      font-family: Lato;
+      font-size: 24px;
+      font-weight: bold;
+      color: #4a4a4a; }
+    body .header .navbar-light .navbar-nav .nav-link {
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+      text-transform: uppercase; }
+    body .header .navbar-light .navbar-nav .active .nav-link {
+      color: #4a4a4a; }
+    body .header .dropdown-menu a {
+      color: #4a4a4a; }
   body .intro {
     background-image: linear-gradient(to bottom, #000BE5, #0093BF);
     height: 660px;
@@ -21,21 +36,6 @@ body {
     background-color: rgba(135, 189, 52, 0.73); }
   body.tent .intro {
     background-image: linear-gradient(to bottom, rgba(135, 189, 52, 0.73), #87bd34); }
-
-.header a {
-  font-family: Lato;
-  font-size: 12px;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase; }
-  .header a.active {
-    color: #4a4a4a; }
-.header h4 {
-  font-family: Lato;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-  color: #4a4a4a; }
 
 .intro h1, .get-umbrella h1 {
   padding-top: 160px;
