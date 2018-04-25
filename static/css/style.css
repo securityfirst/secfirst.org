@@ -33,26 +33,26 @@ body {
   text-align: left;
   color: #4a4a4a; }
 
-.intro h1 {
+.intro h1, .get-umbrella h1 {
   padding-top: 160px;
   font-size: 48px;
   font-weight: bold;
   color: white;
   height: 300px; }
-.intro .home-description {
+.intro .home-description, .get-umbrella .home-description {
   font-family: Lato;
   font-size: 18px;
   color: white;
   line-height: 1.8;
   height: 100px; }
-.intro .home-download {
+.intro .download, .get-umbrella .download {
   font-family: Lato;
   font-size: 10px;
   padding: 10px 0;
   color: white;
   text-transform: uppercase;
   font-weight: bold; }
-.intro .list-inline-item {
+.intro .list-inline-item, .get-umbrella .list-inline-item {
   margin-right: 40px; }
 
 .hero-app {
@@ -235,5 +235,57 @@ footer {
       text-align: left; }
     .umbrella-row.umbrella-row-right .number {
       left: -50px; }
+
+.gradient-parent {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0; }
+  .gradient-parent .gradient-box {
+    display: inline-block;
+    height: 365px;
+    padding: 80px; }
+    .gradient-parent .gradient-box .gradient-content {
+      max-width: 400px; }
+    .gradient-parent .gradient-box.red {
+      background-image: linear-gradient(to bottom, #dd6790, #b83657); }
+      .gradient-parent .gradient-box.red .gradient-content {
+        float: right; }
+    .gradient-parent .gradient-box.blue {
+      background-image: linear-gradient(to bottom, #94d5e8, #48b8d8); }
+      .gradient-parent .gradient-box.blue .gradient-content {
+        float: left; }
+    .gradient-parent .gradient-box .organisation {
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 2.4px;
+      color: white;
+      text-transform: uppercase; }
+    .gradient-parent .gradient-box h2 {
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 1.45;
+      color: #222222;
+      margin-bottom: 50px; }
+    .gradient-parent .gradient-box p {
+      margin-bottom: 50px;
+      color: white;
+      font-size: 14px; }
+
+.tent-text {
+  margin-bottom: 180px; }
+  .tent-text h3 {
+    margin-top: 60px; }
+  .tent-text p {
+    margin: 40px 0; }
+
+.get-umbrella {
+  background-image: linear-gradient(to bottom, #f4e05e, #f3bc2b);
+  height: 500px; }
+  .get-umbrella h1 {
+    padding-top: 130px;
+    height: auto; }
+  .get-umbrella .logo img {
+    margin: 135px 150px; }
 
 /*# sourceMappingURL=style.css.map */

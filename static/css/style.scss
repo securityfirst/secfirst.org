@@ -51,7 +51,7 @@ body {
 	}
 }
 
-.intro {
+.intro, .get-umbrella {
 	h1 {
 		padding-top: 160px;
 		font-size: 48px;
@@ -66,7 +66,7 @@ body {
 		line-height: 1.8;
 		height: 100px;
 	}
-	.home-download {
+	.download {
 		font-family: $f_0;
 		font-size: 10px;
 		padding: 10px 0;
@@ -310,5 +310,71 @@ footer {
 		.number {
 			left: -50px;
 		}
+	}
+}
+.gradient-parent { 
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;	
+	.gradient-box {
+		display: inline-block;
+		height: 365px;
+		padding: 80px;
+		.gradient-content {
+			max-width: 400px;
+		}
+		&.red {
+			background-image: linear-gradient(to bottom, $c_charm, $c_night_shadz);
+			.gradient-content {
+				float: right;
+			}
+		}
+		&.blue {
+			background-image: linear-gradient(to bottom, $c_cornflower, $c_shakespeare);
+			.gradient-content {
+				float: left;
+			}
+		}
+		.organisation {
+			font-family: Montserrat;
+			font-size: 12px;
+			font-weight: bold;
+			letter-spacing: 2.4px;
+			color: $c_white;
+			text-transform: uppercase;
+		}
+		h2 {
+			font-size: 22px;
+			font-weight: bold;
+			line-height: 1.45;
+			color: $c_log_cabin;
+			margin-bottom: 50px;
+		}
+		p {
+			margin-bottom: 50px;
+			color: $c_white;
+			font-size: 14px;
+		}
+	}
+}
+
+.tent-text {
+	margin-bottom: 180px;
+	h3 {
+		margin-top: 60px;
+	}
+	p {
+		margin: 40px 0;
+	}
+}
+.get-umbrella {
+	background-image: linear-gradient(to bottom, $c_energy_yellow, $c_saffron);
+	height: 500px;
+	h1 {
+		padding-top: 130px;
+		height: auto;
+	}
+	.logo img {
+		margin: 135px 150px;
 	}
 }
