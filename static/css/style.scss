@@ -29,6 +29,15 @@ body {
 			background-image: linear-gradient(to bottom, $c_energy_yellow, $c_saffron);
 		}
 	}
+
+	&.tent {
+		.header {
+			background-color: rgba(135, 189, 52, 0.73);
+		}
+		.intro {
+			background-image: linear-gradient(to bottom, rgba(135, 189, 52, 0.73), #87bd34);
+		}
+	}
 }
 
 .header {
@@ -172,6 +181,20 @@ body {
 	padding: 10px 20px;
 }
 
+.btn-white {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 22.5px;
+	background-color: #ffffff;
+	border: #ffffff 1px solid;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 2px 15px 0 $black_35;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+
 .btn {
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 	border-radius: 1.5rem;
@@ -312,6 +335,7 @@ footer {
 		}
 	}
 }
+ss
 .gradient-parent { 
 	width: 100%;
 	margin-right: 0;
@@ -377,4 +401,59 @@ footer {
 	.logo img {
 		margin: 135px 150px;
 	}
+}
+
+.section-gray {
+	background-color: #f7f7f7;
+	padding: 100px 0;
+}
+
+.overflow-col {
+	margin: -20px;
+
+}
+
+.yellow4 {
+	background-color: #e5bd30;
+	text-align: center;
+	padding: 50px 60px 80px;
+}
+
+.blue4 {
+	background-color: #76b6d8;
+	text-align: center;
+	padding: 50px 60px 80px;}
+
+.green4 {
+	background-color: #87bd34;
+	text-align: center;
+	padding: 50px 60px;
+}
+
+.pink4 {
+	background-color: #a04056;
+	text-align: center;
+	padding: 50px 60px;
+}
+
+.grey {
+	color: #888888;
+}
+
+.green {
+	color: #87bd34;
+}
+
+.uppercase {
+	text-transform: uppercase;
+	font-size:14px;
+	font-weight: bold;
+}
+
+.spacer-bottom70 {
+	margin-bottom: 70px;
+}
+
+.white {
+	color: #fff;
 }

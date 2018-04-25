@@ -1,0 +1,161 @@
+---
+title: "Tent"
+layout: "index"
+class: "tent"
+---
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <h1 class="float-left">Publish any content in a secure app</h1>
+        <div class="col-lg-8 home-description float-left">Are your documents out of date before they're even out the door? <br>
+          Could attackers try and compromise your content? 
+          <br><br>
+        You need a fast, easy, open-source CMS that you and your readers can trust. Meet Tent. All the tools you need to create, edit, and publish securely-under one roof. 
+        <div class="spacer-top30">
+          <a href="./umbrella/" ><button type="button" class="btn btn-white">Ask a question</button></a>
+        </div>
+      </div>		
+      </div>
+    </div>
+  </div>
+</div>
+<div id="umbrella" class="container background-white">
+  <div class="row spacer-top150">
+    <div class="col-3">
+      <img src="/imgs/tent-logo.png">
+    </div>
+    <div class="col-6">
+      <div class="app-name">TENT</div>
+    </div>
+  </div>
+  <div class="row spacer-top70">
+    <div class="col-6">
+      <p>Where’s your security manual?</p>
+      <img class="float-right" src="/imgs/tent-secure1.png">
+    </div>
+    <div class="col-6">
+      <div class="spacer-top70"></div>
+      <p class="float-right">Tent helps your team stay secure</p>
+      <img src="/imgs/tent-secure2.png">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8 offset-lg-2 center">
+      <h3 class="center spacer-top70 green">Secure.</h3>
+      <p class="grey spacer-bottom30">Complex content management systems aren't just confusing--they're vulnerable to attack. But Tent shows you exactly who's changing your content, so no-one can hijack it. Access is controlled using industry standard authentication software.</p>
+    </div>
+  </div>
+  <div>
+    <div class="row spacer-top30 spacer-bottom30">
+    <div class="col-6">
+      <p>Is this your workflow?</p>
+      <img class="float-right" src="/imgs/tent-workflow1.png">
+    </div>
+    <div class="col-6">
+      <p class="float-right">Tent is better!</p>
+      <img src="/imgs/tent-workflow2.png">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8 offset-lg-2 center">
+      <h3 class="center spacer-top30 green">Many authors. One smooth workflow.</h3>
+      <p class="grey">Tent gives you editorial control. Your text is in a repository. You decide who can edit, and every change is documented using the same version control system that developers use to test their code. You just comment, merge, or undo.</p>
+    </div>
+  </div>
+  </div>
+</div>
+<div id="tent" class="container background-white">
+  <div class="row spacer-top150">
+    <div class="col-4 center">
+      <h5 class="uppercase">Instant access. Instant updates.</h5>
+      <p class="grey">Tent gets content out of the filing cabinet, out of the cloud, and into the field. No need to print or download the latest version. Tent will push it right to your readers, wherever they are.</p>
+    </div>
+    <div class="col-4 center">
+      <h5 class="uppercase">One source. Many publication channels.</h5>
+      <p class="grey">An app. A website. An ebook. Even a pdf. Customize Tent to put your content in the format people will actually read.</p>
+    </div>
+    <div class="col-4 center">
+      <h5 class="uppercase">Easy to run</h5>
+      <p class="grey">You don't need a technical background to write in Tent's simple interface. In fact, it's designed to help you focus on what you do best--creating content.</p>
+    </div>
+  </div>
+</div>
+
+<div id="umbrella" class="background-white">
+  <div class="row spacer-top150 spacer-bottom30">
+    <div class="col-6">
+      <p class="center">Most Content is Vulnerable</p>
+      <img class="float-right" src="/imgs/tent-authors1.png">
+    </div>
+    <div class="col-6">
+       <p class="center">Protect Yours</p>
+      <img src="/imgs/tent-authors2.png">
+    </div>
+  </div>
+</div>
+
+<div id="umbrella" class="container background-white spacer-bottom70">
+  <div class="row">
+    <div class="col-8 offset-lg-2 center">
+      <h3 class="ccenter spacer-top30 green">Affordable.</h3>
+      <p class="grey">We looked everywhere for a CMS that wasn't insecure, cumbersome or proprietary. We couldn't find one, so we built it ourselves. It's open source, so you can deploy it with minimal resources.</p>
+    </div>
+  </div>
+  <div class="row spacer-top150">
+    <div class="col-6">
+      <p>So you want a content app?</p>
+      <img class="float-right" src="/imgs/tent-affordable1.png">
+    </div>
+    <div class="col-6">
+      <p class="float-right">Tent helps you do more with less!</p>
+      <img src="/imgs/tent-affordable2.png">
+    </div>
+    
+  </div>
+
+</div>
+
+<div id="umbrella" class="section-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-5 offset-lg-1">
+        <div class="yellow4 overflow-col">
+          <h6 class="uppercase white">COLLABORATION</h6>
+          <h2>Optimized for translation.</h2>
+          <p>Your translations need to stay current, but you can't start from scratch every time you make a change. So Tent integrates with standard tools like Transifex for better translation management.</p><br>
+          <a href="./umbrella/" ><button type="button" class="btn btn-white">Learn more about Transifex</button></a>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="blue4 overflow-col">
+          <h6 class="uppercase white">MISSION</h6>
+          <h2>A tool with a philosophy</h2>
+          <p>We built Tent to help more people access and share information. But we don't just want to make publishing faster and more secure--we want to help you work better. That's why we adopted the Content as Code standard.</p>
+          <a href="./umbrella/" ><button type="button" class="btn btn-white">Learn more about Content as Code</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-5 offset-lg-1">
+        <div class="green4 overflow-col">
+          <h6 class="uppercase white">DIY</h6>
+          <h2>Build it yourself...</h2>
+          <p>With a bit of technical knowledge, you can deploy Tent in a few simple steps. Set up a Github repo or a self-hosted GitLab instance, an Oauth2 app, configure your server, and customize your app or website to utilize Tent content.</p>
+          <a href="./umbrella/" ><button type="button" class="btn btn-white">FIND OUT HOW</button></a>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="pink4 overflow-col">
+          <h6 class="uppercase white">POPULAR</h6>
+          <h2>...Or let us build it for you</h2>
+          <p>We take care of the technical stuff, while you focus on the content. As a bonus, we'll integrate new features that we create for our own Umbrella app.</p><br><br>
+          <a href="./umbrella/" ><button type="button" class="btn btn-white">REQUEST A QUOTE</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
