@@ -11,7 +11,7 @@ class: "landing"
           <br> Protect your team.</h1>
         <div class="home-description float-left">Security First’s flagship Umbrella app gives you free digital and physical security advice when you need it most.</div>		
         <div class="stores float-left">
-          <div class="spacer-top30 home-download">Download</div>
+          <div class="spacer-top30 download">Download</div>
           <ul class="list-inline">
             <li class="list-inline-item">
               <a target="_blank" href="https://play.google.com/store/apps/details?id=org.secfirst.umbrella">

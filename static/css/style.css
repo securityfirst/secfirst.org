@@ -250,32 +250,24 @@ footer {
     .umbrella-row.umbrella-row-right .number {
       left: -50px; }
 
-ss
 .gradient-parent {
   width: 100%;
   margin-right: 0;
   margin-left: 0; }
-  ss
   .gradient-parent .gradient-box {
     display: inline-block;
     height: 365px;
     padding: 80px; }
-    ss
     .gradient-parent .gradient-box .gradient-content {
       max-width: 400px; }
-    ss
     .gradient-parent .gradient-box.red {
       background-image: linear-gradient(to bottom, #dd6790, #b83657); }
-      ss
       .gradient-parent .gradient-box.red .gradient-content {
         float: right; }
-    ss
     .gradient-parent .gradient-box.blue {
       background-image: linear-gradient(to bottom, #94d5e8, #48b8d8); }
-      ss
       .gradient-parent .gradient-box.blue .gradient-content {
         float: left; }
-    ss
     .gradient-parent .gradient-box .organisation {
       font-family: Montserrat;
       font-size: 12px;
@@ -283,14 +275,12 @@ ss
       letter-spacing: 2.4px;
       color: white;
       text-transform: uppercase; }
-    ss
     .gradient-parent .gradient-box h2 {
       font-size: 22px;
       font-weight: bold;
       line-height: 1.45;
       color: #222222;
       margin-bottom: 50px; }
-    ss
     .gradient-parent .gradient-box p {
       margin-bottom: 50px;
       color: white;
