@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row spacer-top70 spacer-bottom30">
           {{ range (slice "product" "info" "company")}}
-            <div class="col-2">
+            <div class="col-lg-2 col-md-3">
               <h5>{{or (i18n .) . }}</h5>
               <ul>
                 {{range (index $.Site.Menus .)}}
@@ -11,7 +11,7 @@
               </ul>
             </div>
           {{end}}
-          <div class="col-6">
+          <div class="col-xs-12 col-md-6">
             <a href="https://github.com/securityfirst" target="_blank">
               <i class="float-right fab fa-github"></i>
             </a>

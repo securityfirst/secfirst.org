@@ -19,10 +19,10 @@ body {
     body .header .navbar-light .navbar-nav .active .nav-link {
       color: #4a4a4a; }
     body .header .dropdown-menu a {
+      font-size: 12px;
       color: #4a4a4a; }
   body .intro {
     background-image: linear-gradient(to bottom, #000BE5, #0093BF);
-    height: 660px;
     padding: 0 0 0 20px; }
   body.landing .header {
     background-color: #dd6790; }
@@ -37,18 +37,22 @@ body {
   body.tent .intro {
     background-image: linear-gradient(to bottom, rgba(135, 189, 52, 0.73), #87bd34); }
 
+img {
+  max-width: 100%; }
+
+.btn-spaced {
+  margin-top: 20px; }
+
 .intro h1, .get-umbrella h1 {
-  padding-top: 160px;
   font-size: 48px;
   font-weight: bold;
   color: white;
-  height: 300px; }
+  margin: 50px 0; }
 .intro .home-description, .get-umbrella .home-description {
   font-family: Lato;
   font-size: 18px;
   color: white;
-  line-height: 1.8;
-  height: 100px; }
+  line-height: 1.8; }
 .intro .download, .get-umbrella .download {
   font-family: Lato;
   font-size: 10px;
@@ -57,13 +61,7 @@ body {
   text-transform: uppercase;
   font-weight: bold; }
 .intro .list-inline-item, .get-umbrella .list-inline-item {
-  margin-right: 40px; }
-
-.hero-app {
-  margin-right: 60px; }
-
-.pull-up {
-  margin-top: -400px; }
+  margin-right: 30px; }
 
 .center {
   text-align: center; }
@@ -73,6 +71,9 @@ body {
 
 .spacer-top150 {
   margin-top: 150px; }
+
+.spacer-top100 {
+  margin-top: 100px; }
 
 .spacer-bottom150 {
   margin-bottom: 150px; }
@@ -93,15 +94,28 @@ body {
   margin-bottom: 200px; }
 
 .stores {
-  padding-top: 15px; }
+  padding: 20px 0;
+  margin-bottom: 100px; }
+  .stores .row {
+    padding: 0 20px; }
+  .stores img {
+    margin-bottom: 20px; }
+
+.hero-app {
+  position: absolute;
+  right: 0;
+  top: 50px; }
 
 .app-name {
   font-family: Lato;
   font-size: 65px;
   font-weight: bold;
-  text-align: left;
   color: #9b9b9b;
-  margin-top: 100px; }
+  text-align: center; }
+  .app-name span {
+    padding: 0 20px;
+    display: inline-block;
+    vertical-align: text-top; }
 
 .newsletter {
   background-color: #f7f7f7;
