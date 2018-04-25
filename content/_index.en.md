@@ -102,8 +102,7 @@ class: "landing"
     <div class="row">
       <div class="col-6 offset-3">
         <h3>Training and Consultancy</h3>
-        <p>Security First offers online and offline training and consultancy for individuals and organisations of all
-          sizes.</p>
+        <p>Security First offers online and offline training and consultancy for individuals and organisations of all sizes.</p>
         <button type="button" class="btn btn-primary">FIND OUT MORE</button>
       </div>
     </div>

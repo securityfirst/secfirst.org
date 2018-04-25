@@ -255,3 +255,60 @@ footer {
 		cursor: pointer;
 	}
 }
+
+.umbrella-row {
+	margin: 40px 0;
+	.number {
+		position: absolute;
+		font-size: 400px;
+		font-weight: 900;
+		color: $c_gray;
+		top: -50px;
+		z-index: -1;
+	}
+	.umbrella-text {
+		margin-top: 225px;
+		position: relative;	
+		.tool {
+			width: 37px;
+			height: 12px;
+			font-family: Montserrat;
+			font-size: 10px;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: 2.4px;
+			text-align: center;
+			color: #ffffff;
+			}
+		h1 {
+			font-weight: bold;
+			color: $c_log_cabin;
+		}
+		p {
+			margin-top: 25px;
+			color: $c_mountain_mist;
+			font-size: 14px;
+			width: 375;
+		}
+	}
+	&.umbrella-row-left {
+		.number {
+			right: -50px;
+		}
+		.umbrella-text {
+			text-align: right;
+			margin-right: 75px;
+		}
+	}
+	&.umbrella-row-right {
+		text-align: right;
+		.umbrella-text {
+			text-align: left;
+		}
+		.number {
+			left: -50px;
+		}
+	}
+}

@@ -192,4 +192,48 @@ footer {
   .dropdown-content div a:hover {
     cursor: pointer; }
 
+.umbrella-row {
+  margin: 40px 0; }
+  .umbrella-row .number {
+    position: absolute;
+    font-size: 400px;
+    font-weight: 900;
+    color: #eeeeee;
+    top: -50px;
+    z-index: -1; }
+  .umbrella-row .umbrella-text {
+    margin-top: 225px;
+    position: relative; }
+    .umbrella-row .umbrella-text .tool {
+      width: 37px;
+      height: 12px;
+      font-family: Montserrat;
+      font-size: 10px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 2.4px;
+      text-align: center;
+      color: #ffffff; }
+    .umbrella-row .umbrella-text h1 {
+      font-weight: bold;
+      color: #222222; }
+    .umbrella-row .umbrella-text p {
+      margin-top: 25px;
+      color: #979797;
+      font-size: 14px;
+      width: 375; }
+  .umbrella-row.umbrella-row-left .number {
+    right: -50px; }
+  .umbrella-row.umbrella-row-left .umbrella-text {
+    text-align: right;
+    margin-right: 75px; }
+  .umbrella-row.umbrella-row-right {
+    text-align: right; }
+    .umbrella-row.umbrella-row-right .umbrella-text {
+      text-align: left; }
+    .umbrella-row.umbrella-row-right .number {
+      left: -50px; }
+
 /*# sourceMappingURL=style.css.map */
