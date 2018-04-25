@@ -31,7 +31,7 @@ class: "umbrella"
         </div>
       </div>
     </div>
-  <img class="hero-app d-md-none d-lg-block float-right pull-up" src="/imgs/hero-app-2.png">
+  <img class="hero-app d-none d-lg-block float-right pull-up" src="/imgs/hero-app-2.png">
   </div>
 </div>
 <div class="container background-white">

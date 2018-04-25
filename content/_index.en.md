@@ -33,7 +33,7 @@ class: "landing"
       </div>
     </div>
   </div>
-  <img class="d-md-none d-lg-block float-right pull-up" src="/imgs/hero-app.png">
+  <img class="d-none d-lg-block float-right pull-up" src="/imgs/hero-app.png">
 </div>
 <div id="umbrella" class="container background-white">
   <div class="row spacer-top150">
