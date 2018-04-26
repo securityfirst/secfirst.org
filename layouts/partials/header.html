@@ -32,19 +32,21 @@
               </a>
             </li>
             {{ end }}
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                <img class="flag" src="/imgs/flags/{{$.Page.Language.Params.flag}}.png" /> {{ $.Page.Language.LanguageName | upper}}
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                {{ range $.Page.AllTranslations }} {{if not (eq $.Page.Language .Language) }}
-                <a class="dropdown-item" href="{{ .Permalink }}">
-                  <img class="flag" src="/imgs/flags/{{.Language.Params.flag}}.png" /> {{ .Language.LanguageName | upper }}
+            {{ if gt (len $.Page.AllTranslations) 1}}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  <img class="flag" src="/imgs/flags/{{$.Page.Language.Params.flag}}.png" /> {{ $.Page.Language.LanguageName | upper}}
                 </a>
-                {{end}} {{end}}
-              </div>
-            </li>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  {{ range $.Page.AllTranslations }} {{if not (eq $.Page.Language .Language) }}
+                  <a class="dropdown-item" href="{{ .Permalink }}">
+                    <img class="flag" src="/imgs/flags/{{.Language.Params.flag}}.png" /> {{ .Language.LanguageName | upper }}
+                  </a>
+                  {{end}} {{end}}
+                </div>
+              </li>
+            {{end}}
           </ul>
         </div>
       </nav>
