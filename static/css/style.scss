@@ -1,241 +1,81 @@
-@import "variables.scss";
+//colors
+$color_blue_approx: #000be5;
+$color_gravel_approx: #4a4a4a;
+$white: white;
+$color_bondi_blue_approx: #0093bf;
+$color_charm_approx: #dd6790;
+$color_night_shadz_approx: #b83657;
+$color_energy_yellow_approx: #f4e05e;
+$color_saffron_approx: #f3bc2b;
+$color_sushi_73_approx: rgba(135, 189, 52, 0.73);
+$color_sushi_approx: #87bd34;
+$color_star_dust_approx: #9b9b9b;
+$color_black_haze_approx: #f7f7f7;
+$black_35: rgba(0, 0, 0, 0.35);
+$color_fuscous_gray_approx: #555;
+$color_heavy_metal_approx: #2c2c2c;
+$color_mountain_mist_approx: #979797;
+$color_log_cabin_approx: #222222;
+$color_gallery_approx: #eeeeee;
+$color_cornflower_approx: #94d5e8;
+$color_shakespeare_approx: #48b8d8;
+$color_tulip_tree_approx: #e5bd30;
+$color_glacier_approx: #76b6d8;
+$color_vin_rouge_approx: #a04056;
+$color_suva_gray_approx: #888888;
+
+//fonts
+$font_0: Lato;
+$font_1: sans-serif;
+$font_2: Montserrat;
+
+//urls
+$url_0: url(/imgs/newsletter.png);
+$url_1: url(/imgs/yellow-back.png);
+
+//@extend-elements
+//original selectors
+//.intro h1, .get-umbrella h1
+%extend_1 {
+	font-size: 48px;
+	font-weight: bold;
+	color: $white;
+}
+
+//original selectors
+//.intro .home-description, .get-umbrella .home-description
+%extend_2 {
+	font-family: $font_0;
+	font-size: 18px;
+	color: $white;
+	line-height: 1.8;
+	margin-top: 50px;
+}
+
+//original selectors
+//.intro .download, .get-umbrella .download
+%extend_3 {
+	font-family: $font_0;
+	font-size: 10px;
+	padding: 10px 0;
+	color: $white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 
 body {
 	height: 100%;
-	font-family: $f_0, $f_1;
+	font-family: $font_0, $font_1;
 	min-height: auto;
-	.header {
-		min-height: 60px;
-		background-color: $c_blue;
-		.navbar-brand {
-			font-family: $f_0;
-			font-size: 24px;
-			font-weight: bold;
-			color: $c_gravel;
-		}
-		.navbar-light .navbar-nav {
-			.nav-link {
-				font-family: $f_0;
-				font-size: 12px;
-				font-weight: bold;
-				color: $c_white;
-				text-transform: uppercase;
-			}
-			.active .nav-link {
-				color: $c_gravel;
-			}
-		}
-		.dropdown-menu a {
-			font-size: 12px;
-			color: $c_gravel;
-		}
-    }
-    .intro {
-        background-image: linear-gradient(to bottom, $c_blue, $c_bondi_blue);
-        padding: 0 0 0 20px;
-    }
-	&.landing {
-		.header {
-			background-color: $c_charm;
-		}
-		.intro {
-			background-image: linear-gradient(to bottom, $c_charm, $c_night_shadz);
-		}
-    }
-    &.umbrella {
-		.header {
-			background-color: $c_energy_yellow;
-		}
-		.intro {
-			background-image: linear-gradient(to bottom, $c_energy_yellow, $c_saffron);
-		}
-	}
-
-	&.tent {
-		.header {
-			background-color: rgba(135, 189, 52, 0.73);
-		}
-		.intro {
-			background-image: linear-gradient(to bottom, rgba(135, 189, 52, 0.73), #87bd34);
-		}
-	}
 }
-
 img {
-	max-width:100%
-}
-
-.btn-spaced {
-	margin-top: 20px;
-}
-
-.intro, .get-umbrella {
-	h1 {
-		font-size: 48px;
-		font-weight: bold;
-		color: $c_white;
-		margin: 50px 0;
-	}
-	.home-description {
-		font-family: $f_0;
-		font-size: 18px;
-		color: $c_white;
-		line-height: 1.8;
-	}
-	.download {
-		font-family: $f_0;
-		font-size: 10px;
-		padding: 10px 0;
-		color: $c_white;
-		text-transform: uppercase;
-		font-weight: bold;
-    }
-    .list-inline-item {
-        margin-right: 30px;
-    }
-}
-
-.center {
-	text-align: center;
-}
-
-.right {
-	text-align: right;
-}
-
-.spacer-top150 {
-	margin-top: 150px;
-}
-
-.spacer-top100 {
-	margin-top: 100px;
-}
-
-.spacer-bottom150 {
-	margin-bottom: 150px;
-}
-
-.spacer-bottom30 {
-	margin-bottom: 30px;
-}
-
-.spacer-top30 {
-	margin-top: 30px;
-}
-
-.spacer-top70 {
-	padding-top: 70px;
-}
-
-.spacer-bottom400 {
-	margin-bottom: 400px;
-}
-
-.spacer-bottom200 {
-	margin-bottom: 200px;
-}
-
-.stores {
-	padding: 20px 0;
-	margin-bottom: 100px;
-	.row {
-		padding: 0 20px
-	}
-	img {
-		margin-bottom: 20px;
-	}
-}
-
-.hero-app {
-    position: absolute;
-    right: 0;
-    top: 50px;
-}
-
-.app-name {
-	font-family: $f_0;
-	font-size: 65px;
-	font-weight: bold;
-	color: $c_star_dust;
-	text-align: center;
-	span {
-		padding: 0 20px;
-		display: inline-block;
-		vertical-align: text-top;
-	}
-}
-
-.newsletter {
-	background-color: $c_black_haze;
-	padding: 100px 0;
-	background-image: $u_0;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.mask {
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 12px;
-	background-color: $c_white;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 2px 15px 0 $black_35;
-	padding: 30px;
-}
-
-.copy {
-	color: $c_fuscous_gray;
-	padding: 20px 0;
-	border-top: $c_heavy_metal 1px solid;
-}
-
-.btn-primary {
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 22.5px;
-	background-color: $c_sushi;
-	border: $c_sushi 1px solid;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 2px 15px 0 $black_35;
-	text-transform: uppercase;
-	font-size: 10px;
-	font-weight: bold;
-	padding: 10px 20px;
-}
-
-.btn-white {
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 22.5px;
-	background-color: #ffffff;
-	border: #ffffff 1px solid;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 2px 15px 0 $black_35;
-	text-transform: uppercase;
-	font-size: 10px;
-	font-weight: bold;
-	padding: 10px 20px;
-}
-
-
-.btn {
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 1.5rem;
-}
-
-.data {
-	text-align: center;
-	color: $c_mountain_mist;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.yellow {
-	background-color: $c_saffron;
-	padding-bottom: 70px;
+	max-width: 100%;
+	height: auto;
 }
 footer {
-	background-color: $c_log_cabin;
-	color: $c_star_dust;
+	background-color: $color_log_cabin_approx;
+	color: $color_star_dust_approx;
 	font-size: 14px;
 	min-height: 200px;
 	h5 {
@@ -252,18 +92,231 @@ footer {
 		}
 	}
 }
-
+.header {
+	min-height: 60px;
+	background-color: $color_blue_approx;
+	.navbar-brand {
+		font-family: $font_0;
+		font-size: 24px;
+		font-weight: bold;
+		color: $color_gravel_approx;
+	}
+	.navbar-light .navbar-nav {
+		.nav-link {
+			font-family: $font_0;
+			font-size: 12px;
+			font-weight: bold;
+			color: $white;
+			text-transform: uppercase;
+		}
+		.active .nav-link {
+			color: $color_gravel_approx;
+		}
+	}
+	.dropdown-menu a {
+		font-size: 12px;
+		color: $color_gravel_approx;
+	}
+}
+.intro {
+	background-image: linear-gradient(to bottom, $color_blue_approx, $color_bondi_blue_approx);
+	padding: 0 0 0 20px;
+	h1 {
+		@extend %extend_1;
+		margin: 50px 0 0 0;
+	}
+	.home-description {
+		@extend %extend_2;
+	}
+	.download {
+		@extend %extend_3;
+	}
+	.list-inline-item {
+		margin-right: 30px;
+	}
+}
+.landing {
+	.header {
+		background-color: $color_charm_approx;
+	}
+	.intro {
+		background-image: linear-gradient(to bottom, $color_charm_approx, $color_night_shadz_approx);
+	}
+}
+.umbrella {
+	.header {
+		background-color: $color_energy_yellow_approx;
+	}
+	.intro {
+		background-image: linear-gradient(to bottom, $color_energy_yellow_approx, $color_saffron_approx);
+	}
+}
+.tent {
+	.header {
+		background-color: $color_sushi_73_approx;
+	}
+	.intro {
+		background-image: linear-gradient(to bottom, $color_sushi_73_approx, $color_sushi_approx);
+	}
+}
+.btn-spaced {
+	margin-top: 20px;
+}
+.get-umbrella {
+	background-image: linear-gradient(to bottom, $color_energy_yellow_approx, $color_saffron_approx);
+	h1 {
+		@extend %extend_1;
+		margin: 60px 0 20px 0;
+	}
+	.download {
+		@extend %extend_3;
+	}
+	.logo {
+		text-align: center;
+	}
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.spacer-top150 {
+	margin-top: 150px;
+}
+.spacer-top100 {
+	margin-top: 100px;
+}
+.spacer-bottom150 {
+	margin-bottom: 150px;
+}
+.spacer-bottom30 {
+	margin-bottom: 30px;
+}
+.spacer-top30 {
+	margin-top: 30px;
+}
+.spacer-top70 {
+	padding-top: 70px;
+}
+.spacer-bottom400 {
+	margin-bottom: 400px;
+}
+.spacer-bottom200 {
+	margin-bottom: 200px;
+}
+.stores {
+	padding: 20px 0;
+	margin-bottom: 100px;
+	.row {
+		padding: 0 20px;
+	}
+	img {
+		margin-bottom: 20px;
+	}
+}
+.hero-app {
+	position: absolute;
+	right: 0;
+	top: 50px;
+}
+.hero-app-2 {
+    float: right;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+}
+.showcase-title {
+	font-family: $font_0;
+	font-size: 65px;
+	font-weight: bold;
+	color: $color_star_dust_approx;
+	text-align: center;
+	span {
+		padding: 0 20px;
+		display: inline-block;
+		vertical-align: text-top;
+	}
+}
+.newsletter {
+	background-color: $color_black_haze_approx;
+	padding: 100px 0;
+	background-image: $url_0;
+	background-repeat: no-repeat;
+	background-position: center;
+	input {
+		padding: 10px 20px;
+		border-radius: 22.5px;
+	}
+}
+.mask {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 12px;
+	background-color: $white;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 2px 15px 0 $black_35;
+	padding: 30px;
+}
+.copy {
+	color: $color_fuscous_gray_approx;
+	padding: 20px 0;
+	border-top: $color_heavy_metal_approx 1px solid;
+}
+.btn-primary {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 22.5px;
+	background-color: $color_sushi_approx;
+	border: $color_sushi_approx 1px solid;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 2px 15px 0 $black_35;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 15px 35px;
+}
+.btn-white {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 22.5px;
+	background-color: $white;
+	border: $white 1px solid;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 2px 15px 0 $black_35;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+.btn {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 1.5rem;
+}
+.data {
+	text-align: center;
+	color: $color_mountain_mist_approx;
+}
+.text-center {
+	text-align: center;
+}
+.yellow-wave {
+	background-image: $url_1;
+	background-repeat: no-repeat;
+	background-size: 100% 300px;
+	background-position: top, bottom;
+	padding-top: 300px;
+	.yellow-solid {
+		background-color: $color_saffron_approx;
+		height: 300px;
+	}
+}
 .fab {
-	color: $c_saffron;
+	color: $color_saffron_approx;
 	font-size: 30px;
 	padding: 20px;
 }
-
 .content {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-
 .dropdown {
 	position: relative;
 	display: inline-block;
@@ -282,126 +335,108 @@ footer {
 		margin-right: 5px;
 	}
 }
-
-.homepage h3 {
-	font-size: 36px;
-	font-weight: bold;
-}
-
-.yellow-before img {
-	width: 100%;
-}
-
-.dropdown-content div {
-	display: block;
-	a:hover {
-		cursor: pointer;
-	}
-}
-
 .umbrella-row {
-	margin: 40px 0;
+	position: relative;
+	margin: 60px 0 ;
+	&.umbrella-row-01, &.umbrella-row-03 {
+		.number span {
+			padding-right: 120px;
+		}
+	}
+	&.umbrella-row-02, &.umbrella-row-04 {
+		.number span {
+			padding-left: 120px;
+		}
+	}
+	&.umbrella-row-03 {
+
+	}
+	&.umbrella-row-04 {
+
+	}
 	.number {
 		position: absolute;
-		font-size: 400px;
-		font-weight: 900;
-		color: $c_gray;
-		top: -50px;
-		z-index: -1;
+		color: $color_gallery_approx;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		span {
+			font-weight: bold;
+			display: block;
+			font-size: 30vh;
+		}
 	}
 	.umbrella-text {
-		margin-top: 225px;
-		position: relative;	
-		.tool {
-			width: 37px;
-			height: 12px;
-			font-family: Montserrat;
-			font-size: 10px;
-			font-weight: bold;
-			font-style: normal;
-			font-stretch: normal;
-			line-height: normal;
-			letter-spacing: 2.4px;
-			text-align: center;
-			color: #ffffff;
-			}
 		h1 {
 			font-weight: bold;
-			color: $c_log_cabin;
+			color: $color_log_cabin_approx;
 		}
-		p {
-			margin-top: 25px;
-			color: $c_mountain_mist;
+		span {
+			color: $color_mountain_mist_approx;
 			font-size: 14px;
-			width: 375;
 		}
 	}
 	&.umbrella-row-left {
 		.number {
-			right: -50px;
 		}
 		.umbrella-text {
-			text-align: right;
-			margin-right: 75px;
+
 		}
 	}
 	&.umbrella-row-right {
-		text-align: right;
 		.umbrella-text {
-			text-align: left;
+			
 		}
 		.number {
-			left: -50px;
+			
 		}
 	}
 }
-
-.gradient-parent { 
+.gradient-parent {
 	width: 100%;
 	margin-right: 0;
-	margin-left: 0;	
+	margin-left: 0;
 	.gradient-box {
 		display: inline-block;
-		height: 365px;
-		padding: 80px;
+		min-height: 365px;
+		padding: 40px;
 		.gradient-content {
 			max-width: 400px;
 		}
 		&.red {
-			background-image: linear-gradient(to bottom, $c_charm, $c_night_shadz);
+			background-image: linear-gradient(to bottom, $color_charm_approx, $color_night_shadz_approx);
 			.gradient-content {
 				float: right;
 			}
 		}
 		&.blue {
-			background-image: linear-gradient(to bottom, $c_cornflower, $c_shakespeare);
+			background-image: linear-gradient(to bottom, $color_cornflower_approx, $color_shakespeare_approx);
 			.gradient-content {
 				float: left;
 			}
 		}
 		.organisation {
-			font-family: Montserrat;
+			font-family: $font_2;
 			font-size: 12px;
 			font-weight: bold;
 			letter-spacing: 2.4px;
-			color: $c_white;
+			color: $white;
 			text-transform: uppercase;
 		}
 		h2 {
 			font-size: 22px;
 			font-weight: bold;
 			line-height: 1.45;
-			color: $c_log_cabin;
+			color: $color_log_cabin_approx;
 			margin-bottom: 50px;
 		}
 		p {
 			margin-bottom: 50px;
-			color: $c_white;
+			color: $white;
 			font-size: 14px;
 		}
 	}
 }
-
 .tent-text {
 	margin-bottom: 180px;
 	h3 {
@@ -411,69 +446,60 @@ footer {
 		margin: 40px 0;
 	}
 }
-.get-umbrella {
-	background-image: linear-gradient(to bottom, $c_energy_yellow, $c_saffron);
-	height: 500px;
-	h1 {
-		padding-top: 130px;
-		height: auto;
-	}
-	.logo img {
-		margin: 135px 150px;
-	}
-}
-
 .section-gray {
-	background-color: #f7f7f7;
+	background-color: $color_black_haze_approx;
 	padding: 100px 0;
 }
-
 .overflow-col {
 	margin: -20px;
-
 }
-
 .yellow4 {
-	background-color: #e5bd30;
+	background-color: $color_tulip_tree_approx;
 	text-align: center;
 	padding: 50px 60px 80px;
 }
-
 .blue4 {
-	background-color: #76b6d8;
+	background-color: $color_glacier_approx;
 	text-align: center;
-	padding: 50px 60px 80px;}
-
+	padding: 50px 60px 80px;
+}
 .green4 {
-	background-color: #87bd34;
+	background-color: $color_sushi_approx;
 	text-align: center;
 	padding: 50px 60px;
 }
-
 .pink4 {
-	background-color: #a04056;
+	background-color: $color_vin_rouge_approx;
 	text-align: center;
 	padding: 50px 60px;
 }
-
 .grey {
-	color: #888888;
+	color: $color_suva_gray_approx;
 }
-
 .green {
-	color: #87bd34;
+	color: $color_sushi_approx;
 }
-
 .uppercase {
 	text-transform: uppercase;
-	font-size:14px;
+	font-size: 14px;
 	font-weight: bold;
 }
-
 .spacer-bottom70 {
 	margin-bottom: 70px;
 }
-
 .white {
-	color: #fff;
+	color: $white;
+}
+.homepage h3 {
+	font-size: 36px;
+	font-weight: bold;
+}
+.yellow-before img {
+	width: 100%;
+}
+.dropdown-content div {
+	display: block;
+	a:hover {
+		cursor: pointer;
+	}
 }

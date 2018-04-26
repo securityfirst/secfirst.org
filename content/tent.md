@@ -20,7 +20,7 @@ class: "tent"
     </div>
   </div>
 </div>
-<div id="umbrella" class="container background-white">
+<div id="umbrella" class="container">
   <div class="row spacer-top150">
     <div class="col-3">
       <img src="/imgs/tent-logo.png">
@@ -65,7 +65,7 @@ class: "tent"
   </div>
   </div>
 </div>
-<div id="tent" class="container background-white">
+<div id="tent" class="container">
   <div class="row spacer-top150">
     <div class="col-4 center">
       <h5 class="uppercase">Instant access. Instant updates.</h5>
@@ -82,7 +82,7 @@ class: "tent"
   </div>
 </div>
 
-<div id="umbrella" class="background-white">
+<div id="umbrella">
   <div class="row spacer-top150 spacer-bottom30">
     <div class="col-6">
       <p class="center">Most Content is Vulnerable</p>
@@ -95,7 +95,7 @@ class: "tent"
   </div>
 </div>
 
-<div id="umbrella" class="container background-white spacer-bottom70">
+<div id="umbrella" class="container spacer-bottom70">
   <div class="row">
     <div class="col-8 offset-lg-2 center">
       <h3 class="ccenter spacer-top30 green">Affordable.</h3>

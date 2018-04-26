@@ -1,58 +1,15 @@
-body {
-  height: 100%;
-  font-family: Lato, sans-serif;
-  min-height: auto; }
-  body .header {
-    min-height: 60px;
-    background-color: #000BE5; }
-    body .header .navbar-brand {
-      font-family: Lato;
-      font-size: 24px;
-      font-weight: bold;
-      color: #4a4a4a; }
-    body .header .navbar-light .navbar-nav .nav-link {
-      font-family: Lato;
-      font-size: 12px;
-      font-weight: bold;
-      color: white;
-      text-transform: uppercase; }
-    body .header .navbar-light .navbar-nav .active .nav-link {
-      color: #4a4a4a; }
-    body .header .dropdown-menu a {
-      font-size: 12px;
-      color: #4a4a4a; }
-  body .intro {
-    background-image: linear-gradient(to bottom, #000BE5, #0093BF);
-    padding: 0 0 0 20px; }
-  body.landing .header {
-    background-color: #dd6790; }
-  body.landing .intro {
-    background-image: linear-gradient(to bottom, #dd6790, #b83657); }
-  body.umbrella .header {
-    background-color: #f4e05e; }
-  body.umbrella .intro {
-    background-image: linear-gradient(to bottom, #f4e05e, #f3bc2b); }
-  body.tent .header {
-    background-color: rgba(135, 189, 52, 0.73); }
-  body.tent .intro {
-    background-image: linear-gradient(to bottom, rgba(135, 189, 52, 0.73), #87bd34); }
-
-img {
-  max-width: 100%; }
-
-.btn-spaced {
-  margin-top: 20px; }
-
 .intro h1, .get-umbrella h1 {
   font-size: 48px;
   font-weight: bold;
-  color: white;
-  margin: 50px 0; }
-.intro .home-description, .get-umbrella .home-description {
+  color: white; }
+
+.intro .home-description {
   font-family: Lato;
   font-size: 18px;
   color: white;
-  line-height: 1.8; }
+  line-height: 1.8;
+  margin-top: 50px; }
+
 .intro .download, .get-umbrella .download {
   font-family: Lato;
   font-size: 10px;
@@ -60,8 +17,83 @@ img {
   color: white;
   text-transform: uppercase;
   font-weight: bold; }
-.intro .list-inline-item, .get-umbrella .list-inline-item {
-  margin-right: 30px; }
+
+body {
+  height: 100%;
+  font-family: Lato, sans-serif;
+  min-height: auto; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+footer {
+  background-color: #222222;
+  color: #9b9b9b;
+  font-size: 14px;
+  min-height: 200px; }
+  footer h5 {
+    text-transform: capitalize; }
+  footer li {
+    text-transform: capitalize; }
+  footer ul {
+    padding: 0; }
+    footer ul li {
+      list-style-type: none;
+      list-style: none; }
+
+.header {
+  min-height: 60px;
+  background-color: #000be5; }
+  .header .navbar-brand {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a; }
+  .header .navbar-light .navbar-nav .nav-link {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase; }
+  .header .navbar-light .navbar-nav .active .nav-link {
+    color: #4a4a4a; }
+  .header .dropdown-menu a {
+    font-size: 12px;
+    color: #4a4a4a; }
+
+.intro {
+  background-image: linear-gradient(to bottom, #000be5, #0093bf);
+  padding: 0 0 0 20px; }
+  .intro h1 {
+    margin: 50px 0 0 0; }
+  .intro .list-inline-item {
+    margin-right: 30px; }
+
+.landing .header {
+  background-color: #dd6790; }
+.landing .intro {
+  background-image: linear-gradient(to bottom, #dd6790, #b83657); }
+
+.umbrella .header {
+  background-color: #f4e05e; }
+.umbrella .intro {
+  background-image: linear-gradient(to bottom, #f4e05e, #f3bc2b); }
+
+.tent .header {
+  background-color: rgba(135, 189, 52, 0.73); }
+.tent .intro {
+  background-image: linear-gradient(to bottom, rgba(135, 189, 52, 0.73), #87bd34); }
+
+.btn-spaced {
+  margin-top: 20px; }
+
+.get-umbrella {
+  background-image: linear-gradient(to bottom, #f4e05e, #f3bc2b); }
+  .get-umbrella h1 {
+    margin: 60px 0 20px 0; }
+  .get-umbrella .logo {
+    text-align: center; }
 
 .center {
   text-align: center; }
@@ -106,13 +138,19 @@ img {
   right: 0;
   top: 50px; }
 
-.app-name {
+.hero-app-2 {
+  float: right;
+  margin-top: 25px;
+  position: absolute;
+  right: 0; }
+
+.showcase-title {
   font-family: Lato;
   font-size: 65px;
   font-weight: bold;
   color: #9b9b9b;
   text-align: center; }
-  .app-name span {
+  .showcase-title span {
     padding: 0 20px;
     display: inline-block;
     vertical-align: text-top; }
@@ -120,9 +158,12 @@ img {
 .newsletter {
   background-color: #f7f7f7;
   padding: 100px 0;
-  background-image: url(../imgs/newsletter.png);
+  background-image: url(/imgs/newsletter.png);
   background-repeat: no-repeat;
   background-position: center; }
+  .newsletter input {
+    padding: 10px 20px;
+    border-radius: 22.5px; }
 
 .mask {
   border-radius: 12px;
@@ -143,12 +184,12 @@ img {
   text-transform: uppercase;
   font-size: 10px;
   font-weight: bold;
-  padding: 10px 20px; }
+  padding: 15px 35px; }
 
 .btn-white {
   border-radius: 22.5px;
-  background-color: #ffffff;
-  border: #ffffff 1px solid;
+  background-color: white;
+  border: white 1px solid;
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.35);
   text-transform: uppercase;
   font-size: 10px;
@@ -165,24 +206,15 @@ img {
 .text-center {
   text-align: center; }
 
-.yellow {
-  background-color: #f3bc2b;
-  padding-bottom: 70px; }
-
-footer {
-  background-color: #222222;
-  color: #9b9b9b;
-  font-size: 14px;
-  min-height: 200px; }
-  footer h5 {
-    text-transform: capitalize; }
-  footer li {
-    text-transform: capitalize; }
-  footer ul {
-    padding: 0; }
-    footer ul li {
-      list-style-type: none;
-      list-style: none; }
+.yellow-wave {
+  background-image: url(/imgs/yellow-back.png);
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  background-position: top, bottom;
+  padding-top: 300px; }
+  .yellow-wave .yellow-solid {
+    background-color: #f3bc2b;
+    height: 300px; }
 
 .fab {
   color: #f3bc2b;
@@ -208,61 +240,29 @@ footer {
     width: 16px;
     margin-right: 5px; }
 
-.homepage h3 {
-  font-size: 36px;
-  font-weight: bold; }
-
-.yellow-before img {
-  width: 100%; }
-
-.dropdown-content div {
-  display: block; }
-  .dropdown-content div a:hover {
-    cursor: pointer; }
-
 .umbrella-row {
-  margin: 40px 0; }
+  position: relative;
+  margin: 60px 0; }
+  .umbrella-row.umbrella-row-01 .number span, .umbrella-row.umbrella-row-03 .number span {
+    padding-right: 120px; }
+  .umbrella-row.umbrella-row-02 .number span, .umbrella-row.umbrella-row-04 .number span {
+    padding-left: 120px; }
   .umbrella-row .number {
     position: absolute;
-    font-size: 400px;
-    font-weight: 900;
     color: #eeeeee;
-    top: -50px;
-    z-index: -1; }
-  .umbrella-row .umbrella-text {
-    margin-top: 225px;
-    position: relative; }
-    .umbrella-row .umbrella-text .tool {
-      width: 37px;
-      height: 12px;
-      font-family: Montserrat;
-      font-size: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center; }
+    .umbrella-row .number span {
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: 2.4px;
-      text-align: center;
-      color: #ffffff; }
-    .umbrella-row .umbrella-text h1 {
-      font-weight: bold;
-      color: #222222; }
-    .umbrella-row .umbrella-text p {
-      margin-top: 25px;
-      color: #979797;
-      font-size: 14px;
-      width: 375; }
-  .umbrella-row.umbrella-row-left .number {
-    right: -50px; }
-  .umbrella-row.umbrella-row-left .umbrella-text {
-    text-align: right;
-    margin-right: 75px; }
-  .umbrella-row.umbrella-row-right {
-    text-align: right; }
-    .umbrella-row.umbrella-row-right .umbrella-text {
-      text-align: left; }
-    .umbrella-row.umbrella-row-right .number {
-      left: -50px; }
+      display: block;
+      font-size: 30vh; }
+  .umbrella-row .umbrella-text h1 {
+    font-weight: bold;
+    color: #222222; }
+  .umbrella-row .umbrella-text span {
+    color: #979797;
+    font-size: 14px; }
 
 .gradient-parent {
   width: 100%;
@@ -270,8 +270,8 @@ footer {
   margin-left: 0; }
   .gradient-parent .gradient-box {
     display: inline-block;
-    height: 365px;
-    padding: 80px; }
+    min-height: 365px;
+    padding: 40px; }
     .gradient-parent .gradient-box .gradient-content {
       max-width: 400px; }
     .gradient-parent .gradient-box.red {
@@ -306,15 +306,6 @@ footer {
     margin-top: 60px; }
   .tent-text p {
     margin: 40px 0; }
-
-.get-umbrella {
-  background-image: linear-gradient(to bottom, #f4e05e, #f3bc2b);
-  height: 500px; }
-  .get-umbrella h1 {
-    padding-top: 130px;
-    height: auto; }
-  .get-umbrella .logo img {
-    margin: 135px 150px; }
 
 .section-gray {
   background-color: #f7f7f7;
@@ -358,6 +349,18 @@ footer {
   margin-bottom: 70px; }
 
 .white {
-  color: #fff; }
+  color: white; }
+
+.homepage h3 {
+  font-size: 36px;
+  font-weight: bold; }
+
+.yellow-before img {
+  width: 100%; }
+
+.dropdown-content div {
+  display: block; }
+  .dropdown-content div a:hover {
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
