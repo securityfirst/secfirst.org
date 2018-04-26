@@ -59,7 +59,7 @@ class: "landing"
   <div class="yellow-solid">
     <div class="container text-center">
       <div class="row">
-        <div class="col-6 offset-3">
+        <div class="col-lg-6 offset-lg-3">
           <h3>Training and Consultancy</h3>
           <p>Security First offers online and offline training and consultancy for individuals and organisations of all sizes.</p>
           <button type="button" class="btn btn-primary btn-spaced">FIND OUT MORE</button>
@@ -89,11 +89,11 @@ class: "landing"
         <p>Sign up for our latest updates.</p>
         <form class="mask">
           <div class="form-row spacer-top30 spacer-bottom30">
-            <div class="col-5 offset-2">
+            <div class="col-lg-5 offset-lg-2">
               <label class="sr-only" for="inlineFormInput">Name</label>
               <input type="text" class="form-control mb-2 mb-sm-0" id="inlineFormInput" placeholder="Jane Doe">
             </div>
-            <div class="col-3">
+            <div class="col-lg-3">
               <button type="submit" class="btn btn-primary">Sign Up</button>
             </div>
           </div>
