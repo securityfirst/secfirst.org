@@ -37,7 +37,7 @@ class: "umbrella"
       <div class="organisation">Organization</div>
       <h2>Prefer it in person?</h2>
       <p>Security First offers trainings and services for individuals and organisations of all sizes.</p>
-      <a href="./umbrella/">
+      <a href="#">
         <button type="button" class="btn btn-primary">Find out more.</button>
       </a>
     </div>

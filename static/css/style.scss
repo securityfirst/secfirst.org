@@ -187,6 +187,9 @@ footer {
 .spacer-top100 {
 	margin-top: 100px;
 }
+.spacer-bottom100 {
+	margin-bottom: 100px;
+}
 .spacer-bottom150 {
 	margin-bottom: 150px;
 }
@@ -454,9 +457,7 @@ footer {
 	background-color: $color_black_haze_approx;
 	padding: 100px 0;
 }
-.overflow-col {
-	margin: -20px;
-}
+
 .yellow4 {
 	background-color: $color_tulip_tree_approx;
 	text-align: center;
@@ -506,4 +507,7 @@ footer {
 	a:hover {
 		cursor: pointer;
 	}
+}
+img.tent-drawing {
+	max-width: 100%;
 }

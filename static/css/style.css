@@ -107,6 +107,9 @@ footer {
 .spacer-top100 {
   margin-top: 100px; }
 
+.spacer-bottom100 {
+  margin-bottom: 100px; }
+
 .spacer-bottom150 {
   margin-bottom: 150px; }
 
@@ -314,9 +317,6 @@ footer {
   background-color: #f7f7f7;
   padding: 100px 0; }
 
-.overflow-col {
-  margin: -20px; }
-
 .yellow4 {
   background-color: #e5bd30;
   text-align: center;
@@ -365,5 +365,8 @@ footer {
   display: block; }
   .dropdown-content div a:hover {
     cursor: pointer; }
+
+img.tent-drawing {
+  max-width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
