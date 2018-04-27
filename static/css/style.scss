@@ -94,12 +94,12 @@ footer {
 }
 .header {
 	min-height: 60px;
-	background-color: $color_blue_approx;
+	background-color: $color_log_cabin_approx;
 	.navbar-brand {
 		font-family: $font_0;
 		font-size: 24px;
 		font-weight: bold;
-		color: $color_gravel_approx;
+		color: $white;
 	}
 	.navbar-light .navbar-nav {
 		.nav-link {
@@ -320,9 +320,9 @@ footer {
 	font-size: 30px;
 	padding: 20px;
 }
-.content {
-	margin-top: 50px;
-	margin-bottom: 50px;
+.content .container {
+	pa-top: 50px;
+	pa-bottom: 50px;
 }
 .dropdown {
 	position: relative;
@@ -508,6 +508,17 @@ footer {
 		cursor: pointer;
 	}
 }
-img.tent-drawing {
-	max-width: 100%;
+.blog-list {
+	.blog-item {
+		margin: 20px 0;
+		padding: 20px;
+		background-color: $color_mountain_mist_approx;
+		color: $white;
+		a { 
+			color: $color_gravel_approx
+		}
+	}
+}
+.content {
+	padding: 50px 0;
 }

@@ -1,15 +1,18 @@
 {{partial "header" .}}
   <div class="content container">
     <div class="row">
-      <div class="col-12 center">
+      <div class="col-12">
         <h1>Blog Post Archive</h1>
-        <ul class="list-unstyled">
+        <div class="blog-list">
           {{ range .Data.Pages }}
-          <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-          </li>
+          <div class="blog-item">
+             <h2>{{.Title}}</h2>
+             <p>{{.Date.Format "2006-01-02"}}</p>
+             <p>{{.Summary}}</p>
+            <a href="{{.Permalink}}">Read full article</a>
+          </div class="blog-item">
           {{ end }}
-        </ul>
+        </div>
       </div>
     </div>
   </div>

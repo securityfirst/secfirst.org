@@ -44,12 +44,12 @@ footer {
 
 .header {
   min-height: 60px;
-  background-color: #000be5; }
+  background-color: #222222; }
   .header .navbar-brand {
     font-family: Lato;
     font-size: 24px;
     font-weight: bold;
-    color: #4a4a4a; }
+    color: white; }
   .header .navbar-light .navbar-nav .nav-link {
     font-family: Lato;
     font-size: 12px;
@@ -227,9 +227,9 @@ footer {
   font-size: 30px;
   padding: 20px; }
 
-.content {
-  margin-top: 50px;
-  margin-bottom: 50px; }
+.content .container {
+  pa-top: 50px;
+  pa-bottom: 50px; }
 
 .dropdown {
   position: relative;
@@ -366,7 +366,15 @@ footer {
   .dropdown-content div a:hover {
     cursor: pointer; }
 
-img.tent-drawing {
-  max-width: 100%; }
+.blog-list .blog-item {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #979797;
+  color: white; }
+  .blog-list .blog-item a {
+    color: #4a4a4a; }
+
+.content {
+  padding: 50px 0; }
 
 /*# sourceMappingURL=style.css.map */
