@@ -1,5 +1,9 @@
-# Contact
-
+---
+Title: Contact
+---
+<div class="text-center">
+<h1>Contact</h1>
+<hr/>
 <div class="contacts-list">
     <div>
         <i class="fas fa-mobile"></i>
@@ -13,6 +17,9 @@
         <i class="fas fa-globe"></i>
         <span>www.secfirst.org</span>
     </div>
+</div>
+<hr/>
+<div class="contacts-list">
     <div>
         <i class="fab fa-skype"></i>
         <span>rorymbyrne</span>
@@ -30,11 +37,14 @@
         <span>jitsi: rorybyrne@jit.si</span>
     </div>
 </div>
+<hr/>
 <div class="contacts-data">
     <div class="contacts-data-item">
-        Global Security First Ltd. Company Number: 08737382.
+        Global Security First Ltd.<br/>Company Number: 08737382.
     </div>
     <div class="contacts-data-item">
-    Registered Office: Ground Floor, 2 Woodberry Grove, London, N12 0DR, UK.
+    Registered Office: Ground Floor, 2 <br/>Woodberry Grove, London, N12 0DR, UK.
     </div>
+</div>
+
 </div>
