@@ -175,7 +175,7 @@ class: "tent"
       <h2 class="green">Online Training</h2>
     </div>
     <div class="clearfix"></div>
-    <div class="col-lg-3 video-item">
+    <div class="col-lg-6 video-item">
       <a target="_blank" href="https://advocacyassembly.org/en/courses/30/#/chapter/1/lesson/1">
         <img class="img-fluid" src="/imgs/screenshot-phishing.png"/>
         <span class="lesson-text">
@@ -183,7 +183,7 @@ class: "tent"
         </span>
       </a>
     </div>
-    <div class="col-lg-3 video-item">
+    <div class="col-lg-6 video-item">
       <a target="_blank" href="https://advocacyassembly.org/en/courses/33/#/chapter/1/lesson/1">
         <img class="img-fluid" src="/imgs/screenshot-communication.png" />
         <span class="lesson-text">
@@ -191,7 +191,7 @@ class: "tent"
         </span>
       </a>
     </div>
-    <div class="col-lg-3 video-item">
+    <div class="col-lg-6 video-item">
       <a target="_blank" href="https://advocacyassembly.org/en/courses/31/#/chapter/1/lesson/1">
         <img class="img-fluid" src="/imgs/screenshot-password.png" />
         <span class="lesson-text">
@@ -199,7 +199,7 @@ class: "tent"
         </span>
       </a>
     </div>
-    <div class="col-lg-3 video-item">
+    <div class="col-lg-6 video-item">
       <a target="_blank" href="https://advocacyassembly.org/en/courses/32/#/chapter/1/lesson/1">
         <img class="img-fluid" src="/imgs/screenshot-safe.png" />
         <span class="lesson-text">
