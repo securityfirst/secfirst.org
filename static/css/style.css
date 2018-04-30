@@ -412,4 +412,23 @@ a:hover {
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
 
+.service-list {
+  text-align: center;
+  margin-bottom: 100px; }
+  .service-list .service-title {
+    margin-top: 100px;
+    position: relative;
+    height: 80px; }
+  .service-list h3 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-weight: bold;
+    vertical-align: bottom;
+    margin-top: 50px; }
+  .service-list p.service-icon .fa {
+    color: #87bd34;
+    font-size: 24px;
+    padding: 15px 15px 0; }
+
 /*# sourceMappingURL=style.css.map */

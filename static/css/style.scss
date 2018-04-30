@@ -569,3 +569,27 @@ a:hover {
     -webkit-text-decoration-skip: objects;
 }
 
+.service-list {
+	text-align: center;
+	margin-bottom: 100px;
+	.service-title {
+		margin-top: 100px;
+		position: relative;
+		height: 80px;
+	}
+	h3 {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		font-weight: bold;
+		vertical-align: bottom;
+		margin-top: 50px
+	}
+	p.service-icon {
+		.fa {
+			color: $color_sushi_approx;
+			font-size: 24px;
+			padding: 15px 15px 0;
+		}
+	}
+}
