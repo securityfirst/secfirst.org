@@ -1,65 +1,89 @@
 ---
 title: Contribute
+layout: "index"
+class: "tent"
 ---
-## Spread the Word
 
-- Review Umbrella on your app store
-- Follow us on Facebook or Twitter
-- Share Umbrella with your network
-- Tell us how we can help you stay secure! Drop a mail to info@secfirst.org. 
+<div class="intro">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="d-none d-lg-block spacer-top100"></div>
+				<h1 class="">Spread the Word</h1>
+				<div class="home-description spacer-bottom100">
+					<ul>
+						<li> Review Umbrella on your app store</li>
+						<li> Follow us on Facebook or Twitter</li>
+						<li> Share Umbrella with your network</li>
+						<li> Tell us how we can help you stay secure! Drop a mail to info@secfirst.org. </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-8 offset-lg-2">
 
-## Content
+			<h2 id="content" class="spacer-top100 green">Content</h2>
 
-We warmly welcome corrections that will improve Umbrella content. Reach out at any time through our secure contact form [email] (info@secfirst.org).  
-We’re also designing a collaborative [workflow] (https://iilab.github.io/contentascode/) to help you submit corrections. If you already use Github, you can open a new issue directly on our [content repo] (https://github.com/securityfirst/Umbrella_content/issues).  
+			<p>We warmly welcome corrections that will improve Umbrella content. Reach out at any time through our secure contact form <a href="info@secfirst.org">email</a>.<br>
+				We’re also designing a collaborative <a href="https://iilab.github.io/contentascode/">workflow</a> to help you submit corrections. If you already use Github, you can open a new issue directly on our <a href="https://github.com/securityfirst/Umbrella_content/issues">content repo</a>.</p>
 
-## Test
+				<h2 id="test" class="spacer-top100 green">Test</h2>
 
-We are always looking for people to test and quality assure our app. Drop us a mail if you can help. (info@secfirst.org)
-Translate
-Umbrella is being translated into more than a dozen languages, and you can help.
+				<p>We are always looking for people to test and quality assure our app. Drop us a mail if you can help. (info@secfirst.org)
+					Translate
+				Umbrella is being translated into more than a dozen languages, and you can help.</p>
 
-1. Create a free account with [Transifex] (https://www.transifex.com/). 
-2. Click [Help Translate Umbrella App] (https://www.transifex.com/otf/umbrella-app/). 
-3. Choose your language and translate something. Even a single sentence helps! 
+				<ol>
+					<li>Create a free account with <a href="https://www.transifex.com/">Transifex</a>.</li>
+					<li>Click <a href="https://www.transifex.com/otf/umbrella-app/">Help Translate Umbrella App</a>.</li>
+					<li>Choose your language and translate something. Even a single sentence helps!</li>
+				</ol>
 
-The awesome [Localization Lab] (http://www.localizationlab.org) manage volunteer translators for Umbrella. If you are an organisation, the fastest way to see Umbrella in your language is to donate money for us to hire a translator. Thank you! 
+				<p>The awesome <a href="http://www.localizationlab.org">Localization Lab</a> manage volunteer translators for Umbrella. If you are an organisation, the fastest way to see Umbrella in your language is to donate money for us to hire a translator. Thank you!</p>
 
-## Code
+				<h2 id="code" class="spacer-top100 green">Code</h2>
 
-Wanna write code people rely on daily to make life or death decisions? We would love your help, especially:
+				<p>Wanna write code people rely on daily to make life or death decisions? We would love your help, especially:</p>
 
-- Android (Java/Kotlin) development
-- iOS development (iOS is coming soon!)
-- Golang development
-- React development
-- Gamification
-- UI/UX
+				<ul>
+					<li>Android (Java/Kotlin) development</li>
+					<li>iOS development (iOS is coming soon!)</li>
+					<li>Golang development</li>
+					<li>React development</li>
+					<li>Gamification</li>
+					<li>UI/UX</li>
+				</ul>
 
+				<p>Take a look at <a href="https://github.com/securityfirst/Umbrella_android">securityfirst/Umbrella_android</a></p>
 
-Take a look at [securityfirst/Umbrella_android](https://github.com/securityfirst/Umbrella_android)
+				<h2 id="funding" class="spacer-top100 green">Funding</h2>
 
-## Funding
+				<p>Help us feed our developers. If you are a grant making individual or organisation and are interesting in funding any of our work. Please use our security contact form or drop us a mail at <a href="info@secfirst.org">info@secfirst.org</a></p>
 
-Help us feed our developers. If you are a grant making individual or organisation and are interesting in funding any of our work. Please use our security contact form or drop us a mail at [info@secfirst.org](info@secfirst.org)
+				<h2 id="coin" class="spacer-top100 green">Coin</h2>
 
-## Coin
+				<p>Donate BitCoin to <strong>13ELGTYhHdKvgiRCquANYFq6EZRj21C3R9</strong>.</p>
 
-Donate BitCoin to **13ELGTYhHdKvgiRCquANYFq6EZRj21C3R9**.
- 
-## Bug Report
+				<h2 id="bug-report" class="spacer-top100 green">Bug Report</h2>
 
-If something is broken, please let us know so we can fix it! Please fill a bug report on Github (https://github.com/securityfirst/Umbrella_android/issues) or drop us a mail at info@secfirst.org. 
+				<p>If something is broken, please let us know so we can fix it! Please fill a bug report on Github (<a href="https://github.com/securityfirst/Umbrella_android/issues">https://github.com/securityfirst/Umbrella_android/issues</a>) or drop us a mail at info@secfirst.org.</p>
 
-## Responsible Disclosure and Bug Bounty
+				<h2 id="responsible-disclosure-and-bug-bounty" class="spacer-top100 green">Responsible Disclosure and Bug Bounty</h2>
 
-Security First participates in the HackerOne bug bounty system, an information security best practice. In return, you get free swag and recognition. Visit our page and read the rules [here] (https://hackerone.com/security_first). (Sign up for an account if you don’t have one.) 
+				<p>Security First participates in the HackerOne bug bounty system, an information security best practice. In return, you get free swag and recognition. Visit our page and read the rules <a href="https://hackerone.com/security_first">here</a>. (Sign up for an account if you don’t have one.)</p>
 
-## Chat to us
+				<h2 id="chat-to-us" class="spacer-top100 green">Chat to us</h2>
 
-Come say hello. We have a channel on the Internet Freedom Festival Community Mattermost! (https://community.internetfreedomfestival.org/community/channels/umbrella-app) (Sign up for an account if you don’t have one.) 
+				<p>Come say hello. We have a channel on the Internet Freedom Festival Community Mattermost! (<a href="https://community.internetfreedomfestival.org/community/channels/umbrella-app">https://community.internetfreedomfestival.org/community/channels/umbrella-app</a>) (Sign up for an account if you don’t have one.)</p>
 
-## Say hello in real life
+				<h2 id="say-hello-in-real-life" class="spacer-top100 green">Say hello in real life</h2>
 
-Our team are based in Dublin, San Francisco, Madrid, Bristol and London. Let’s grab a coffee. Drop us a mail at info@secfirst.org.
- 
+				<p class="spacer-bottom100">Our team are based in Dublin, San Francisco, Madrid, Bristol and London. Let’s grab a coffee. Drop us a mail at info@secfirst.org.</p>
+
+			</div>
+		</div>
+	</div>

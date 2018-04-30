@@ -554,3 +554,18 @@ footer {
 		margin: 40px 0;
 	}
 }
+
+a {
+    color: $color_glacier_approx;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+    color: $color_vin_rouge_approx;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+

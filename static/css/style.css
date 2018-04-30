@@ -400,4 +400,16 @@ footer {
 .contacts-data .contacts-data-item {
   margin: 40px 0; }
 
+a {
+  color: #76b6d8;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+a:hover {
+  color: #a04056;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
 /*# sourceMappingURL=style.css.map */
