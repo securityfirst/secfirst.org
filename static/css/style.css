@@ -199,6 +199,16 @@ footer {
   font-weight: bold;
   padding: 10px 20px; }
 
+.btn-white {
+  border-radius: 22.5px;
+  background-color: #ffffff;
+  border: #87bd34 1px solid;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.35);
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px 20px; }
+
 .btn {
   border-radius: 1.5rem; }
 
@@ -312,6 +322,9 @@ footer {
     margin-top: 60px; }
   .tent-text p {
     margin: 40px 0; }
+
+.section-gray {
+  background-color: #f7f7f7; }
 
 .section-gray {
   background-color: #f7f7f7;
