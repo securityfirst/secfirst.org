@@ -431,4 +431,17 @@ a:hover {
     font-size: 24px;
     padding: 15px 15px 0; }
 
+.video-list h2 {
+  margin-bottom: 50px; }
+.video-list .video-item {
+  text-align: center;
+  margin: 30px 0; }
+  .video-list .video-item img {
+    min-width: 80%; }
+  .video-list .video-item .lesson-text {
+    color: #4a4a4a;
+    padding: 10px 0;
+    display: block;
+    text-transform: uppercase; }
+
 /*# sourceMappingURL=style.css.map */

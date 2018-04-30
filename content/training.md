@@ -170,15 +170,42 @@ class: "tent"
   </div>
 </div>
 <div class="container spacer-bottom100 spacer-top100">
-  <div class="row">
-    <div class="col-lg-6 offset-lg-3">
+  <div class="row video-list">
+    <div class="col-lg-12 text-center">
       <h2 class="green">Online Training</h2>
-      <ul>
-        <li><a href="https://advocacyassembly.org/en/courses/30/#/chapter/1/lesson/1">Phishing, Malware and Social Engineering</a></li>
-        <li><a href="https://advocacyassembly.org/en/courses/33/#/chapter/1/lesson/1">Secure Communications</a></li>
-        <li><a href="https://advocacyassembly.org/en/courses/31/#/chapter/1/lesson/1">Secure Passwords and Encryption of Data</a></li>
-        <li><a href="https://advocacyassembly.org/en/courses/32/#/chapter/1/lesson/1">Staying Safe Online and Using Social Media</a></li>
-      </ul>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-lg-3 video-item">
+      <a target="_blank" href="https://advocacyassembly.org/en/courses/30/#/chapter/1/lesson/1">
+        <img class="img-fluid" src="/imgs/screenshot-phishing.png"/>
+        <span class="lesson-text">
+          Phishing, Malware and Social Engineering
+        </span>
+      </a>
+    </div>
+    <div class="col-lg-3 video-item">
+      <a target="_blank" href="https://advocacyassembly.org/en/courses/33/#/chapter/1/lesson/1">
+        <img class="img-fluid" src="/imgs/screenshot-communication.png" />
+        <span class="lesson-text">
+          Secure Communications
+        </span>
+      </a>
+    </div>
+    <div class="col-lg-3 video-item">
+      <a target="_blank" href="https://advocacyassembly.org/en/courses/31/#/chapter/1/lesson/1">
+        <img class="img-fluid" src="/imgs/screenshot-password.png" />
+        <span class="lesson-text">
+          Secure Passwords and Encryption of Data
+        </span>
+      </a>
+    </div>
+    <div class="col-lg-3 video-item">
+      <a target="_blank" href="https://advocacyassembly.org/en/courses/32/#/chapter/1/lesson/1">
+        <img class="img-fluid" src="/imgs/screenshot-safe.png" />
+        <span class="lesson-text">
+          Staying Safe Online and Using Social Media
+        </span>
+      </a>
     </div>
   </div>
 </div>

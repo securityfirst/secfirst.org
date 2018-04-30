@@ -593,3 +593,21 @@ a:hover {
 		}
 	}
 }
+.video-list {
+	h2 {
+		margin-bottom: 50px;
+	}
+	.video-item {
+		text-align: center;
+		margin: 30px 0;
+		img {
+			min-width: 80%;
+		}
+		.lesson-text {
+			color: $color_gravel_approx;
+			padding: 10px 0;
+			display: block;
+			text-transform: uppercase;
+		}
+	}
+}
