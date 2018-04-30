@@ -14,7 +14,7 @@ class: "tent"
           Could attackers try and compromise your content?</p>
           <p>You need a fast, easy, open-source CMS that you and your readers can trust. Meet Tent. 
             All the tools you need to create, edit, and publish securely-under one roof.</p>
-          <a href="{{<ref "tent.md">}}">
+          <a href="mailto:info@secfirst.org?subject=Tent%20Inquiry">
             <button type="button" class="spacer-top30 btn btn-white">Ask a question</button>
           </a>
         </div>
@@ -26,12 +26,12 @@ class: "tent"
 {{< showcase image="/imgs/tent-logo.png" id="tent">}} 
 <div class="col-12 spacer-top70"></div>
 <div class="col-lg-6">
-  <p>Where’s your security manual?</p>
+  <p class="uppercase">Where’s your security manual?</p>
   <img class="tent-drawing float-right" src="/imgs/tent-secure1.png">
 </div>
 <div class="col-lg-6">
   <div class="spacer-top70 d-block d-lg-none"></div>
-  <p class="float-right">Tent helps your team stay secure</p>
+  <p class="float-right uppercase">Tent helps your team stay secure</p>
   <img class="tent-drawing" src="/imgs/tent-secure2.png">
 </div>
 <div class="col-lg-8 offset-lg-2 center">
@@ -40,11 +40,11 @@ class: "tent"
     changing your content, so no-one can hijack it. Access is controlled using industry standard authentication software.</p>
 </div>
 <div class="col-lg-6">
-  <p>Is this your workflow?</p>
-  <img class="tent-drawing" class="float-right" src="/imgs/tent-workflow1.png">
+  <p class="uppercase">Is this your workflow?</p>
+  <img class="tent-drawing float-right" src="/imgs/tent-workflow1.png">
 </div>
 <div class="col-lg-6">
-  <p class="float-right">Tent is better!</p>
+  <p class="float-right uppercase">Tent is better!</p>
   <img class="tent-drawing" src="/imgs/tent-workflow2.png">
 </div>
 <div class="col-lg-8 offset-lg-2 center">
@@ -74,13 +74,13 @@ class: "tent"
 <div class="container">
   <div class="row spacer-top150 spacer-bottom30">
     <div class="col-lg-6 text-right">
-      <p class="center">Most Content is Vulnerable</p>
+      <p class="center uppercase">Most Content is Vulnerable</p>
       <div>
         <img class="tent-drawing" src="/imgs/tent-authors1.png">
       </div>
     </div>
     <div class="col-lg-6">
-      <p class="center">Protect Yours</p>
+      <p class="center uppercase">Protect Yours</p>
       <div>
         <img class="tent-drawing" src="/imgs/tent-authors2.png">
       </div>
@@ -101,11 +101,11 @@ class: "tent"
   </div>
   <div class="row spacer-top150">
     <div class="col-lg-6">
-      <p  class="center">So you want a content app?</p>
+      <p  class="center uppercase">So you want a content app?</p>
       <img class="float-right" src="/imgs/tent-affordable1.png">
     </div>
     <div class="col-lg-6">
-      <p class="center">Tent helps you do more with less!</p>
+      <p class="center uppercase">Tent helps you do more with less!</p>
       <img src="/imgs/tent-affordable2.png">
     </div>
   </div>

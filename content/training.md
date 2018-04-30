@@ -17,11 +17,31 @@ class: "tent"
     </div>
   </div>
 </div>
+<div class="section-gray">
+<div class="container">
+<div class="row">
+<div class="col-lg-8 offset-lg-2 center">
+  <h3 class="center green">Tailored.</h3>
+  <p class="grey s0">We base your training on a deep understanding of your needs. We learn all about the way you work and adapt our modules to reduce your risk.</p>
+  <h3 class="center green">Comprehensive.</h3>
+  <p class="grey spacer-bottom30">We integrate digital and physical security better than anyone else, because we know the little things can make all the difference when it comes to your safety.</p>
+  <h3 class="center green">Efficient.</h3>
+  <p class="grey spacer-bottom30">We work with organisations of all sizes, and we know how hard it is to keep everyone on the same page. But since we know that more efficient is more secure, we help you streamline operational procedures and work more effectively, too.</p>
+  <h3 class="center green">Future proof.</h3>
+  <p class="grey spacer-bottom30">Security advice may change, but we help you plan for that. We’ll monitor how you implement best practices, and encourage you to think creatively about how to maintain and share robust security policies.</p>
+</div>
+</div>
+
+ </div>
+  </div>
+  </div>
+  </div>
+
   <div class="container">
      <div class="row">
 <div class="col-12 spacer-top70"></div>
 <div class="col-lg-8 offset-lg-2 spacer-top70 spacer-bottom100">
-  <h2>Custom Training</h2>
+  <h2>Why Choose Security First</h2>
   <p>Security First offers a unique perspective on security.</p>
   <p>Our staff combine military, technology, and human rights experience. We have developed and implemented security solutions for NGOs, aid organisations and media groups in some of the world’s most inhospitable environments. USAID cited the thirty-five module training program developed by Security First CEO Rory Byrne as the industry-leading standard. It’s the basis for our free Android app, Umbrella.</p>
   <p>But what we understand best is people. We’ve trained hundreds of them. And we know that you can have all the information in the world at your fingertips (hi, Google!) and still have trouble acting on it without a little help.</p>
@@ -30,31 +50,6 @@ class: "tent"
 </div>
 </div>
 </div>
-<div class="section-gray">
-<div class="container">
-<div class="row">
-<div class="col-lg-6 center">
-  <h3 class="center spacer-top70 green">Tailored.</h3>
-  <p class="grey spacer-bottom30">We base your training on a deep understanding of your needs. We learn all about the way you work and adapt our modules to reduce your risk.</p>
-</div>
-<div class="col-lg-6">
-  <h3 class="center spacer-top70 green">Comprehensive.</h3>
-  <p class="grey spacer-bottom30">We keep you safe day-to-day, as well as in a crisis. When you think security, you might think HEFAT (Hostile Environment and Emergency First Aid Training). We recommend it, and we can incorporate it on request. But it’s easy to focus on response and neglect prevention--especially in the digital age. You should learn how to handle yourself during a kidnapping. But you should also secure your email, to stop potential kidnappers from accessing your messages. We integrate digital and physical security better than anyone else, because we know the little things can make all the difference when it comes to your safety.</p>
-</div>
-</div>
-<div class="row">
-<div class="col-lg-6">
-  <h3 class="center spacer-top70 green">Efficient.</h3>
-  <p class="grey spacer-bottom30">We work with organisations of all sizes, and we know how hard it is to keep everyone on the same page. But since we know that more efficient is more secure, we help you streamline operational procedures and work more effectively, too.</p>
-</div>
-<div class="col-lg-6">
-  <h3 class="center spacer-top70 green">Future proof.</h3>
-  <p class="grey spacer-bottom30">Security advice may change, but we help you plan for that. We’ll monitor how you implement best practices, and encourage you to think creatively about how to maintain and share robust security policies.</p>
-</div>
- </div>
-  </div>
-  </div>
-  </div>
 
 <div class="intro">
 <div class="container">
