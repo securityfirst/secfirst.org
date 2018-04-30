@@ -21,7 +21,7 @@ class: "landing"
 
 <div class="container">
 	<div class="row">
-		<div class="col-8 offset-lg-2">
+		<div class="col-8 offset-lg-2 spacer-bottom100">
 
 			<h1 id="content" class="spacer-top100 green">Our principles</h1>
 
@@ -51,9 +51,10 @@ class: "landing"
 	</div>
 </div>		
 
+<div class="intro">
 <div class="container">
 	<div class="row">
-		<div class="col-8 offset-lg-2">
+		<div class="col-8 offset-lg-2 spacer-top100 spacer-bottom100">
 
 			<h1 id="content" class="spacer-top100 green">Funding</h1>
 			<p>We aim to publish all our information for free. We also offer paid services, for when you need training and documentation customized for your team. Learn more about our training and services, or request a quote for a white label version of our signature security app, Umbrella.</p>
@@ -61,6 +62,7 @@ class: "landing"
 			</p>
 		</div>
 	</div>
+</div>
 </div>		
 
 <div class="container spacer-bottom100">

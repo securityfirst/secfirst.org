@@ -20,7 +20,7 @@ class: "tent"
   <div class="container">
      <div class="row">
 <div class="col-12 spacer-top70"></div>
-<div class="col-lg-8 offset-lg-2">
+<div class="col-lg-8 offset-lg-2 spacer-top70 spacer-bottom100">
   <h2>Custom Training</h2>
   <p>Security First offers a unique perspective on security.</p>
   <p>Our staff combine military, technology, and human rights experience. We have developed and implemented security solutions for NGOs, aid organisations and media groups in some of the world’s most inhospitable environments. USAID cited the thirty-five module training program developed by Security First CEO Rory Byrne as the industry-leading standard. It’s the basis for our free Android app, Umbrella.</p>
@@ -30,7 +30,7 @@ class: "tent"
 </div>
 </div>
 </div>
-
+<div class="section-gray">
 <div class="container">
 <div class="row">
 <div class="col-lg-6 center">
@@ -54,14 +54,18 @@ class: "tent"
  </div>
   </div>
   </div>
+  </div>
 
+<div class="intro">
 <div class="container">
-  <div class="row spacer-top150">
-    <div class="col-lg-8 offset-lg-2">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 spacer-top100 spacer-bottom100">
       <p>If you’re not in the market for a group training, we welcome individuals to our open training sessions held in London, UK. We also make everything we know available for free. You can download and share Umbrella, and even deploy your own security manual in an app using our mobile CMS, Tent.</p>  
       <p>But if you want to get safety off your to-do list and make it a reality, get in touch. We’ll design a training that your team will really use to stay secure in the office and in the field. Request a quote. 
       </p>
   </div>
+</div>
+</div>
 </div>
 
 <div class="container">
@@ -88,7 +92,7 @@ class: "tent"
   </div>
 </div>
 
-<div class="container">
+<div class="container spacer-bottom100">
     <div class="row">
       <div class="col-lg-12 spacer-top100">
         <h1>Training:</h1>
@@ -111,9 +115,32 @@ class: "tent"
     </div>
   </div>
 </div>
+</div>
 
-
-
-
-
-
+<div class="section-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <p>“I enjoyed how interactive it was, allowing for participants to be engaged, so they would be more aware of issues. I also enjoyed how all-encompassing it was and the real life examples provided.”<br>
+-Human Rights Defender, International NGO</p>
+      </div>
+      <div class="col-lg-6">
+        <p>“There are very practical components to the course that I will apply in my work and personal life to stay safe.”<br>
+-Human Rights Defender, International NGO</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container spacer-bottom100 spacer-top100">
+     <div class="row">
+<div class="col-lg-6 offset-lg-3">
+  <h2 class="green">Online Training</h2>
+  <ul>
+    <li><a href="https://advocacyassembly.org/en/courses/30/#/chapter/1/lesson/1">Phishing, Malware and Social Engineering</a></li>
+    <li><a href="https://advocacyassembly.org/en/courses/33/#/chapter/1/lesson/1">Secure Communications</a></li>
+    <li><a href="https://advocacyassembly.org/en/courses/31/#/chapter/1/lesson/1">Secure Passwords and Encryption of Data</a></li>
+    <li><a href="https://advocacyassembly.org/en/courses/32/#/chapter/1/lesson/1">Staying Safe Online and Using Social Media</a></li>
+  <ul>
+</div>
+</div>
+</div>
