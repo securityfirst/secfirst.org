@@ -87,17 +87,12 @@ class: "landing"
       <div class="col-10 offset-1 text-center">
         <h3>Stay current.</h3>
         <p>Sign up for our latest updates.</p>
-        <form class="mask">
-          <div class="form-row spacer-top30 spacer-bottom30">
-            <div class="col-lg-5 offset-lg-2">
-              <label class="sr-only" for="inlineFormInput">Name</label>
-              <input type="text" class="form-control mb-2 mb-sm-0" id="inlineFormInput" placeholder="Jane Doe">
-            </div>
-            <div class="col-lg-3">
-              <button type="submit" class="btn btn-primary">Sign Up</button>
-            </div>
-          </div>
-        </form>
+        <form class="mask" action="https://secfirst.us3.list-manage.com/subscribe/post?u=82b3d8f9b149832e060647ae7&amp;id=f73006cb61" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" role="form" target="_blank" novalidate="">
+                  <div class="form-group">
+                    <input type="email" value="" name="EMAIL" class="form-control input-lg email" id="mce-EMAIL" placeholder="Your email" required="">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-spaced">Join</button>
+                </form>
       </div>
     </div>
   </div>
