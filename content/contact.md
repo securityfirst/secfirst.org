@@ -42,10 +42,6 @@ class: "umbrella"
                             <i class="fas fa-lock"></i>
                             <span>PGP 2C1D3B4D</span>
                         </div>
-                        <div>
-                            <i class="fas fa-comment"></i>
-                            <span>jitsi: rorybyrne@jit.si</span>
-                        </div>
                     </div>
                 </div>
             </div>

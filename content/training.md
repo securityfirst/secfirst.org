@@ -1,7 +1,7 @@
 ---
 title: "Training"
 layout: "index"
-class: "tent"
+class: "umbrella"
 ---
 <div class="intro">
   <div class="container">
@@ -52,7 +52,7 @@ class: "tent"
     </div>
     <div class="col-lg-3">
       <div class="service-title">
-        <h3 class="green">FIRST AID</h3>
+        <h3 class="green">FIRST<br>AID</h3>
       </div>
       <p class="service-icon">
         <i class="fa fa-medkit"></i>
