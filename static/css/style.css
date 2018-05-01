@@ -298,6 +298,14 @@ footer {
       background-image: linear-gradient(to bottom, #94d5e8, #48b8d8); }
       .gradient-parent .gradient-box.blue .gradient-content {
         float: left; }
+    .gradient-parent .gradient-box.yellow {
+      background-image: linear-gradient(to bottom, #f4e05e, #F3BC2B); }
+      .gradient-parent .gradient-box.yellow .gradient-content {
+        float: left; }
+    .gradient-parent .gradient-box.green {
+      background-image: linear-gradient(to bottom, rgba(135, 189, 52, 0.73), #87bd34); }
+      .gradient-parent .gradient-box.green .gradient-content {
+        float: right; }
     .gradient-parent .gradient-box .organisation {
       font-family: Montserrat;
       font-size: 12px;
@@ -331,7 +339,7 @@ footer {
   padding: 100px 0; }
 
 .yellow4 {
-  background-color: #e5bd30;
+  background-color: #F3BC2B;
   text-align: center;
   padding: 50px 60px 80px; }
 

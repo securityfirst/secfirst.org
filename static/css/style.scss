@@ -19,7 +19,7 @@ $color_log_cabin_approx: #222222;
 $color_gallery_approx: #eeeeee;
 $color_cornflower_approx: #94d5e8;
 $color_shakespeare_approx: #48b8d8;
-$color_tulip_tree_approx: #e5bd30;
+$color_tulip_tree_approx: #F3BC2B;
 $color_glacier_approx: #76b6d8;
 $color_vin_rouge_approx: #a04056;
 $color_suva_gray_approx: #888888;
@@ -434,6 +434,18 @@ footer {
 			background-image: linear-gradient(to bottom, $color_cornflower_approx, $color_shakespeare_approx);
 			.gradient-content {
 				float: left;
+			}
+		}
+		&.yellow {
+			background-image: linear-gradient(to bottom, $color_energy_yellow_approx, $color_tulip_tree_approx);
+			.gradient-content {
+				float: left;
+			}
+		}
+		&.green {
+			background-image: linear-gradient(to bottom, $color_sushi_73_approx, $color_sushi_approx);
+			.gradient-content {
+				float: right;
 			}
 		}
 		.organisation {
