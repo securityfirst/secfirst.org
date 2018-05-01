@@ -27,17 +27,20 @@ class: "umbrella"
 <div class="gradient-parent row spacer-top150">
   <div class="col-lg-6 gradient-box red">
     <div class="gradient-content">
-      <div class="organisation">Organization</div>
+      <div class="organisation">FOR ORGANISATIONS</div>
       <h2>Manage security in your organisation?</h2>
       <p>Make your life easier by integrating into your workflow. Use our helpful resources and tools more.</p>
+      <a href="#">
+        <button type="button" class="btn btn-primary">COMING SOON.</button>
+      </a>
     </div>
   </div>
   <div class="col-lg-6 gradient-box blue">
     <div class="gradient-content">
-      <div class="organisation">Organization</div>
+      <div class="organisation">FOR ORGANISATIONS</div>
       <h2>Prefer it in person?</h2>
       <p>Security First offers trainings and services for individuals and organisations of all sizes.</p>
-      <a href="#">
+      <a href="{{< ref "training.md" >}}">
         <button type="button" class="btn btn-primary">Find out more.</button>
       </a>
     </div>
@@ -69,7 +72,7 @@ class: "umbrella"
 <div class="col-lg-6 tent-text">
   <h3>Build your own Umbrella</h3>
   <p>Want to publish your own security manual as an app? Do it yourself with our secure mobile CMS, Tent. Or let us customise Umbrella for you.</p>
-  <a href="{{< ref "tent.md" >}}"><button type="button" class="btn btn-primary">Request a quote</button></a>
+  <a href="mailto:info@secfirst.org?subject=Custom%20Umbrella"><button type="button" class="btn btn-primary">Request a quote</button></a>
 </div>
 {{< /showcase >}}
 <div class="get-umbrella">

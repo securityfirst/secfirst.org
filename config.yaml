@@ -51,10 +51,10 @@ menu:
   company:
   - name: about
     url: /about/
-  - name: mission
-    url: /mission/
+  # - name: mission
+  #   url: /mission/
   - name: principles
-    url: /principles/
+    url: /about/
 
 languages:
   en:
