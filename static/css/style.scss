@@ -63,7 +63,6 @@ $url_1: url(/imgs/yellow-back.png);
 	font-weight: bold;
 }
 
-
 body {
 	height: 100%;
 	font-family: $font_0, $font_1;
@@ -89,6 +88,9 @@ footer {
 		li {
 			list-style-type: none;
 			list-style: none;
+			a {
+				color: $color_mountain_mist_approx;
+			}
 		}
 	}
 }

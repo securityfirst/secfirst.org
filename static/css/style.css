@@ -41,6 +41,8 @@ footer {
     footer ul li {
       list-style-type: none;
       list-style: none; }
+      footer ul li a {
+        color: #979797; }
 
 .header {
   min-height: 60px;

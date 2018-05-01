@@ -6,7 +6,7 @@
               <h5>{{or (i18n .) . }}</h5>
               <ul>
                 {{range (index $.Site.Menus .)}}
-                  <li>{{or (i18n .Name) .Name}}</li>
+                  <li><a href="{{.URL}}">{{or (i18n .Name) .Name}}</a></li>
                 {{end}}
               </ul>
             </div>
