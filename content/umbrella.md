@@ -30,9 +30,6 @@ class: "umbrella"
       <div class="organisation">FOR ORGANISATIONS</div>
       <h2>Manage security in your organisation?</h2>
       <p>Make your life easier by integrating into your workflow. Use our helpful resources and tools more.</p>
-      <a href="#">
-        <button type="button" class="btn btn-primary">COMING SOON.</button>
-      </a>
     </div>
   </div>
   <div class="col-lg-6 gradient-box blue">
