@@ -10,7 +10,7 @@ class: "landing"
         <div class="d-none d-lg-block spacer-top100"></div>
         <h1 class="">Protect yourself.<br>Protect your team.</h1>
         <div class="home-description">Security First’s flagship Umbrella app gives you free digital and physical security advice when you need it most.</div>		
-        {{< download text="Download">}}
+        {{< download text="Download  Now">}}
       </div>
     </div>
   </div>
@@ -51,7 +51,7 @@ class: "landing"
 <div class="col-lg-6">
   <h3 class="spacer-top30">Build your own Umbrella<br> with Tent</h3>
   <p>Keeping your team up to date with the latest security information is hard. Want to publish your own security manual as an app? Do it yourself with our easy, secure, mobile content management system, Tent. Or let us customise Umbrella for you.</p>
-  <a href="{{< ref "tent.md" >}}" ><button type="button" class="btn btn-primary btn-spaced">Request a quote</button></a>
+  <a href="{{< ref "tent.md" >}}"><button type="button" class="btn btn-primary btn-spaced">Request a quote</button></a>
 </div>
 {{< /showcase >}}
 
@@ -62,7 +62,7 @@ class: "landing"
         <div class="col-lg-6 offset-lg-3">
           <h3>Training and Consultancy</h3>
           <p>Security First offers online and offline training and consultancy for individuals and organisations of all sizes.</p>
-          <button type="button" class="btn btn-primary btn-spaced">FIND OUT MORE</button>
+          <a href="{{< ref "training.md" >}}"><button type="button" class="btn btn-primary btn-spaced">FIND OUT MORE</button></a>
         </div>
       </div>
     </div>
@@ -76,7 +76,9 @@ class: "landing"
     </div>
     <div class="col-6">
       <p class="right spacer-top30">We're passionate about security. Find out more about us.</p>
+      <a href="{{< ref "about.md" >}}">
       <button type="button" class="btn btn-primary float-right">MEET SECURITY FIRST</button>
+      </a>
     </div>
   </div>
 </div>

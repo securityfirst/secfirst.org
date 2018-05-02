@@ -120,7 +120,7 @@ class: "tent"
         <p>Your translations need to stay current, but you can't start from scratch every time you make a change. So Tent integrates
           with standard tools like Transifex for better translation management.</p>
         <br>
-        <a href="./umbrella/">
+        <a href="https://www.localizationlab.org/community/" target="_blank">
           <button type="button" class="btn btn-white">Learn more about Transifex</button>
         </a>
       </div>
@@ -129,7 +129,7 @@ class: "tent"
         <h2>A tool with a philosophy</h2>
         <p>We built Tent to help more people access and share information. But we don't just want to make publishing faster and more
           secure--we want to help you work better. That's why we adopted the Content as Code standard.</p>
-        <a href="./umbrella/">
+        <a href="https://iilab.github.io/contentascode/" target="_blank">
           <button type="button" class="btn btn-white">Learn more about Content as Code</button>
         </a>
       </div>
@@ -138,7 +138,7 @@ class: "tent"
           <h2>Build it yourself...</h2>
           <p>With a bit of technical knowledge, you can deploy Tent in a few simple steps. Set up a Github repo or a self-hosted GitLab
             instance, an Oauth2 app, configure your server, and customize your app or website to utilize Tent content.</p>
-          <a href="./umbrella/">
+          <a href="https://github.com/securityfirst/tent" target="_blank">
             <button type="button" class="btn btn-white">FIND OUT HOW</button>
           </a>
       </div>
@@ -149,7 +149,7 @@ class: "tent"
           for our own Umbrella app.</p>
         <br>
         <br>
-        <a href="./umbrella/">
+        <a href="mailto:info@secfirst.org?subject=Custom%20Umbrella">
           <button type="button" class="btn btn-white">REQUEST A QUOTE</button>
         </a>
       </div>

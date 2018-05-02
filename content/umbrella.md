@@ -10,7 +10,7 @@ class: "umbrella"
         <div class="d-none d-lg-block spacer-top100"></div>
         <h1 class="">What is Umbrella?</h1>
         <div class="home-description">Umbrella is the only security handbook you'll ever need in a free, open source app. It's up-to-date information you can trust. And it's always in your pocket.</div>		
-        {{< download text="Download">}}
+        {{< download text="Download Now">}}
       </div>
       <div class="col-lg-6 d-none d-lg-block">
         <img class="hero-app-2" src="/imgs/hero-app-2.png"/>
