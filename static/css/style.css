@@ -281,7 +281,7 @@ footer {
     color: #222222; }
   .umbrella-row .umbrella-text span {
     color: #979797;
-    font-size: 14px; }
+    font-size: 16px; }
 
 .gradient-parent {
   width: 100%;
@@ -454,5 +454,9 @@ a:hover {
     padding: 10px 0;
     display: block;
     text-transform: uppercase; }
+
+.subparagraph {
+  color: #979797;
+  font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */

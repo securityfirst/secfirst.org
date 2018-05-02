@@ -126,7 +126,7 @@ class: "tent"
       </div>
       <div class="col-lg-5 blue4">
         <h6 class="uppercase white">MISSION</h6>
-        <h2>A tool with a philosophy</h2>
+        <h2>A tool with a<br> philosophy</h2>
         <p>We built Tent to help more people access and share information. But we don't just want to make publishing faster and more
           secure--we want to help you work better. That's why we adopted the Content as Code standard.</p>
         <a href="https://iilab.github.io/contentascode/" target="_blank">

@@ -397,7 +397,7 @@ footer {
 		}
 		span {
 			color: $color_mountain_mist_approx;
-			font-size: 14px;
+			font-size: 16px;
 		}
 	}
 	&.umbrella-row-left {
@@ -625,4 +625,8 @@ a:hover {
 			text-transform: uppercase;
 		}
 	}
+}
+.subparagraph {
+	color: #979797;
+	font-size: 16px;
 }
