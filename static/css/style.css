@@ -289,7 +289,7 @@ footer {
   margin-left: 0; }
   .gradient-parent .gradient-box {
     display: inline-block;
-    min-height: 365px;
+    min-height: 275px;
     padding: 40px; }
     .gradient-parent .gradient-box .gradient-content {
       max-width: 400px; }
@@ -458,5 +458,11 @@ a:hover {
 .subparagraph {
   color: #979797;
   font-size: 16px; }
+
+.principles_no {
+  color: #eeeeee;
+  font-size: 90px;
+  font-weight: bold;
+  margin-top: -25px; }
 
 /*# sourceMappingURL=style.css.map */
