@@ -1,7 +1,8 @@
 ---
-title: "Umbrella"
-layout: "index"
-class: "umbrella"
+title: Umbrella
+layout: index
+class: umbrella
+published: true
 ---
 <div class="intro">
   <div class="container">
@@ -45,19 +46,14 @@ class: "umbrella"
     <div class="gradient-content">
       <div class="organisation">UMBRELLA FOR NGOS</div>
       <a href="https://docs.google.com/document/d/1k3fdw0BMo2WQcPZV4qKf6VGMOSXDLpxTswkSsb8LB_c/edit?usp=sharing"><h2>A free, simple security app for NGOs</h2></a>
-      <a href="https://docs.google.com/document/d/1PzRetXkHoiZjm3R0UTMoevaLOn48otWoUp1XV7qFUZY/edit?usp=sharing"><h2>Calling all Security Managers</h2></a>
-    </div>
+      </div>
   </div>
   <div class="col-lg-6 gradient-box yellow">
     <div class="gradient-content">
-      <div class="organisation">UMBRELLA FOR ORGANISATIONS</div>
+      <div class="organisation">UMBRELLA FOR SECURITY MANAGERS</div>
       <h2>Manage security in your organisation?</h2>
-      <p>Make your life easier by integrating into your workflow. Use our helpful resources and tools more.</p>
-      <h2>Prefer it in person?</h2>
-      <p>Security First offers trainings and services for individuals and organisations of all sizes.</p>
-      <a href="{{< ref "training.md" >}}">
-        <button type="button" class="btn btn-primary">Find out more.</button>
-      </a>
+      <p>Make your life easier by integrating Umbrella into your workflow.</p>
+      <a href="https://docs.google.com/document/d/1PzRetXkHoiZjm3R0UTMoevaLOn48otWoUp1XV7qFUZY/edit?usp=sharing"><h2>Calling all Security Managers</h2></a>
     </div>
   </div>
 </div>
