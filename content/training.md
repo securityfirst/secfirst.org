@@ -9,7 +9,7 @@ published: true
     <div class="row">
       <div class="col-12">
         <div class="d-none d-lg-block spacer-top100"></div>
-        <h1 class="">Services and training on location and online</h1>
+        <h1 class="">Services and training</h1>
         <div class="home-description spacer-bottom100">
           <p>“Now I feel safe.” <br> -Journalist, Sub-Saharan Africa</p>
         </div>
@@ -74,7 +74,7 @@ published: true
       <p class="service-icon">
         <i class="fa fa-sitemap"></i>
       </p>
-      <p>A comprehensive assessment of your organisational security, including physical and cyber security, levels of risk and
+      <p>A comprehensive assessment of your organisational security, including physical and cybersecurity, levels of risk and
         risk mitigation.
       </p>
     </div>
@@ -85,7 +85,7 @@ published: true
       <p class="service-icon">
         <i class="fa fa-cogs"></i>
       </p>
-      <p>Test your cyber-security defences. We conduct penetration tests (ethical hacking) to find your digital weak spots and
+      <p>Test your cybersecurity defences. We conduct penetration tests (ethical hacking) to find your digital weak spots and
         recommend solutions.
       </p>
     </div>
@@ -159,13 +159,13 @@ published: true
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <p>“I enjoyed how interactive it was, allowing for participants to be engaged, so they would be more aware of issues. I also enjoyed how all-encompassing it was and the real life examples provided.”<br>
-          -Human Rights Defender, International NGO
+        <p>“I enjoyed how interactive it was, allowing for participants to be engaged, so they would be more aware of issues. I also enjoyed how all-encompassing it was and the real life examples provided.”<br><br>
+          Human rights defender, international NGO
         </p>
       </div>
       <div class="col-lg-6">
-        <p>“There are very practical components to the course that I will apply in my work and personal life to stay safe.”<br>
-          -Human Rights Defender, International NGO
+        <p>“There are very practical components to the course that I will apply in my work and personal life to stay safe.”<br><br>
+          Human rights defender, international NGO
         </p>
       </div>
     </div>
