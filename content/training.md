@@ -1,7 +1,8 @@
 ---
-title: "Training"
-layout: "index"
-class: "umbrella"
+title: Training
+layout: index
+class: umbrella
+published: true
 ---
 <div class="intro">
   <div class="container">
@@ -19,7 +20,7 @@ class: "umbrella"
 <div class="container service-list">
   <div class="row">
     <div class="col-lg-12 spacer-top100">
-      <h1>Training:</h1>
+      <h1>Training</h1>
     </div>
     <div class="col-lg-3">
       <div class="service-title">
@@ -64,7 +65,7 @@ class: "umbrella"
 <div class="container service-list">
   <div class="row">
     <div class="col-lg-12">
-      <h1>Services:</h1>
+      <h1>Services</h1>
     </div>
     <div class="col-lg-3">
       <div class="service-title">
