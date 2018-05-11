@@ -79,8 +79,8 @@ Download Umbrella from  <a href="https://play.google.com/store/apps/details?id=o
 		<div class="col-8 offset-lg-2">
 			<h3 class="green">Where’s the small print for Umbrella?</h3>
 			<ul>
-				<li><a href="https://secfirst.org/terms.html">Terms & Conditions</a></li>
-				<li><a href="https://secfirst.org/legal.html">Legal & Ethical </a></li>
+				<li><a href="https://secfirst.org/terms/">Terms & Conditions</a></li>
+				<li><a href="https://secfirst.org/legal/">Legal & Ethical </a></li>
 			</ul> 
 		</div>
 	</div>
