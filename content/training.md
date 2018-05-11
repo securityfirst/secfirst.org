@@ -146,9 +146,9 @@ published: true
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 spacer-top100 spacer-bottom100">
-        <p>If you’re not in the market for a group training, we welcome individuals to our open training sessions held in London, UK. We also make everything we know available for free. You can download and share Umbrella, and even deploy your own security manual in an app using our mobile CMS, Tent.</p>  
-        <p>But if you want to get safety off your to-do list and make it a reality, get in touch. We’ll design a training that your team will really use to stay secure in the office and in the field. Request a quote. 
-        </p>
+        <h2>Open Training</h2>
+<p>We welcome individuals to our open training sessions held in London, UK. Subscribe to our newsletter for upcoming dates.</p>
+<p>We also make everything we know available for free. You can download and share Umbrella, and even deploy your own security manual in an app using our mobile CMS, Tent.</p>
       </div>
     </div>
   </div>
