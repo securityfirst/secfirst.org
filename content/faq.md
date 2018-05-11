@@ -51,14 +51,14 @@ Download Umbrella from  <a href="https://play.google.com/store/apps/details?id=o
 	<div class="row">
 		<div class="col-8 offset-lg-2 spacer-bottom30">
 			<h3 class="green">If I tell Umbrella my location, who sees it?</h3>
-			<p>SIf you want to use the dashboard to get up-to-date information on risks in your area, enter your nearest city. We can’t see it, and we don’t track your location.</p>
+			<p>If you want to use the dashboard to get up-to-date information on risks in your area, enter your nearest city. We can’t see it, and we don’t track your location.</p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-8 offset-lg-2 spacer-bottom30">
 			<h3 class="green">How is Umbrella built?</h3>
 			<p>Umbrella code is available <a href="https://github.com/securityfirst/Umbrella_android">here</a>. The code has been positively audited by the independent security code audit company, iSec Partners. Read the full review <a href="https://www.nccgroup.trust/uk/our-research/security-first-umbrella/">here</a>.</p>
-			<p>Security First also participates in the HackerOne bug bounty system, an information security best practice. In return, you get free swag and recognition. Visit our page and read the rules <a href="https://hackerone.com/security_first">here</a>.</p>
+			<p>Security First also participates in the HackerOne bug bounty system, an information security best practice. In return, you get free swag and recognition. Visit our page and read the rules <a href="https://hackerone.com/security_first">here</a>. (Sign up for an account if you don’t have one.)</p>
 			<p>Umbrella is licensed under a GNU General Public Licence, GPLv3, and we encourage you to modify it under the licence conditions. <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">Find out more</a></p>
 		</div>
 	</div>
