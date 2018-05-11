@@ -1,7 +1,8 @@
 ---
-title: "Home"
-layout: "index"
-class: "landing"
+title: Home
+layout: index
+class: landing
+published: true
 ---
 <div class="intro">
   <div class="container">
@@ -51,7 +52,7 @@ class: "landing"
 <div class="col-lg-6">
   <h3 class="spacer-top30">Build your own Umbrella<br> with Tent</h3>
   <p class="subparagraph">Keeping your team up to date with the latest security information is hard. Want to publish your own security manual as an app? Do it yourself with our easy, secure, mobile content management system, Tent. Or let us customise Umbrella for you.</p>
-  <a href="{{< ref "tent.md" >}}"><button type="button" class="btn btn-primary btn-spaced">Request a quote</button></a>
+  <a href="{{< ref "tent.md" >}}"><button type="button" class="btn btn-primary btn-spaced">Find out more</button></a>
 </div>
 {{< /showcase >}}
 
