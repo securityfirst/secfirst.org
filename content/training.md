@@ -134,10 +134,11 @@ published: true
     <div class="col-lg-8 offset-lg-2 spacer-top70 spacer-bottom100">
       <h2>Why Choose Security First</h2>
       <p>Security First offers a unique perspective on security.</p>
-      <p>Our staff combine military, technology, and human rights experience. We have developed and implemented security solutions for NGOs, aid organisations and media groups in some of the world’s most inhospitable environments. USAID cited the thirty-five module training program developed by Security First CEO Rory Byrne as the industry-leading standard. It’s the basis for our free Android app, Umbrella.</p>
+      <p>Our staff combine military, technology, and human rights experience. We have developed and implemented security solutions for NGOs, aid organisations and media groups in some of the world’s most inhospitable environments. USAID cited the thirty-five module training program developed by Security First CEO Rory Byrne as the industry-leading standard.</p>
       <p>But what we understand best is people. We’ve trained hundreds of them. And we know that you can have all the information in the world at your fingertips (hi, Google!) and still have trouble acting on it without a little help.</p>
-      <p>We also know the best training won’t work if you don’t implement what you learn. You forget. Things change. Your adversaries evolve.</p>
+      <p>We also know the best training won’t work if you don’t implement what you learn. You forget. Things change. Your adversaries evolve.</p> 
       <p>So we design trainings that make it easier for you to stay secure, for good.</p>
+<p><a href="mailto:info@secfirst.org?subject=Custom%20Training"> <button class="btn btn-white" type="button">REQUEST A QUOTE</button> </a></p>
     </div>
   </div>
 </div>
