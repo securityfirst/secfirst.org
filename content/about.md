@@ -83,7 +83,8 @@ published: true
 
 			<h1 id="content" class="spacer-top100 green">Funding</h1>
 			<p>We aim to publish all our information for free. We are grateful to the grant-making organizations that have made this possible. Umbrella was launched with the generous support of the Open Technology Fund.</p>
-            <p>We also offer paid services, for when you need training and documentation customized for your team. <a href="{{< ref "training.md" >}}">Learn more</a> about our training and services, or request a quote for a white label version of our signature security app, Umbrella.
+            <p>We also offer paid services, for when you need training and documentation customized for your team. <a href="{{< ref "training.md" >}}">Learn more</a> about our training and services, or <a href="mailto:info@secfirst.org?subject=Custom%20Umbrella">request a quote
+        </a> for a white label version of our signature security app, Umbrella.
             </p>
 		</div>
 	</div>
