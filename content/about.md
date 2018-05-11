@@ -49,7 +49,8 @@ published: true
 				</div>
 				<div class="col-10">
 					<h2>Community</h2>
-					<p>Anyone can contribute code or content, and reuse it for free. We adhere to the Content as Code standard to promote collaboration.</p>
+					<p>Anyone can contribute code or content, and reuse it for free. We adhere to the <a href="https://iilab.github.io/contentascode/">
+         Content as Code</a> standard to promote collaboration.</p>
 				</div>
 			</div>
 			<div class="row spacer-top30">
