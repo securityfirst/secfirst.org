@@ -28,16 +28,16 @@ Download Umbrella from  <a href="https://play.google.com/store/apps/details?id=o
 		<div class="col-8 offset-lg-2 spacer-bottom30">
 			<h3 class="green">What can I do with Umbrella?</h3>
 			<ul>
-				<li>Lessons help you learn best practices, from beginner to advanced</li>
-				<li>Checklists make good advice easy to implement</li>
-				<li>Guides help you work with recommended security tools</li>
-				<li>The Dashboard helps you track your progress</li>
-				<li>Feeds update you with security alerts from trusted sources like the UN, Centres for Disease Control, Global Disaster Warning System and US State Department</li>
-				<li>Forms help you report incidents effectively</li>
-				<li>Encryption and passwords help ensure your information stays as secure as possible</li>
+				<li>Lessons help you learn best practices, from beginner to advanced.</li>
+				<li>Checklists make good advice easy to implement.</li>
+				<li>Guides help you work with recommended security tools.</li>
+				<li>The Dashboard helps you track your progress.</li>
+				<li>Feeds update you with security alerts from trusted sources like the UN, Centres for Disease Control, Global Disaster Warning System and US State Department.</li>
+				<li>Forms help you report incidents effectively.</li>
+				<li>Encryption and passwords help ensure your information stays as secure as possible.</li>
 				<li>Masking functionality and integration with  <a href="https://play.google.com/store/apps/details?id=info.guardianproject.ripple">
          Ripple
-        </a>, a panic button from the Guardian Project, help you hide your security practices in an emergency</li>
+        </a>, a panic button from the Guardian Project, help you hide your security practices in an emergency.</li>
 			</ul>
 		</div>
 	</div>
@@ -59,7 +59,7 @@ Download Umbrella from  <a href="https://play.google.com/store/apps/details?id=o
 			<h3 class="green">How is Umbrella built?</h3>
 			<p>Umbrella code is available <a href="https://github.com/securityfirst/Umbrella_android">here</a>. The code has been positively audited by the independent security code audit company, iSec Partners. Read the full review <a href="https://www.nccgroup.trust/uk/our-research/security-first-umbrella/">here</a>.</p>
 			<p>Security First also participates in the HackerOne bug bounty system, an information security best practice. In return, you get free swag and recognition. Visit our page and read the rules <a href="https://hackerone.com/security_first">here</a>. (Sign up for an account if you don’t have one.)</p>
-			<p>Umbrella is licensed under a GNU General Public Licence, GPLv3, and we encourage you to modify it under the licence conditions. <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">Find out more</a></p>
+			<p>Umbrella is licensed under a GNU General Public Licence, GPLv3, and we encourage you to modify it under the licence conditions. <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">Find out more</a>.</p>
 		</div>
 	</div>
 	<div class="row">
@@ -79,8 +79,8 @@ Download Umbrella from  <a href="https://play.google.com/store/apps/details?id=o
 		<div class="col-8 offset-lg-2">
 			<h3 class="green">Where’s the small print for Umbrella?</h3>
 			<ul>
-				<li><a href="https://secfirst.org/terms.html">Terms</a></li>
-				<li><a href="https://secfirst.org/legal.html">Legal</a></li>
+				<li><a href="https://secfirst.org/terms.html">Terms & Conditions</a></li>
+				<li><a href="https://secfirst.org/legal.html">Legal & Ethical </a></li>
 			</ul> 
 		</div>
 	</div>
