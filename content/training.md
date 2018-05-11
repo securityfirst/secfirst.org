@@ -1,14 +1,15 @@
 ---
-title: "Training"
-layout: "index"
-class: "umbrella"
+title: Training
+layout: index
+class: umbrella
+published: true
 ---
 <div class="intro">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="d-none d-lg-block spacer-top100"></div>
-        <h1 class="">Services and training on location and online</h1>
+        <h1 class="">Services and training</h1>
         <div class="home-description spacer-bottom100">
           <p>“Now I feel safe.” <br> -Journalist, Sub-Saharan Africa</p>
         </div>
@@ -19,7 +20,7 @@ class: "umbrella"
 <div class="container service-list">
   <div class="row">
     <div class="col-lg-12 spacer-top100">
-      <h1>Training:</h1>
+      <h1>Training</h1>
     </div>
     <div class="col-lg-3">
       <div class="service-title">
@@ -64,7 +65,7 @@ class: "umbrella"
 <div class="container service-list">
   <div class="row">
     <div class="col-lg-12">
-      <h1>Services:</h1>
+      <h1>Services</h1>
     </div>
     <div class="col-lg-3">
       <div class="service-title">
@@ -73,7 +74,7 @@ class: "umbrella"
       <p class="service-icon">
         <i class="fa fa-sitemap"></i>
       </p>
-      <p>A comprehensive assessment of your organisational security, including physical and cyber security, levels of risk and
+      <p>A comprehensive assessment of your organisational security, including physical and cybersecurity, levels of risk and
         risk mitigation.
       </p>
     </div>
@@ -84,7 +85,7 @@ class: "umbrella"
       <p class="service-icon">
         <i class="fa fa-cogs"></i>
       </p>
-      <p>Test your cyber-security defences. We conduct penetration tests (ethical hacking) to find your digital weak spots and
+      <p>Test your cybersecurity defences. We conduct penetration tests (ethical hacking) to find your digital weak spots and
         recommend solutions.
       </p>
     </div>
@@ -133,10 +134,11 @@ class: "umbrella"
     <div class="col-lg-8 offset-lg-2 spacer-top70 spacer-bottom100">
       <h2>Why Choose Security First</h2>
       <p>Security First offers a unique perspective on security.</p>
-      <p>Our staff combine military, technology, and human rights experience. We have developed and implemented security solutions for NGOs, aid organisations and media groups in some of the world’s most inhospitable environments. USAID cited the thirty-five module training program developed by Security First CEO Rory Byrne as the industry-leading standard. It’s the basis for our free Android app, Umbrella.</p>
+      <p>Our staff combine military, technology, and human rights experience. We have developed and implemented security solutions for NGOs, aid organisations and media groups in some of the world’s most inhospitable environments. USAID cited the thirty-five module training program developed by Security First CEO Rory Byrne as the industry-leading standard.</p>
       <p>But what we understand best is people. We’ve trained hundreds of them. And we know that you can have all the information in the world at your fingertips (hi, Google!) and still have trouble acting on it without a little help.</p>
-      <p>We also know the best training won’t work if you don’t implement what you learn. You forget. Things change. Your adversaries evolve.</p>
+      <p>We also know the best training won’t work if you don’t implement what you learn. You forget. Things change. Your adversaries evolve.</p> 
       <p>So we design trainings that make it easier for you to stay secure, for good.</p>
+<p><a href="mailto:info@secfirst.org?subject=Custom%20Training"> <button class="btn btn-white" type="button">REQUEST A QUOTE</button> </a></p>
     </div>
   </div>
 </div>
@@ -145,9 +147,9 @@ class: "umbrella"
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 spacer-top100 spacer-bottom100">
-        <p>If you’re not in the market for a group training, we welcome individuals to our open training sessions held in London, UK. We also make everything we know available for free. You can download and share Umbrella, and even deploy your own security manual in an app using our mobile CMS, Tent.</p>  
-        <p>But if you want to get safety off your to-do list and make it a reality, get in touch. We’ll design a training that your team will really use to stay secure in the office and in the field. Request a quote. 
-        </p>
+        <h2>Open Training</h2>
+<p>We hold periodic group training sessions in London, UK, which are open to individuals of any level. Subscribe to our newsletter for upcoming dates.</p>
+<p>We also make as much information as we can available for free. Download and share Umbrella, and take our online digital security courses with Advocacy Assembly (see below).</p>
       </div>
     </div>
   </div>
@@ -157,13 +159,13 @@ class: "umbrella"
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <p>“I enjoyed how interactive it was, allowing for participants to be engaged, so they would be more aware of issues. I also enjoyed how all-encompassing it was and the real life examples provided.”<br>
-          -Human Rights Defender, International NGO
+        <p>“I enjoyed how interactive it was, allowing for participants to be engaged, so they would be more aware of issues. I also enjoyed how all-encompassing it was and the real life examples provided.”<br><br>
+          Human rights defender, international NGO
         </p>
       </div>
       <div class="col-lg-6">
-        <p>“There are very practical components to the course that I will apply in my work and personal life to stay safe.”<br>
-          -Human Rights Defender, International NGO
+        <p>“There are very practical components to the course that I will apply in my work and personal life to stay safe.”<br><br>
+          Human rights defender, international NGO
         </p>
       </div>
     </div>

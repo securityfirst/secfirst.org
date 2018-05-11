@@ -51,8 +51,6 @@ published: true
   <div class="col-lg-6 gradient-box yellow">
     <div class="gradient-content">
       <div class="organisation">UMBRELLA FOR SECURITY MANAGERS</div>
-      <h2>Manage security in your organisation?</h2>
-      <p>Make your life easier by integrating Umbrella into your workflow.</p>
       <a href="https://docs.google.com/document/d/1PzRetXkHoiZjm3R0UTMoevaLOn48otWoUp1XV7qFUZY/edit?usp=sharing"><h2>Calling all Security Managers</h2></a>
     </div>
   </div>

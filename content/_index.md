@@ -1,7 +1,8 @@
 ---
-title: "Home"
-layout: "index"
-class: "landing"
+title: Home
+layout: index
+class: landing
+published: true
 ---
 <div class="intro">
   <div class="container">
@@ -51,7 +52,7 @@ class: "landing"
 <div class="col-lg-6">
   <h3 class="spacer-top30">Build your own Umbrella<br> with Tent</h3>
   <p class="subparagraph">Keeping your team up to date with the latest security information is hard. Want to publish your own security manual as an app? Do it yourself with our easy, secure, mobile content management system, Tent. Or let us customise Umbrella for you.</p>
-  <a href="{{< ref "tent.md" >}}"><button type="button" class="btn btn-primary btn-spaced">Request a quote</button></a>
+  <a href="{{< ref "tent.md" >}}"><button type="button" class="btn btn-primary btn-spaced">Find out more</button></a>
 </div>
 {{< /showcase >}}
 
@@ -70,12 +71,12 @@ class: "landing"
 </div>
 
 <div id="contact" class="container">
-  <div class="row spacer-top150 spacer-bottom150">
-    <div class="col-6">
-      <h3>GET IN<br>TOUCH<br>WITH US</h3>
-    </div>
-    <div class="col-6">
-      <p class="right spacer-top30">We're passionate about security. Find out more about us.</p>
+<div class="row spacer-top150 spacer-bottom150">
+<div class="col-6">
+<h3>WE'RE PASSIONATE<br />ABOUT SECURITY</h3>
+</div>
+<div class="col-6">
+<p class="right spacer-top30">Find out more about us.</p>
       <a href="{{< ref "about.md" >}}">
       <button type="button" class="btn btn-primary float-right">MEET SECURITY FIRST</button>
       </a>

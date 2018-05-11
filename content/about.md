@@ -1,7 +1,8 @@
 ---
 title: About
-layout: "index"
-class: "landing"
+layout: index
+class: landing
+published: true
 ---
 <div class="intro">
 	<div class="container">
@@ -39,7 +40,7 @@ class: "landing"
 				</div>
 				<div class="col-10">
 					<h2>Transparency</h2>
-					<p>We publish our source code and content for anyone to check. Please compile it, review it, test it, break it, hack it, and tell us what you think. If you find a security critical issue, check out our responsible disclosure policy.</p>
+					<p>We publish our source code and content for anyone to check. Please compile it, review it, test it, break it, hack it, and tell us what you think <a href="https://github.com/securityfirst/Umbrella_android">here</a>. If you find a security critical issue, check out our <a href="https://secfirst.org/legal.html">responsible disclosure policy.</a></p>
 				</div>
 			</div>
 			<div class="row spacer-top30">
@@ -48,7 +49,8 @@ class: "landing"
 				</div>
 				<div class="col-10">
 					<h2>Community</h2>
-					<p>Anyone can contribute code or content, and reuse it for free. We adhere to the Content as Code standard to promote collaboration.</p>
+					<p>Anyone can contribute code or content, and reuse it for free. We adhere to the <a href="https://iilab.github.io/contentascode/">
+         Content as Code</a> standard to promote collaboration.</p>
 				</div>
 			</div>
 			<div class="row spacer-top30">
@@ -80,9 +82,10 @@ class: "landing"
 		<div class="col-8 offset-lg-2 spacer-top100 spacer-bottom100">
 
 			<h1 id="content" class="spacer-top100 green">Funding</h1>
-			<p>We aim to publish all our information for free. We also offer paid services, for when you need training and documentation customized for your team. Learn more about our training and services, or request a quote for a white label version of our signature security app, Umbrella.</p>
-			<p>Security First is grateful to the grant-making organizations that have made our work possible. Umbrella was launched with the generous support of the Open Technology Fund.
-			</p>
+			<p>We aim to publish all our information for free. We are grateful to the grant-making organizations that have made this possible. Umbrella was launched with the generous support of the Open Technology Fund.</p>
+            <p>We also offer paid services, for when you need training and documentation customized for your team. <a href="{{< ref "training.md" >}}">Learn more</a> about our training and services, or <a href="mailto:info@secfirst.org?subject=Custom%20Umbrella">request a quote
+        </a> for a white label version of our signature security app, Umbrella.
+            </p>
 		</div>
 	</div>
 </div>
@@ -107,4 +110,4 @@ class: "landing"
 			</ul>
 		</div>
 	</div>
-</div>		
+</div>
