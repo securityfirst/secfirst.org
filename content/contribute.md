@@ -1,7 +1,8 @@
 ---
 title: Contribute
-layout: "index"
-class: "tent"
+layout: index
+class: tent
+published: true
 ---
 
 <div class="intro">
@@ -32,10 +33,9 @@ class: "tent"
 				We’re also designing a collaborative <a href="https://iilab.github.io/contentascode/">workflow</a> to help you submit corrections. If you already use Github, you can open a new issue directly on our <a href="https://github.com/securityfirst/Umbrella_content/issues">content repo</a>.</p>
 
 				<h2 id="test" class="spacer-top30 green">Test</h2>
-
-				<p>We are always looking for people to test and quality assure our app. Drop us a mail if you can help. (info@secfirst.org)
-					Translate
-				Umbrella is being translated into more than a dozen languages, and you can help.</p>
+<p>We are always looking for people to test and quality assure our app. Drop us a mail if you can help. (info@secfirst.org)</p>
+<h2 id="translate" class="spacer-top30 green">Translate</h2>
+<p>Umbrella is being translated into more than a dozen languages, and you can help.</p>
 
 				<ol>
 					<li>Create a free account with <a href="https://www.transifex.com/">Transifex</a>.</li>
