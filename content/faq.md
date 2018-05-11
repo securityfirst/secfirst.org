@@ -35,7 +35,9 @@ Download Umbrella from  <a href="https://play.google.com/store/apps/details?id=o
 				<li>Feeds update you with security alerts from trusted sources like the UN, Centres for Disease Control, Global Disaster Warning System and US State Department</li>
 				<li>Forms help you report incidents effectively</li>
 				<li>Encryption and passwords help ensure your information stays as secure as possible</li>
-				<li>Masking functionality and integration with the Ripple App help you hide your security practices in an emergency</li>
+				<li>Masking functionality and integration with  <a href="https://play.google.com/store/apps/details?id=info.guardianproject.ripple">
+         Ripple
+        </a>, a panic button from the Guardian Project, help you hide your security practices in an emergency</li>
 			</ul>
 		</div>
 	</div>
