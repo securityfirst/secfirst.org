@@ -71,12 +71,12 @@ published: true
 </div>
 
 <div id="contact" class="container">
-  <div class="row spacer-top150 spacer-bottom150">
-    <div class="col-6">
-      <h3>GET IN<br>TOUCH<br>WITH US</h3>
-    </div>
-    <div class="col-6">
-      <p class="right spacer-top30">We're passionate about security. Find out more about us.</p>
+<div class="row spacer-top150 spacer-bottom150">
+<div class="col-6">
+<h3>WE'RE PASSIONATE<br />ABOUT SECURITY</h3>
+</div>
+<div class="col-6">
+<p class="right spacer-top30">Find out more about us.</p>
       <a href="{{< ref "about.md" >}}">
       <button type="button" class="btn btn-primary float-right">MEET SECURITY FIRST</button>
       </a>
