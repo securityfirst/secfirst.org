@@ -10,8 +10,14 @@ published: true
       <div class="col-lg-12 col-md-12">
         <div class="d-none d-lg-block spacer-top100"></div>
         <h1 class="">What is Umbrella?</h1>
-        <div class="home-description spacer-bottom100">Umbrella is a free, open source app with everything you need to mitigate the most common digital and physical security threats in one place. It’s compatible with Android 4.0 and higher. It is currently in public Beta. <br><br>
-Download Umbrella on your Android device at the Google Play, F-Droid, and Amazon app stores. We are fundraising to develop an iOS version for iPhone. 
+        <div class="home-description spacer-bottom100">Umbrella is a free, open source Android app with everything you need to mitigate the most common digital and physical security threats in one place. It’s compatible with Android 4.0 and higher. It is currently in public Beta. An iOS version is under development. <br><br>
+Download Umbrella from  <a href="https://play.google.com/store/apps/details?id=org.secfirst.umbrella">
+         Google Play
+        </a>,  <a href="https://secfirst.org/fdroid/repo/?fingerprint=39EB57052F8D684514176819D1645F6A0A7BD943DBC31AB101949006AC0BC228">
+         F-Droid
+        </a>, and <a href="https://www.amazon.com/Security-First-Umbrella-made-easy/dp/B01AKN9M1Y">
+         Amazon
+        </a>. 
 </div>		
       </div>
     </div>
