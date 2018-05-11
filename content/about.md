@@ -82,9 +82,9 @@ published: true
 		<div class="col-8 offset-lg-2 spacer-top100 spacer-bottom100">
 
 			<h1 id="content" class="spacer-top100 green">Funding</h1>
-			<p>We aim to publish all our information for free. We also offer paid services, for when you need training and documentation customized for your team. Learn more about our training and services, or request a quote for a white label version of our signature security app, Umbrella.</p>
-			<p>Security First is grateful to the grant-making organizations that have made our work possible. Umbrella was launched with the generous support of the Open Technology Fund.
-			</p>
+			<p>We aim to publish all our information for free. We are grateful to the grant-making organizations that have made this possible. Umbrella was launched with the generous support of the Open Technology Fund.</p>
+            <p>We also offer paid services, for when you need training and documentation customized for your team. <a href="{{< ref "training.md" >}}">Learn more</a> about our training and services, or request a quote for a white label version of our signature security app, Umbrella.
+            </p>
 		</div>
 	</div>
 </div>
