@@ -1,7 +1,8 @@
 ---
 title: About
-layout: "index"
-class: "landing"
+layout: index
+class: landing
+published: true
 ---
 <div class="intro">
 	<div class="container">
@@ -39,7 +40,7 @@ class: "landing"
 				</div>
 				<div class="col-10">
 					<h2>Transparency</h2>
-					<p>We publish our source code and content for anyone to check. Please compile it, review it, test it, break it, hack it, and tell us what you think. If you find a security critical issue, check out our responsible disclosure policy.</p>
+					<p>We publish our source code and content for anyone to check. Please compile it, review it, test it, break it, hack it, and tell us what you think. If you find a security critical issue, check out our <a href="https://secfirst.org/legal.html">responsible disclosure policy.</a></p>
 				</div>
 			</div>
 			<div class="row spacer-top30">
@@ -107,4 +108,4 @@ class: "landing"
 			</ul>
 		</div>
 	</div>
-</div>		
+</div>
