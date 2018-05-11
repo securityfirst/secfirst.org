@@ -148,8 +148,8 @@ published: true
     <div class="row">
       <div class="col-lg-8 offset-lg-2 spacer-top100 spacer-bottom100">
         <h2>Open Training</h2>
-<p>We welcome individuals to our open training sessions held in London, UK. Subscribe to our newsletter for upcoming dates.</p>
-<p>We also make everything we know available for free. You can download and share Umbrella, and even deploy your own security manual in an app using our mobile CMS, Tent.</p>
+<p>We hold periodic group training sessions in London, UK, which are open to individuals of any level. Subscribe to our newsletter for upcoming dates.</p>
+<p>We also make as much information as we can available for free. Download and share Umbrella, and take our online digital security courses with Advocacy Assembly (see below).</p>
       </div>
     </div>
   </div>
