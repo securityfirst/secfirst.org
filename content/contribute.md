@@ -73,11 +73,11 @@ published: true
 
 				<h2 id="bug-report" class="spacer-top30 green">Bug Report</h2>
 
-				<p>If something is broken, please let us know so we can fix it! Please fill a bug report on Github (<a href="https://github.com/securityfirst/Umbrella_android/issues">https://github.com/securityfirst/Umbrella_android/issues</a>) or drop us a mail at info@secfirst.org.</p>
+				<p>If something is broken, please let us know so we can fix it! Report bugs by creating an issue on GitHub (<a href="https://github.com/securityfirst/Umbrella_android/issues">https://github.com/securityfirst/Umbrella_android/issues</a>) or drop us an <a href="info@secfirst.org">email</a>.</p>
 
 				<h2 id="responsible-disclosure-and-bug-bounty" class="spacer-top30 green">Responsible Disclosure and Bug Bounty</h2>
 
-				<p>Security First participates in the HackerOne bug bounty system, an information security best practice. In return, you get free swag and recognition. Visit our page and read the rules <a href="https://hackerone.com/security_first">here</a>. (Sign up for an account if you don’t have one.)</p>
+				<p>If you find a security critical issue, please read our <a href="https://secfirst.org/legal.html">responsible disclosure policy.</a></p> <p>Security First participates in the HackerOne bug bounty system, an information security best practice. In return, you get free swag and recognition. Visit our page and read the rules <a href="https://hackerone.com/security_first">here</a>. (Sign up for an account if you don’t have one.)</p>
 
 				<h2 id="chat-to-us" class="spacer-top30 green">Chat to us</h2>
 
