@@ -14,7 +14,9 @@ published: true
 				<div class="home-description spacer-bottom100">
 					<ul>
 						<li> Review Umbrella on your app store</li>
-						<li> Follow us on Facebook or Twitter</li>
+						<li> Follow us on  <a href="https://www.facebook.com/secfirst.org">Facebook</a> or <a href="https://twitter.com/_SecurityFirst">
+         Twitter
+        </a>.</li>
 						<li> Share Umbrella with your network</li>
 						<li> Tell us how we can help you stay secure! Drop a mail to info@secfirst.org. </li>
 					</ul>
