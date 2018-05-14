@@ -17,8 +17,8 @@ published: true
 						<li> Follow us on  <a href="https://www.facebook.com/secfirst.org">Facebook</a> or <a href="https://twitter.com/_SecurityFirst">
          Twitter
         </a>.</li>
-						<li> Share Umbrella with your network</li>
-						<li> Tell us how we can help you stay secure! Drop a mail to info@secfirst.org. </li>
+						<li> Share Umbrella with your team.</li>
+						<li> Tell us how we can help you stay secure! Drop us an <a href="info@secfirst.org">email</a> anytime. </li>
 					</ul>
 				</div>
 			</div>
