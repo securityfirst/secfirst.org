@@ -1,7 +1,8 @@
 ---
 Title: Contact
-layout: "index"
-class: "umbrella"
+layout: index
+class: umbrella
+published: true
 ---
 <div class="intro">
   <div class="container">
@@ -18,11 +19,11 @@ class: "umbrella"
                         </div>
                         <div>
                             <i class="fas fa-envelope"></i>
-                            <span>info@secfirst.org</span>
+                            <span><a href="info@secfirst.org">info@secfirst.org</a></span>
                         </div>
                         <div>
                             <i class="fas fa-globe"></i>
-                            <span>www.secfirst.org</span>
+                            <span><a href="https://secfirst.org/">www.secfirst.org</a></span>
                         </div>
                     </div>
                 </div>
@@ -36,7 +37,7 @@ class: "umbrella"
                         </div>
                         <div>
                             <i class="fab fa-twitter"></i>
-                            <span>@_securityfirst</span>
+                            <span> <a href="https://twitter.com/_SecurityFirst">@_securityfirst</a></span>
                         </div>
                         <div>
                             <i class="fas fa-lock"></i>
