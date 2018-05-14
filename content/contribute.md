@@ -36,7 +36,7 @@ published: true
         </a> or read our tutorial on <a href="https://docs.google.com/document/d/1y9TMmvkOh_DiVm6Qdw9imEHomGabcbHxJhHFVRtcXeQ/edit?usp=sharing"><h2>how to contribute content for Umbrella</h2></a>.</p>
 
 				<h2 id="test" class="spacer-top30 green">Test</h2>
-<p>We are always looking for people to test and quality assure our app. Drop us a mail if you can help. (info@secfirst.org)</p>
+<p>We are always looking for volunteers for app testing and quality assurance. Drop us an <a href="info@secfirst.org">email</a> if you can help.</p>
 <h2 id="translate" class="spacer-top30 green">Translate</h2>
 <p>Umbrella is being translated into more than a dozen languages, and you can help.</p>
 
@@ -46,7 +46,7 @@ published: true
 					<li>Choose your language and translate something. Even a single sentence helps!</li>
 				</ol>
 
-				<p>The awesome <a href="http://www.localizationlab.org">Localization Lab</a> manage volunteer translators for Umbrella. If you are an organisation, the fastest way to see Umbrella in your language is to donate money for us to hire a translator. Thank you!</p>
+				<p>The awesome <a href="http://www.localizationlab.org">Localization Lab</a> manage volunteer translators for Umbrella (read their guide <a href="https://www.localizationlab.org/guide">here</a>). If you are an organisation, the fastest way to see Umbrella in your language is to donate money for us to hire a translator. Thank you!</p>
 
 				<h2 id="code" class="spacer-top30 green">Code</h2>
 
