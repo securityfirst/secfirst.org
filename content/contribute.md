@@ -79,10 +79,6 @@ published: true
 
 				<p>If you find a security critical issue, please read our <a href="https://secfirst.org/legal.html">responsible disclosure policy.</a></p> <p>Security First participates in the HackerOne bug bounty system, an information security best practice. In return, you get free swag and recognition. Visit our page and read the rules <a href="https://hackerone.com/security_first">here</a>. (Sign up for an account if you don’t have one.)</p>
 
-				<h2 id="chat-to-us" class="spacer-top30 green">Chat to us</h2>
-
-				<p>Come say hello. We have a channel on the Internet Freedom Festival Community Mattermost! (<a href="https://community.internetfreedomfestival.org/community/channels/umbrella-app">https://community.internetfreedomfestival.org/community/channels/umbrella-app</a>) (Sign up for an account if you don’t have one.)</p>
-
 				<h2 id="say-hello-in-real-life" class="spacer-top30 green">Say hello in real life</h2>
 
 				<p class="spacer-bottom100">Our team are based in Dublin, San Francisco, Madrid, Bristol and London. Let’s grab a coffee. Drop us a mail at info@secfirst.org.</p>
