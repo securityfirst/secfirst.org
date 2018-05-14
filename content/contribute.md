@@ -13,7 +13,7 @@ published: true
 				<h1 class="">Spread the Word</h1>
 				<div class="home-description spacer-bottom100">
 					<ul>
-						<li> Review Umbrella on your app store</li>
+						<li> Review Umbrella on  <a href="https://play.google.com/store/apps/details?id=org.secfirst.umbrella">Google Play</a> or <a href="https://www.amazon.com/Security-First-Umbrella-made-easy/dp/B01AKN9M1Y">Amazon</a>.</li>
 						<li> Follow us on  <a href="https://www.facebook.com/secfirst.org">Facebook</a> or <a href="https://twitter.com/_SecurityFirst">
          Twitter
         </a>.</li>
