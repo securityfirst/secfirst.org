@@ -81,7 +81,7 @@ published: true
 
 				<h2 id="say-hello-in-real-life" class="spacer-top30 green">Say hello in real life</h2>
 
-				<p class="spacer-bottom100">Our team are based in Dublin, San Francisco, Madrid, Bristol and London. Let’s grab a coffee. Drop us a mail at info@secfirst.org.</p>
+				<p class="spacer-bottom100">Our team are based in Dublin, San Francisco, Madrid, Bristol and London. Let’s grab a coffee. Drop us an <a href="info@secfirst.org">email</a> at info@secfirst.org.</p>
 
 			</div>
 		</div>
