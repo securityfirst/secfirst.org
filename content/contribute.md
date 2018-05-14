@@ -18,7 +18,7 @@ published: true
          Twitter
         </a>.</li>
 						<li> Share Umbrella with your team.</li>
-						<li> Tell us how we can help you stay secure! Drop us an <a href="info@secfirst.org">email</a> anytime. </li>
+						<li> Tell us how we can help you stay secure! Drop us an <a href="info@secfirst.org">email</a>, we'd love to hear from you. </li>
 					</ul>
 				</div>
 			</div>
@@ -31,8 +31,9 @@ published: true
 
 			<h2 id="content" class="spacer-top100 green">Content</h2>
 
-			<p>We warmly welcome corrections that will improve Umbrella content. Reach out at any time through our secure contact form <a href="info@secfirst.org">email</a>.<br>
-				We’re also designing a collaborative <a href="https://iilab.github.io/contentascode/">workflow</a> to help you submit corrections. If you already use Github, you can open a new issue directly on our <a href="https://github.com/securityfirst/Umbrella_content/issues">content repo</a>.</p>
+			<p>We warmly welcome corrections that will improve Umbrella content. Send us an <a href="info@secfirst.org">email</a> at any time.<br>
+				We’re also designing a collaborative <a href="https://iilab.github.io/contentascode/">workflow</a> to help you submit corrections. Visit our <a href="https://github.com/securityfirst/tent-content">content repo
+        </a> or read our tutorial on <a href="https://docs.google.com/document/d/1y9TMmvkOh_DiVm6Qdw9imEHomGabcbHxJhHFVRtcXeQ/edit?usp=sharing"><h2>how to contribute content for Umbrella</h2></a>.</p>
 
 				<h2 id="test" class="spacer-top30 green">Test</h2>
 <p>We are always looking for people to test and quality assure our app. Drop us a mail if you can help. (info@secfirst.org)</p>
