@@ -291,8 +291,9 @@ footer {
     display: inline-block;
     min-height: 275px;
     padding: 40px; }
-    .gradient-parent .gradient-box .gradient-content {
-      max-width: 400px; }
+    @media (min-width: 992px) {
+      .gradient-parent .gradient-box .gradient-content {
+        min-width: 430px; } }
     .gradient-parent .gradient-box.red {
       background-image: linear-gradient(to bottom, #dd6790, #b83657); }
       .gradient-parent .gradient-box.red .gradient-content {
@@ -316,12 +317,13 @@ footer {
       letter-spacing: 2.4px;
       color: white;
       text-transform: uppercase; }
-    .gradient-parent .gradient-box h2 {
-      font-size: 22px;
-      font-weight: bold;
-      line-height: 1.45;
-      color: #222222;
-      margin-bottom: 50px; }
+    .gradient-parent .gradient-box li {
+      margin: 30px 0; }
+      .gradient-parent .gradient-box li a {
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.45;
+        color: #222222; }
     .gradient-parent .gradient-box p {
       margin-bottom: 50px;
       color: white;

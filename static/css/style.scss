@@ -424,8 +424,10 @@ footer {
 		display: inline-block;
 		min-height: 275px;
 		padding: 40px;
-		.gradient-content {
-			max-width: 400px;
+		@media (min-width: 992px) {
+			.gradient-content {
+				min-width: 430px;
+			}
 		}
 		&.red {
 			background-image: linear-gradient(to bottom, $color_charm_approx, $color_night_shadz_approx);
@@ -459,12 +461,14 @@ footer {
 			color: $white;
 			text-transform: uppercase;
 		}
-		h2 {
-			font-size: 22px;
-			font-weight: bold;
-			line-height: 1.45;
-			color: $color_log_cabin_approx;
-			margin-bottom: 50px;
+		li {
+			margin: 30px 0;
+			a {
+				font-size: 22px;
+				font-weight: bold;
+				line-height: 1.45;
+				color: $color_log_cabin_approx;
+			}
 		}
 		p {
 			margin-bottom: 50px;
