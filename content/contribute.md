@@ -50,7 +50,7 @@ published: true
 
 				<h2 id="code" class="spacer-top30 green">Code</h2>
 
-				<p>Wanna write code people rely on daily to make life or death decisions? We would love your help, especially:</p>
+				<p>Wanna write code people rely on daily to make life or death decisions? We would love your help, especially in the following areas:</p>
 
 				<ul>
 					<li>Android (Java/Kotlin) development</li>
@@ -61,11 +61,11 @@ published: true
 					<li>UI/UX</li>
 				</ul>
 
-				<p>Take a look at <a href="https://github.com/securityfirst/Umbrella_android">securityfirst/Umbrella_android</a></p>
+				<p>Take a look at our code on <a href="https://github.com/securityfirst/Umbrella_android">GitHub</a>.</p>
 
 				<h2 id="funding" class="spacer-top30 green">Funding</h2>
 
-				<p>Help us feed our developers. If you are a grant making individual or organisation and are interesting in funding any of our work. Please use our security contact form or drop us a mail at <a href="info@secfirst.org">info@secfirst.org</a></p>
+				<p>Help us feed our developers. If you are interested in funding any of our work, please get in touch by <a href="info@secfirst.org">email</a></p>
 
 				<h2 id="coin" class="spacer-top30 green">Coin</h2>
 
