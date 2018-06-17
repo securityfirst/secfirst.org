@@ -46,7 +46,7 @@ footer {
 
 .header {
   min-height: 60px;
-  background-color: #222222; }
+  background-color: #b83657; }
   .header .navbar-brand {
     font-family: Lato;
     font-size: 24px;
@@ -237,6 +237,10 @@ footer {
 
 .fab {
   color: #f3bc2b;
+  font-size: 30px;}
+
+footer .fab {
+  color: #f3bc2b;
   font-size: 30px;
   padding: 20px; }
 
@@ -392,13 +396,23 @@ footer {
   .dropdown-content div a:hover {
     cursor: pointer; }
 
+.blog {
+  background-color: #f7f7f7;
+}
+
 .blog-list .blog-item {
   margin: 20px 0;
-  padding: 20px;
-  background-color: #979797;
-  color: white; }
-  .blog-list .blog-item a {
-    color: #4a4a4a; }
+  border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.35);
+    padding: 30px; }
+
+.blog-single {
+  margin: 20px 0;
+  border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.35);
+    padding: 30px; }
 
 .content {
   padding: 50px 0; }
