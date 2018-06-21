@@ -2,7 +2,6 @@ baseURL: https://secfirst.org
 title: Security First
 disableLanguages: "es"
 
-
 menu:
   # main menu (top)
   main:
