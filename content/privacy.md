@@ -4,17 +4,18 @@ title: "Privacy"
  
 **Your personal data – what is it?**
 
-“Personal data” is any information about a living individual which allows them to be identified from that data (for example a name, photographs, videos, email address, address, full IP address etc).  Identification can be by the information alone or in conjunction with any other information.  The processing of personal data is governed by [the Data Protection Bill/Act 2017 the General Data Protection Regulation 2016/679 (the “GDPR” and other legislation relating to personal data and rights such as the Human Rights Act 1998
+“Personal data” is any information about a living individual which allows them to be identified from that data (for example a name, photographs, videos, email address, address, full IP address, etc.).  Identification can be by the information alone or in conjunction with any other information.  The processing of personal data is governed by [the Data Protection Bill/Act 2017 the General Data Protection Regulation 2016/679 (the “GDPR”) and other legislation relating to personal data and rights, such as the Human Rights Act 1998.
 
 **Your rights and your personal data**  
 
 When exercising any of the rights listed below, in order to process your request, we may need to verify your identity for your security.  In such cases we will need you to respond with proof of your identity before you can exercise these rights.
 
 * The right to access information we hold on you
+
 At any point you can contact us to request the information we hold on you as well as why we have that information, who has access to the information and where we obtained the information from.  Once we have received your request we will respond within one month. 
 
 
-There are no fees or charges for the first request but additional requests for the same data may be subject to an administrative fee . 
+There are no fees or charges for the first request but additional requests for the same data may be subject to an administrative fee. 
 
 * The right to correct and update the information we hold on you
 
@@ -26,7 +27,7 @@ If the data we hold on you is out of date, incomplete or incorrect, you can info
 
 If you feel that we should no longer be using your data or that we are illegally using your data, you can request that we erase the data we hold. 
 
-When we receive your request we will confirm whether the data has been deleted or the reason why it cannot be deleted (for example because we need it for our legitimate interests or regulatory purpose(s)). 
+When we receive your request we will confirm whether the data has been deleted or the reason why it cannot be deleted (for example, because we need it for our legitimate interests or regulatory purpose(s)). 
 
 *	The right to object to processing of your data
 
@@ -41,7 +42,7 @@ You have the right to request that we transfer some of your data to another cont
 * The right to withdraw your consent to the processing at any time for any processing of data to which consent was sought.
 
 
-You can withdraw your consent easily by telephone, email, or by post (see Contact Details below).
+You can withdraw your consent easily by telephone, email, or by post (see contact details below).
 
 *	The right to object to the processing of personal data where applicable.
 
@@ -61,11 +62,11 @@ We use the information we collect in various ways, including to:
 
 **Visitors to our websites**    
 
-When someone visits [Secfirst.org](https://www.secfirst.org) you are visiting a website hosted using Amazon Web Services in Dublin, Ireland. For more about information, please see their [Privacy Policy](https://aws.amazon.com/privacy/). 
+When you visit [Secfirst.org](https://www.secfirst.org) you are visiting a website hosted using Amazon Web Services in Dublin, Ireland. (See "Use of data processors," below.) 
 
-We utilise a  open-source tool, [Matamo](https://matomo.org), to collect standard internet log information and details of visitor journeys. We do this to find out things such as the number of visitors to the various parts of the site and see what users think is most useful. This information is only processed in a way which does not identify anyone, for example full IP addresses are not collected and data is deleted after three months at most. We also respect do-not-track and advise everyone we know (we do it ourselves) to use tools such as VPNs, [uBlock Origin](https://github.com/gorhill/uBlock) and [Privacy Badger](https://www.eff.org/privacybadger).
+We utilise a  open-source tool, [Matamo](https://matomo.org), to collect standard internet log information and details of visitor journeys. We do this to find out things such as the number of visitors to the various parts of the site and see what users think is most useful. This information is only processed in a way which does not identify anyone; for example, full IP addresses are not collected and data is deleted after three months at most. We also respect do-not-track and advise everyone we know (we do it ourselves) to use tools such as VPNs, [uBlock Origin](https://github.com/gorhill/uBlock) and [Privacy Badger](https://www.eff.org/privacybadger).
 
-The tool is hosted on a Digital Ocean instance in The Netherlands. For more about information, please see Digital Ocean’s [Privacy Policy](https://www.digitalocean.com/legal/privacy/).
+The tool is hosted on a Digital Ocean instance in The Netherlands. (See "Use of data processors," below.)
 
 **Use of cookies by Security First** 
    
@@ -73,13 +74,13 @@ We do not use cookies. Well not for websites, they are tasty though, especially 
 
 **E-newsletter**
 
-We use a third party provider, Mailchimp, to deliver occasional e-newsletters. We gather statistics around email opening and clicks using industry standard technologies including clear gifs to help us monitor and improve our e-newsletter. For more information, please see Mailchimp Privacy Notice.
+We use a third party provider, Mailchimp, to deliver occasional e-newsletters. We gather statistics around email opening and clicks using industry standard technologies including clear gifs to help us monitor and improve our e-newsletter. (See "Use of data processors," below.)
 
 **People who contact us via social media**
 
 We utilise Facebook, Twitter, Instagram (no idea why we do that because it's mostly pictures of people posing and trying to look cool), Linkedin and Hootsuite to manage our social media interactions with the public.
 
-If you send us a private or direct message via social media the message will either be immediately deleted if sensitive or held for a maximum of a month. It will not be shared with any other organisations.
+If you send us a private or direct message via social media the message will either be immediately deleted, if sensitive, or held for a maximum of one month. It will not be shared with any other organisations.
 
 **People who email us**
 
