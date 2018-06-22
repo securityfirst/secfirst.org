@@ -70,8 +70,3 @@ languages:
     weight: 1
     params:
       flag: "US"
-  es:
-    languageName: "esp"
-    weight: 2
-    params:
-      flag: "ES"
