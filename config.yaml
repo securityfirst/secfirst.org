@@ -1,6 +1,5 @@
 baseURL: https://secfirst.org
 title: Security First
-
 menu:
   # main menu (top)
   main:
