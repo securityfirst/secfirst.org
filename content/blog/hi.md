@@ -2,7 +2,7 @@
 title: "Hi everyone"
 date: 2015-11-07
 ---
-# Hi everyone,
+# iSEC Partners Umbrella App Code Audit  
 
 In keeping with our philosophy of supporting open source code and greater transparency for security tools, today we are releasing the results of a recent code audit of Umbrella App by iSEC Partners (made possible thanks to the folks at the Open Technology Fund.)
 
