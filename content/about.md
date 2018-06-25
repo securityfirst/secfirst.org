@@ -154,6 +154,7 @@ published: true
 		<div class="col-6">
 			<h4 class="green">Lucas Correa</h4>
 			<h6>iOS Developer</h6>
+			<p class="grey">Lucas has more than 13 years of experience in development, with more than 8 years as an iOS developer, creating applications for iPhone, iPad and Apple Watch. He has  knowledge in Java (J2SE, J2EE, Swing and Android), Objective-C, Swift and Ruby (Ruby on Rails), and runs some open source projects on GitHub. Since he started his career in 2005, he has worked in several companies in different fields like call centres and payment services, and also as freelancer. Originally from São Paulo, Brazil, he has lived in Dublin since 2017.</p>
 			<a href="https://www.linkedin.com/in/lucasc0rrea/" class="_blank"><i class="fab fa-linkedin"></i></a>
 		</div>
 	</div>
