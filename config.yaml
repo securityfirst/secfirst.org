@@ -1,8 +1,5 @@
 baseURL: https://secfirst.org
 title: Security First
-disableLanguages: "es"
-
-
 menu:
   # main menu (top)
   main:
@@ -27,9 +24,9 @@ menu:
   - name: contribute
     url: /contribute/
     weight: 7
-  # - name: blog
-  #   url: /blog/
-  #   weight: 8
+  - name: blog
+    url: /blog/
+    weight: 8
   - name: contact
     url: /contact/
     weight: 9
@@ -37,24 +34,35 @@ menu:
   product:
   - name: umbrella
     url: /umbrella/
+    weight: 1
   - name: tent
     url: /tent/
+    weight: 2
   - name: training
     url: /training/
+    weight: 3
   # info menu (bottom)
   info:
   - name: legal & ethical
     url: /legal/
+    weight: 1
   - name: terms & conditions
     url: /terms/
+    weight: 2
+  - name: privacy
+    url: /privacy/
+    weight: 3
   # company menu (bottom)
   company:
   - name: about
     url: /about/
+    weight: 1
   # - name: mission
   #   url: /mission/
+  #   weight: 2
   - name: principles
     url: /about/
+    weight: 3
 
 languages:
   en:
@@ -62,8 +70,3 @@ languages:
     weight: 1
     params:
       flag: "US"
-  es:
-    languageName: "esp"
-    weight: 2
-    params:
-      flag: "ES"
