@@ -6,7 +6,7 @@ date: 2018-05-15
 **Efail**
 =====================================
 
-<a href=“/imgs/Efail.png”><img style="float:right;margin-left: 1em;float: right;width: 50%;" src="/imgs/Efail.png"></a>
+<a href="/imgs/Efail.png"><img style="float:right;margin-left: 1em;float: right;width: 50%;" src="/imgs/Efail.png"></a>
 
 *This post was created for the "Email" lesson in Umbrella, the free, open-source security advice app for people at risk. Get Umbrella from [Google Play](https://play.google.com/store/apps/details?id=org.secfirst.umbrella), [Amazon](https://www.amazon.com/Security-First-Umbrella-made-easy/dp/B01AKN9M1Y), and [F-Droid](https://secfirst.org/fdroid/repo/?fingerprint=39EB57052F8D684514176819D1645F6A0A7BD943DBC31AB101949006AC0BC228).*
 
