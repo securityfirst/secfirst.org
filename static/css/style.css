@@ -46,7 +46,7 @@ footer {
 
 .header {
   min-height: 60px;
-  background-color: #b83657; }
+  background-color: #222222; }
   .header .navbar-brand {
     font-family: Lato;
     font-size: 24px;
@@ -237,10 +237,6 @@ footer {
 
 .fab {
   color: #f3bc2b;
-  font-size: 30px;}
-
-footer .fab {
-  color: #f3bc2b;
   font-size: 30px;
   padding: 20px; }
 
@@ -397,22 +393,28 @@ footer .fab {
     cursor: pointer; }
 
 .blog {
-  background-color: #f7f7f7;
-}
+  background-color: #f7f7f7; }
+  .blog .float-left, .blog .float-right {
+    box-sizing: border-box;
+    width: 50%; }
+  .blog .float-left {
+    padding-right: 50px; }
+  .blog .float-right {
+    padding-left: 50px; }
 
 .blog-list .blog-item {
   margin: 20px 0;
   border-radius: 12px;
-    background-color: white;
-    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.35);
-    padding: 30px; }
+  background-color: white;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.35);
+  padding: 30px; }
 
 .blog-single {
   margin: 20px 0;
   border-radius: 12px;
-    background-color: white;
-    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.35);
-    padding: 30px; }
+  background-color: white;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.35);
+  padding: 30px; }
 
 .content {
   padding: 50px 0; }
