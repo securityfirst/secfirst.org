@@ -394,13 +394,44 @@ footer {
 
 .blog {
   background-color: #f7f7f7; }
-  .blog .float-left, .blog .float-right {
+  .blog .caption {
+    margin-top: 10px;
+    color: #4a4a4a; }
+  .blog .image {
+    margin-left: auto;
+    margin-right: auto; }
+    .blog .image img, .blog .image span.caption {
+      box-sizing: border-box;
+      display: block;
+      text-align: center; }
+  .blog .image-25 {
+    max-width: 25%; }
+  .blog .image-50 {
+    max-width: 50%; }
+  .blog .image-75 {
+    max-width: 75%; }
+  .blog .image-100 {
+    max-width: 100%; }
+  .blog img, .blog span.caption {
     box-sizing: border-box;
-    width: 50%; }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+    .blog img.image-25, .blog span.caption.image-25 {
+      max-width: 25%; }
+      .blog img.image-25 + span.caption, .blog span.caption.image-25 + span.caption {
+        max-width: 25%; }
+    .blog img.image-50, .blog span.caption.image-50 {
+      max-width: 50%; }
+    .blog img.image-75, .blog span.caption.image-75 {
+      max-width: 75%; }
+    .blog img.image-100, .blog span.caption.image-100 {
+      max-width: 100%; }
   .blog .float-left {
-    padding-right: 50px; }
+    padding-right: 1em; }
   .blog .float-right {
-    padding-left: 50px; }
+    padding-left: 1em; }
 
 .blog-list .blog-item {
   margin: 20px 0;
