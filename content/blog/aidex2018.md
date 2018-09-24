@@ -12,8 +12,9 @@ date: 2018-09-18
 
 Security First will be at AidEx in Brussels this 14th and 15th November, talking about how our free Umbrella app can help teams in high risk environments. 
 
+<div class="clearfix"></div>
 <!--more--> 
 
 Find us on stand E20/b and ask us how to put your own security handbook in an app!      
-<div class="clearfix"></div>
+
 <hr/>
