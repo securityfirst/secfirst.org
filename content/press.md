@@ -3,7 +3,7 @@ title: "Press"
 layout: index
 class: landing
 date: 2019-04-21T23:39:28-07:00
-draft: true
+published: true
 ---
 <div class="intro">
   <div class="container">
@@ -11,7 +11,7 @@ draft: true
       <div class="col-lg-6 col-md-12">
         <div class="d-none d-lg-block spacer-top100"></div>
         <h1 class="">Get in touch.</h1>
-        <div class="home-description">Contact us for press inquiries at <a href="mailto:juliette@secfirst.org?&subject=Press">juliette@secfirst.org</a> or download our press kit and brand guidelines.</div>		
+        <div class="home-description">Contact us for press inquiries at <a href="mailto:juliette@secfirst.org?&subject=Press">juliette@secfirst.org</a> or download our press kit and brand guidelines.</div>
         <button type="button" class="spacer-top30 btn btn-white spacer-bottom100">DOWNLOAD</button>
       </div>
       <div class="col-lg-6 d-none d-lg-block">
