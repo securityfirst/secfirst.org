@@ -1,3 +1,5 @@
 .DS_Store
 wiki/*
 sftp-config.json
+.sass-cache
+public

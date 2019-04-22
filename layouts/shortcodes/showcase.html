@@ -1,0 +1,9 @@
+<div id="{{ .Get "id"}}" class="container showcase">
+  <div class="row spacer-top150">
+    <div class="col-{{or (.Get "col") "12"}} showcase-title">
+      <img src="{{ .Get "image" }}" />
+      <span>{{ .Get "id" | upper }}</span>
+    </div>
+    {{.Inner}}
+  </div>
+</div>

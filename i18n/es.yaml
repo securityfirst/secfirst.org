@@ -1,0 +1,33 @@
+# Menu
+- id: home
+  translation: home
+- id: umbrella
+  translation: umbrella
+- id: tent
+  translation: tent
+- id: training
+  translation: formación
+- id: about
+  translation: acerca de
+- id: faq
+  translation: faq
+- id: contribute
+  translation: contribuir
+- id: blog
+  translation: blog
+- id: contact
+  translation: contacto
+- id: product
+  translation: producto
+- id: info
+  translation: info
+- id: company
+  translation: organización
+- id: legal & ethical
+  translation: legal y ético
+- id: terms & conditions
+  translation: términos y condiciones
+- id: mission
+  translation: misión
+- id: principles
+  translation: principios

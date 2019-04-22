@@ -1,0 +1,62 @@
+    <footer>
+      <div class="container">
+        <div class="row spacer-top70 spacer-bottom30">
+          {{ range (slice "product" "info" "company")}}
+            <div class="col-lg-2 col-md-3">
+              <h5>{{or (i18n .) . }}</h5>
+              <ul>
+                {{range (index $.Site.Menus .)}}
+                  <li><a href="{{.URL}}">{{or (i18n .Name) .Name}}</a></li>
+                {{end}}
+              </ul>
+            </div>
+          {{end}}
+          <div class="col-xs-12 col-md-6">
+            <a href="https://github.com/securityfirst" target="_blank">
+              <i class="float-right fab fa-github"></i>
+            </a>
+            <a href="https://instagram.com/securityfirst" target="_blank">
+              <i class="float-right fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/security-first-" target="_blank">
+              <i class="float-right fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.facebook.com/secfirst.org" target="_blank">
+              <i class="float-right fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/_SecurityFirst" target="_blank">
+              <i class="float-right fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy">
+        <div class="container">
+          <div class="row spacer-bottom30">
+            <h2>{{.Site.Title | upper}}.</h2>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/retina.min.js"></script>
+    <script type="text/javascript">
+       var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setCookieDomain", "*.secfirst.org"]);
+        _paq.push(["setDoNotTrack", true]);
+        _paq.push(["disableCookies"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+          var u = "//a.securityfirst.ngo/";
+          _paq.push(['setTrackerUrl', u + 'piwik.php']);
+          _paq.push(['setSiteId', '2']);
+          var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+          g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+  </body>
+</html>

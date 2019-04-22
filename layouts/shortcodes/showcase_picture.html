@@ -1,0 +1,12 @@
+<div class="row umbrella-row umbrella-row-{{.Get "number"}}">
+  <div class="number"><span>{{.Get "number"}}</span></div>
+  <div class="col-6 my-auto {{if eq (.Get "direction") "right"}}order-2 {{end}}">
+    <div class="umbrella-text">
+      <h1>{{.Get "title" | safeHTML}}</h1>
+      <span>{{.Get "text" | safeHTML}}  </span>
+    </div>
+  </div>
+  <div class="col-6 text-center {{if eq (.Get "direction") "right"}}order-1{{end}}">
+    <img src="{{.Get "image"}}">
+  </div>
+</div>

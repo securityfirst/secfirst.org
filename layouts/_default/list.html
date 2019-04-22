@@ -1,0 +1,21 @@
+{{partial "header" .}}
+<div class="blog">
+  <div class="content container">
+    <div class="row">
+      <div class="col-12">
+        <h1>{{.Params.header}}</h1>
+        <div class="blog-list">
+          {{ range .Data.Pages }}
+          <div class="blog-item">
+             <h2 class="green">{{.Title}}</h2>
+             <p class="grey">{{.Date.Format "2006-01-02"}}</p>
+             <p>{{.Summary}}</p>
+            <a class="blue" href="{{.Permalink}}">Read full article</a>
+          </div class="blog-item">
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{partial "footer" .}}

@@ -1,0 +1,16 @@
+{{partial "header" .}}
+<div class="blog">
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+        	<div class="blog-single">
+            <p class="grey">{{.Date.Format "2006-01-02"}}</p>
+          	{{.Content}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{partial "footer" .}}
