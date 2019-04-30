@@ -14,7 +14,7 @@ published: true
         {{< download text="Download Now">}}
       </div>
       <div class="col-lg-6 d-none d-lg-block">
-        <img class="hero-app-2" src="/imgs/hero-app-2.png"/>
+        <img class="hero-app-2" src="/imgs/press-apps.png"/>
       </div>
     </div>
   </div>
