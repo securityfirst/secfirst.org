@@ -24,17 +24,6 @@ published: true
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-8 offset-lg-2 spacer-top100">
-			<h1 id="content" class="spacer-top100 green">Video</h1>
-    </div>
-    <div class="col-8 offset-lg-2 text-center">
-      <iframe src="https://player.vimeo.com/video/333060657" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-			<iframe src="https://player.vimeo.com/video/333061228" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-		</div>
-	</div>
-</div>
-<div class="container">
-	<div class="row">
 		<div class="col-8 offset-lg-2">
 			<h1 id="content" class="spacer-top100 green">Global Frontline Workers: Stay Safe with Umbrella App</h1>
       <h4>Free Mobile Security Hub Now Available on iOS in Multiple Languages</h4> 
@@ -64,6 +53,21 @@ published: true
         <br>
       In Paris, Juliette Delay: <a href="mailto:juliette@secfirst.org?&subject=Press">juliette@secfirst.org</a> or +33-6-45-33-94-89 (mobile) or +1-646-477-4170 (Whatsapp/Signal)
       </p>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-8 offset-lg-2 spacer-top100">
+			<h1 id="content" class="spacer-top100 green">Video</h1>
+    </div>
+    <div class="col-8 offset-lg-2 text-center">
+      <iframe src="https://player.vimeo.com/video/333060657" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			<iframe src="https://player.vimeo.com/video/333061228" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+			
       <h1>NOTE TO EDITORS</h1>
       <p class="green">Perspectives on Umbrella from around the world (video available):</p>
     </div>
