@@ -80,7 +80,7 @@ published: true
       </p>
     </div>
     <div class="col-6 offset-lg-4">
-      <p class="subparagraph">- Carlos, a latin american exilee from Venezuela, a country rocked by a major political crisis where journalists are systematically targeted by the government and face disappearances, physical aggression, kidnappings, killings, and a number of severe digital threats.</p>
+      <p class="subparagraph">- Carlos, a Latin American exilee from Venezuela, a country rocked by a major political crisis where journalists are systematically targeted by the government and face disappearances, physical aggression, kidnappings, killings, and a number of severe digital threats.</p>
     </div>  
   </div>
   <div class="row spacer-top30">
@@ -95,7 +95,7 @@ published: true
   </div>
   <div class="row spacer-top30">
     <div class="col-8 offset-lg-2">
-      <p>“It’s important for people to have this app on their phones. In ZImbabwe, we’ve got a 90% mobile penetration rate: most people, if not the whole population, has a mobile device. And [that is how] they access their internet. So having such an app on their phone it means that they’ll have a security guide always in their pocket. I think this app will help journalists keep safe and do their job.”
+      <p>“It’s important for people to have this app on their phones. In Zimbabwe, we’ve got a 90% mobile penetration rate: most people, if not the whole population, has a mobile device. And [that is how] they access their internet. So having such an app on their phone it means that they’ll have a security guide always in their pocket. I think this app will help journalists keep safe and do their job.”
       </p>
     </div>
     <div class="col-6 offset-lg-4">
@@ -121,7 +121,7 @@ published: true
               <a href="https://itunes.apple.com/us/app/umbrella-security/id1453715310" target="_blank">https://itunes.apple.com/us/app/umbrella-security/id1453715310</a>
           </li>
           <li>Google Android:<br> 
-              <a href="https://play.google.com/store/apps/details?id=org.secfirst.umbrella" target="_blank">https://play.google.com/store/apps/details?id=org.secfirst.umbrella</a>
+              <a href="https://play.google.com/apps/testing/org.secfirst.umbrella" target="_blank">https://play.google.com/apps/testing/org.secfirst.umbrella</a>
           </li>
         </ul>
       </p>
