@@ -36,7 +36,7 @@ published: true
 		<div class="col-8 offset-lg-2">
 			<h1 id="content" class="spacer-top100 green">Global Frontline Workers: Stay Safe with Umbrella App</h1>
       <h4>Free Mobile Security Hub Now Available on iOS in Multiple Languages</h4> 
-			<p><b>(London, April 30, 2019)</b> — Journalists, activists, and humanitarians around the world who work or live in dangerous areas can now keep safe on the go thanks to <a href="http://secfirst.org/umbrella/" target="_blank">Umbrella</a>. In a world that puts frontline workers ever more at risk, the free, open-source app now gives everyone access to high-standard physical and digital security information and tools. Umbrella is available to download on all platforms, including <a href="https://itunes.apple.com/us/app/umbrella-security/id1453715310?ls=1&mt=8" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=org.secfirst.umbrella" target="_blank">Android</a>, <a href="http://www.secfirst.org/" target="_blank">Security First</a> said today.</p>
+			<p><b>(London, April 30, 2019)</b> — Journalists, activists, and humanitarians around the world who work or live in dangerous areas can now keep safe on the go thanks to <a href="http://secfirst.org/umbrella/" target="_blank">Umbrella</a>. In a world that puts frontline workers ever more at risk, the free, open-source app now gives everyone access to high-standard physical and digital security information and tools. Umbrella is available to download on all platforms, including <a href="https://itunes.apple.com/us/app/umbrella-security/id1453715310?ls=1&mt=8" target="_blank">iOS</a> and <a href="https://play.google.com/apps/testing/org.secfirst.umbrella" target="_blank">Android</a>, <a href="http://www.secfirst.org/" target="_blank">Security First</a> said today.</p>
       <p>The past few years have been record setting for those working in difficult areas. The trend is clear for aid workers: <a href="https://www.unocha.org/story/aid-worker-deaths-numbers-tell-story/" target="_blank">close to 300</a> have been affected by serious violence every year over the past decade. With the rise of populist politics around the world, a <a href="https://www.frontlinedefenders.org/sites/default/files/global_analysis_2018.pdf" target="_blank">record number of human rights defenders</a> - 321 in 27 countries - were killed in 2018 alone. The past three years have seen the serious curbing of free press with the <a href="https://cpj.org/data/killed/?status=Killed&motiveConfirmed%5B%5D=Confirmed&motiveUnconfirmed%5B%5D=Unconfirmed&type%5B%5D=Journalist&start_year=1992&end_year=2019&group_by=year" target="_blank">highest recorded number of imprisoned journalists</a>, and 60 of them already missing this year.</p>
       <p>Umbrella includes advice on how to stay safe, from sending a secure email to dealing with a kidnap, along with checklists that help you actually follow it. Security alerts from trusted sources can inform you as circumstances change, and you can even securely notify your team as you check off a task or update your plans.</p>
       <p>“We all depend on the brave work of journalists, activists, and humanitarians around the world now more than ever; but with threats and attacks on the rise, it is also that much more dangerous for them to operate,” said <a href="https://secfirst.org/about/" target="_blank">Rory Byrne</a>, co-founder and executive director of <a href="http://www.secfirst.org/umbrella/" target="_blank">Security First</a>. “Too many face unnecessary consequences because they didn’t have the resources to get proper security training. Umbrella is an all-in-one tool that gives anyone, anywhere, the opportunity to work safely.”</p>
@@ -80,7 +80,7 @@ published: true
       </p>
     </div>
     <div class="col-6 offset-lg-4">
-      <p class="subparagraph">- Carlos, a latin american exilee from Venezuela, a country rocked by a major political crisis where journalists are systematically targeted by the government and face disappearances, physical aggression, kidnappings, killings, and a number of severe digital threats.</p>
+      <p class="subparagraph">- Carlos, a Latin American exilee from Venezuela, a country rocked by a major political crisis where journalists are systematically targeted by the government and face disappearances, physical aggression, kidnappings, killings, and a number of severe digital threats.</p>
     </div>  
   </div>
   <div class="row spacer-top30">
@@ -95,7 +95,7 @@ published: true
   </div>
   <div class="row spacer-top30">
     <div class="col-8 offset-lg-2">
-      <p>“It’s important for people to have this app on their phones. In ZImbabwe, we’ve got a 90% mobile penetration rate: most people, if not the whole population, has a mobile device. And [that is how] they access their internet. So having such an app on their phone it means that they’ll have a security guide always in their pocket. I think this app will help journalists keep safe and do their job.”
+      <p>“It’s important for people to have this app on their phones. In Zimbabwe, we’ve got a 90% mobile penetration rate: most people, if not the whole population, has a mobile device. And [that is how] they access their internet. So having such an app on their phone it means that they’ll have a security guide always in their pocket. I think this app will help journalists keep safe and do their job.”
       </p>
     </div>
     <div class="col-6 offset-lg-4">
@@ -121,7 +121,7 @@ published: true
               <a href="https://itunes.apple.com/us/app/umbrella-security/id1453715310" target="_blank">https://itunes.apple.com/us/app/umbrella-security/id1453715310</a>
           </li>
           <li>Google Android:<br> 
-              <a href="https://play.google.com/store/apps/details?id=org.secfirst.umbrella" target="_blank">https://play.google.com/store/apps/details?id=org.secfirst.umbrella</a>
+              <a href="https://play.google.com/apps/testing/org.secfirst.umbrella" target="_blank">https://play.google.com/apps/testing/org.secfirst.umbrella</a>
           </li>
         </ul>
       </p>
