@@ -12,7 +12,9 @@ published: true
         <div class="d-none d-lg-block spacer-top100"></div>
         <h1 class="">Get in touch.</h1>
         <div class="home-description">Contact us for press inquiries at <a href="mailto:juliette@secfirst.org?&subject=Press">juliette@secfirst.org</a> or download our press kit and brand guidelines.</div>
-        <button type="button" class="spacer-top30 btn btn-white spacer-bottom100">DOWNLOAD</button>
+        <a href="https://drive.google.com/drive/folders/17IQfcnUWuf4jziGLoX-14yLqfzsr70vR?usp=sharing" target="_blank">
+		<button type="button" class="spacer-top30 btn btn-white spacer-bottom100">DOWNLOAD</button>
+	</a>   
       </div>
       <div class="col-lg-6 d-none d-lg-block">
         <img class="hero-app-2" src="/imgs/press-apps.png"/>
