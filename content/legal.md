@@ -5,9 +5,9 @@ title: "Legal and Ethical"
 
 Security First was setup in 2013 and operates from both Dublin and London.
 
-Company name: **Security First Ltd**  
+Company name: **Security First Ltd.**  
 Company Number: **625599.**  
-Registered Office: **Cluster, 1-3 Westmoreland Street, Dublin 2, D02 VK03, Ireland.Ground Floor, 2 Woodberry Grove, London, N12 0DR, UK.**
+Registered Office: **Cluster, 1-3 Westmoreland Street, Dublin 2, D02 VK03, Ireland.**
 
 <div class="spacer-top100"></div>
 
