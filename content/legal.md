@@ -3,11 +3,11 @@ title: "Legal and Ethical"
 ---
 # Legal and Ethical
 
-Security First was setup as a UK registered Company in October 2013 and currently operates from Google Campus London, at the heart of Silicon Roundabout, Europe’s largest tech hub.
+Security First was setup in 2013 and operates from both Dublin and London.
 
-Company name: **Global Security First Ltd.**  
-Company Number: **08737382.**  
-Registered Office: **Ground Floor, 2 Woodberry Grove, London, N12 0DR, UK.**
+Company name: **Security First Ltd**  
+Company Number: **625599.**  
+Registered Office: **Cluster, 1-3 Westmoreland Street, Dublin 2, D02 VK03, Ireland.Ground Floor, 2 Woodberry Grove, London, N12 0DR, UK.**
 
 <div class="spacer-top100"></div>
 
