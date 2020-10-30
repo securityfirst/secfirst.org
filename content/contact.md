@@ -57,10 +57,10 @@ published: true
 
 <div class="contacts-data">
     <div class="contacts-data-item">
-        Global Security First Ltd.<br/>Company Number: 08737382.
+        Security First Technologies Ltd<br/>Company Number: 625599.
     </div>
     <div class="contacts-data-item">
-    Registered Office: Ground Floor, 2 <br/>Woodberry Grove, London, N12 0DR, UK.
+    Registered Office: Cluster, 1-3 Westmoreland Street<br/>Dublin 2, D02 VK03, Ireland
     </div>
 </div>
 

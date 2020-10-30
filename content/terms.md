@@ -1,12 +1,12 @@
 ---
 title: "Terms of use"
---- 
+---
 
 # UMBRELLA TERMS OF USE
 
 PLEASE READ THESE TERMS OF USE CAREFULLY BEFORE USING THE UMBRELLA APP ON YOUR DEVICE. YOUR INTENTION IS PARTICULARLY DRAWN TO THE DISCLAIMER AND LIMITATION OF LIABILITY PROVISIONS IN CLAUSE 9.
 
-These terms of use (the “Terms”) are a legal agreement between you (“you”) and Global Security First Limited of 2 Woodberry Grove, London, N12 0DR, company number: 08737382 (“GSF”, “us”, or “we”) in respect of your use of the Umbrella app (the “App”). By clicking on the "Accept" button below you agree to these Terms. If you do not agree to these Terms, we do not grant you permission to use the App and you must not use it and you must uninstall it from your device.
+These terms of use (the “Terms”) are a legal agreement between you (“you”) and Security First Technologies Limited of Cluster, 1-3 Westmoreland Street, Dublin 2, D02 VK03, Ireland, company number:  (GSF, “us”, or “we”) in respect of your use of the Umbrella app (the “App”). By clicking on the "Accept" button below you agree to these Terms. If you do not agree to these Terms, we do not grant you permission to use the App and you must not use it and you must uninstall it from your device.
 
 You must be over 18 in order to use the App.
 
@@ -43,7 +43,7 @@ From time to time we may issue updates to the App. Depending on the update, you 
 You may only download and install the App onto a device that you own, or if you do not own the device, you must have the permission from the owner(s) to do so. You accept responsibility under these Terms for the use of the App, whether or not you own the device onto which the App is downloaded and installed. You also acknowledge that the owner(s) of the device onto which the App is installed may be charged by any relevant mobile network operator and/or internet service provider in relation to any data and/or mobile connectivity used by the App.
 
 Access to the App may be suspended temporarily and without notice: (a) in the case of system failure, (b) for maintenance or repair, (c) where we reasonably suspect there has been a breach of these Terms, (d) for reasons beyond our control, or (e) as otherwise explained in these Terms.
-    
+
 ### 2. <a name="a2"></a> PERMITTED USE AND RESTRICTIONS
 In consideration of you agreeing to abide by these Terms, we grant you a non-transferable, non-exclusive licence (i.e. permission) to use the App subject to these Terms. We reserve all other rights, which are not granted in these Terms.
 
@@ -112,16 +112,16 @@ These Terms are governed by English law and the courts of England and Wales will
 These Terms were last updated on 6th October 2015
 
 ### 13. <a name="a13"></a> ABOUT US
-Global Security First Limited  
-Registered Office Address: Ground Floor, 2 Woodberry Grove, London, N12 0DR  
-Company No: 08737382  
+Security First Technologies Ltd
+Registered Office Address: Cluster, 1-3 Westmoreland Street, Dublin 2, D02 VK03, Ireland
+Company No: 625599
 Contact email address: legal@secfirst.org
 
 
 UMBRELLA PRIVACY POLICY
 -----------------------
 
-The Umbrella app (the “App”) is provided to you by Global Security First Limited of 2 Woodberry Grove, London, N12 0DR, company number: 08737382 (“GSF”, “us”, or “we”).
+The Umbrella app (the “App”) is provided to you by Security First Technologies Ltd of Cluster, 1-3 Westmoreland Street, Dublin 2, D02 VK03, Ireland, company number: 625599 (“GSF”, “us”, or “we”).
 
 We are committed to protecting and respecting your privacy. This policy (together with our Terms of Use located on our website at www.secfirst.org (the “Terms”)) applies to your use of the App and sets out the basis on which any personal information we collect from you, or that you provide to us, will be processed by us. Please read the following carefully to understand our practices regarding your personal information and how it will be treated.
 
