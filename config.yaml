@@ -52,6 +52,9 @@ menu:
   - name: privacy
     url: /privacy/
     weight: 3
+  - name: code of conduct
+    url: /conduct
+    weight: 4
   # company menu (bottom)
   company:
   - name: about
