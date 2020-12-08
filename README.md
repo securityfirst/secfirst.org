@@ -6,17 +6,12 @@ The current online version of this portal can be found at https://secfirst.org.
 
 1. Install [Hugo](https://gohugo.io/getting-started/installing/).
 
-2. Create a new Hugo site and enter into the site folder:
-    ```
-    hugo new site secfirst
-    cd secfirst
-    ```
-3. Clone the secfirst.org website inside your Hugo site folder:
+2. Clone the secfirst.org website:
 
     ```
     $ git clone https://github.com/securityfirst/secfirst.org.git
     ```
-4. Enter the secfirst.org directory and start the Hugo server:
+3. Enter the secfirst.org directory and start the Hugo server:
     ```
     cd secfirst.org
     hugo server -D
