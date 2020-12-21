@@ -1,0 +1,11 @@
+name = "Umbrella Manual"
+license = "BSD-3-Clause"
+licenselink = "https://spdx.org/licenses/BSD-3-Clause.html"
+description = "Based on the mixu-radar theme."
+min_version = "0.41"
+
+[original]
+  name = "mixu-radar"
+  homepage = "https://github.com/mixu/markdown-styles#mixu-radar"
+  licenselink = "https://spdx.org/licenses/BSD-3-Clause.html"
+  repo = "https://github.com/mixu/markdown-styles"

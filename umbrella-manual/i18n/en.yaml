@@ -1,0 +1,5 @@
+# Transifex support depends on https://github.com/gohugoio/hugo/issues/5242
+translations:
+  other: "Translations"
+toc:
+  other: "Table of Contents"

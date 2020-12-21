@@ -1,0 +1,23 @@
+<div id="toc">
+    <div id="toc-inner">
+        {{ if .IsTranslated }}
+        <h4>{{ i18n "translations" }}</h4>
+        <ul class="nav-list">
+            {{ range .Translations }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Language.LanguageName }}: {{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+        <h4>{{ i18n "toc" }}</h4>
+        {{ .TableOfContents }}
+    </div>
+</div>
+
+<div id="wrapper">
+    <div id="header">
+    </div>
+
+    <div class="clear"></div>
+    <div id="main">
