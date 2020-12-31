@@ -1,1 +1,15 @@
+baseURL = "https://secfirst.org/umbrella/manual"
+languageCode = "en"
+DefaultContentLanguage = "en"
+canonifyURLs = "true"
+theme = "umbrella-manual"
 
+[languages]
+  [languages.en]
+    languageName = "English"
+
+[markup]
+  [markup.TableOfContents]
+    endLevel = 2
+    ordered = false
+    startLevel = 2

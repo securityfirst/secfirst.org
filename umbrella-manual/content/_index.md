@@ -14,12 +14,12 @@ Umbrella is your one stop shop for the latest security tools and information.
 
 There are lessons on various topics and checklists to help you follow through. 
 Keep track of your progress in the dashboard. 
-Report incidents with forms. 
-Feeds update you with threat alerts from trusted sources like the UN, ReliefWeb, Global Disaster and Alert Coordination System and Centres for Disease Control.
+Use forms to fill and share important information. 
+Feeds update you with threat alerts from trusted sources.
 
 Your data is encrypted on your device, so no one else has access to it. 
 Feel free to add extra security with a password. 
-In an emergency, disguise Umbrella or integrate it with Ripple, a "Panic Button" app by the Guardian Project that you can download separately to hide it with a single swipe. 
+In an emergency, disguise Umbrella or integrate it with _Ripple_, a "Panic Button" app by the _Guardian Project_ that you can download separately to hide it with a single swipe. 
 
 ## Installation
 
@@ -34,8 +34,6 @@ Umbrella is [available on the App Store](https://itunes.apple.com/us/app/umbrell
 Umbrella is available on Google Play for devices running Android. Open [this link](https://play.google.com/store/apps/details?id=org.secfirst.umbrella) on your mobile device. 
 This link should open in the Google Play app. 
 Tap the **Install** button to install Umbrella. 
-
-![Install Umbrella on Google Play](/img/install-google-play.png)
 
 If you have an Android device but you prefer not to use Google Play, you can install the Umbrella app via [F-Droid](/#f-droid), [Amazon](/#amazon-appstore) or [direct download](#direct-apk-download).
 
@@ -60,7 +58,7 @@ When it finishes, tap the search icon at the bottom right of the home screen and
 
     ![Install Umbrella on F-droid](/img/f-droid-install.png)
 
-### Direct .apk download
+### Direct download
 
 1. Open your device's **Settings** app, and find the **Security** section.
 
@@ -113,6 +111,8 @@ When you set a password, you will be prompted to enter it everytime you launch t
 
 ## Feeds
 
+The feeds dashboard contains security feeds from places like the UN Relief Web and the US Centers for Disease Control. You enter your location (and how often you want to be updated). Every a new update is released (e.g a disease outbreak in your location), the information comes up on the dashboard.
+
 ### Feed
 
 The Feed keeps you up to date with the current risks in your area, helping you monitor local threats with live security alerts from trusted sources. 
@@ -136,6 +136,14 @@ We can’t see it, and neither can anyone else.
 ![Enter feed location](/img/enter-location.png)
 
 Finally, select your prefered feed sources and tap **OK**. The sources you select will determine the nature of the content in your feed. 
+
+These are the sources that we currently include for real-time updated security feeds. For privacy reasons, users never connect directly to these services. We are always looking for more useful sources that will help users keep updated on the move.
+
+- [ReliefWeb / UN](http://reliefweb.int): excellent physical security updates that amalgamate information from the UN and various NGOs - though not available in every country
+- [Foreign and Commonwealth Office](https://www.gov.uk/government/organisations/foreign-commonwealth-office): foreign travel advice, consular help and services abroad and document legislation
+- [Centers for Disease Control](https://www.cdc.gov): updates on disease and health warnings
+- [Global Disaster Alert and Coordination System](http://www.gdacs.org): updates on natural disaster issues such as floods, earthquakes and tsunamis
+- [US State Department Country Warnings](https://www.state.gov/travel/): updates mainly focused on the security situation for travellers and internationals - available for every country
 
 ![Select feed sources](/img/select-feed-sources.png)
 
@@ -165,7 +173,7 @@ By default, Umbrella provides RSS feeds from popular news websites like BBC and 
 
 Click on a source to see the RSS feed from that website. 
 
-To add more websites/blog, tap the plus icon (**+**) at the bottom right of the RSS screen.
+To add more RSS feeds, tap the plus icon (**+**) at the bottom right of the RSS screen.
 
 ![Add new RSS feed](/img/add-rsss.png)
 
@@ -173,7 +181,7 @@ Then, enter a link to the RSS feed into the **Feed Source** field, then tap **OK
 
 ![Enter RSS feed source](/img/rss-feed-source.png)
 
-For each post on the RSS feed, you share with the **Share** button or view more information using the **Learn more** button. You can read the full post without even leaving the Umbrella app. 
+For each post on the RSS feed, you can share using the **Share** button or view more information using the **Learn More** button. You may read the full post without even leaving the Umbrella app. 
 
 {{< figure src="/img/open-rss-post.png" link="/img/open-rss-post.png"
 class="fullwidth" alt="Open RSS post" >}}
@@ -182,18 +190,18 @@ class="fullwidth" alt="Open RSS post" >}}
 
 Forms enable you to compile secure itineraries and protocols, which can be shared with your team. 
 
+Forms allow a user to quickly fill out and share important information about issues such as their travel plan in a high risk location or report on a digital/physical security incident.
+
 ### Filling a form
 
-Umbrella provides incident forms for debrief. 
-These incident forms can be use to document an event that may indicate that an organization's systems or data have been compromised or that measures put in place to protect them have failed.
-Tap the  **Forms** tab from the bottom navigation menu to visit the forms page. 
-By default, Umbrella provides four forms that you can fill. 
+Tap on the  **Forms** tab from the bottom navigation menu to visit the forms page. 
+Umbrella provides four default forms, and they can be filled as many times as you want. 
 
 ![Available forms](/img/forms.png)
 
-* **Physical Security Incident:** Used to report a physical security event, where an organization's systems or data have been compromised or that measures put in place to protect them have failed.
-* **Proof of life Form:** Used to show that an individual was alive at the time the form was completed
-* **Travel Security Memo:** 
+* **Physical Security Incident:** Used to report a physical security event.
+* **Proof of life Form:** Used to show that an individual was alive at the time the form was completed.
+* **Travel Security Memo:** Used to document safety precautions taken before travelling.
 * **Digital Security Incident:** Used to report a digital security event, where an organization's systems or data have been compromised or that measures put in place to protect them have failed.
 
 Tap on any of the available forms to begin filling it. The information you're required to fill depends on the type of form. 
@@ -208,16 +216,18 @@ You can exit a form anytime by clicking on the back arrow icon at the top left o
 
 The same form can be filled multiple times. 
 
-**Note**: Since forms ask for personally-identifiable information, it is advisable to set up a password for Umbrella app, to prevent unauthorized people who have your device from accessing your data. Navigate to **Account** > **Set password** to set a password.
+**Note**: Since forms ask for personally-identifiable information, it is advisable to set up a password for Umbrella app, to prevent unauthorized people who have your device from accessing your data. Navigate to **Account** --> **Set password** to set a password.
 
 ## Lessons
 
 Umbrella has many lessons, giving you simple step-by-step actions of what to
 do in any given security situation and showing you the best tools to do it with. 
 
+The general flow of lessons are presented in order to replicate the typical way that a user works. Protecting their own information -> Communicating with other people -> Arranging and travelling to a location -> Doing their operations and work -> Dealing with personal issues that may arise-> Seeking support if something goes wrong.
+
 ![Umbrella lessons menu](/img/lessons.png)
 
-Below is a rundown of all Umbrella lessons and modules:
+Below is a rundown of all Umbrella lessons:
 
 ### Access your risk
 
@@ -226,6 +236,8 @@ Below is a rundown of all Umbrella lessons and modules:
     ![Security Planning lessons](/img/security-planning-lesson.png)
 
 ### Information
+
+These lessons mostly cover the security of information that is stored on your computers.
 
 - Managing information
 - Malware
@@ -238,6 +250,8 @@ Below is a rundown of all Umbrella lessons and modules:
 
 ### Communications
 
+These lessons mostly cover the security of information when it is sent or received.
+
 - Mobile Phones
 - Making a call
 - Sending a message
@@ -249,6 +263,9 @@ Below is a rundown of all Umbrella lessons and modules:
 - Online abuse
 
 ### Travel
+
+These lessons cover security of travelling in high risk areas.
+
 - Preparation
 - Borders
 - Vehicles
@@ -256,6 +273,9 @@ Below is a rundown of all Umbrella lessons and modules:
 - Protective Equipment
 
 ### Work
+
+These lessons include topics that may affect you in your work.
+
 - Meetings
 - Being followed
 - Protests
@@ -265,6 +285,9 @@ Below is a rundown of all Umbrella lessons and modules:
 - Whistleblowers
 
 ### Incident Response
+
+These lessons covers how to respond to events. 
+
 - Arrests
 - Evacuation
 - Kidnapping
@@ -275,23 +298,50 @@ Below is a rundown of all Umbrella lessons and modules:
 - Stress
 
 ### Emergency Support
+
+Explains places to get extra help if you have a problem.
+
 - Physical
 - Digital
 
 ### Tools
+
+These are detailed guides about how to use software and apps mentioned in the lessons. These are the tools currently covered in the tool guide.
+
 - Messaging
+    * Mailvelope
+    * ObscuraCam
+    * Pidgin
+    * Psiphon
+    * Signal for Android
+    * Signal for iOS
 - Encryption
+    * Encrypt your iPhone
+    * k9 & Open Keychain
+    * KeePasXC
 - PGP
+    * PGP for Linux
+    * PGP for MacOS
+    * PGP for Windows
 - Tor
+    * Orbot & Orfox
+    * Tor for MacOS
+    * Tor for Linux
+    * Tor for Windows
 - Files
+    * Cobian Backup
+    * Recuva
+    * VeraCrypt
 - Other
+    * Android
+    * Facebook
 
 ### Glossary
-The Glossary provides definations of many technical terms used in Umbrella's lessons. If you see a word whose meaning you do not know, check the glossary for a definition. 
+The glossary contains explanations of the various terms used in the app. If you see a technical word whose meaning you do not know, check the glossary for a definition. 
 
 ### About
 
-The About page provides more information about Umbrella, its Licences and appreciation for the people involved in its creation.
+The About page provides more information about Umbrella, its licences and appreciation for the people involved in its development.
 
 ### Bookmarks
 
@@ -308,10 +358,11 @@ Now, when you click on **Bookmarked** in the Lessons menu, you'll see your bookm
 
 Every Umbrella lessons ends with an easy-to-use checklist that can help you track your progress. 
 You can also create custom checklists. 
+Checklists are quick and easy references to help users implement the advice in the lessons. You can tick them off as you complete each item. Checklists can also be shared in through other apps such as your email.
 
 ### Existing checklists
 
-For every lesson, you can find the checklist at the final tab. Tap on a checkbox to mark it as completed. A percentage at the top indicates your progress so far. 
+At the final tab of every lesson, you will find the checklist. Tap on a checkbox to mark it as completed. A percentage at the top indicates your progress so far. You can long-press on a checklist item to edit the item. 
 
 ![Malware checklist](/img/example-checklist.png)
 
@@ -325,17 +376,13 @@ You can share a checklist using the share icon.
 
 ![Share a checklist](/img/share-checklist.png)
 
-If you visit a checklist many times, it gets added to the **Favorites** section. 
-
 Under the **Top Tips** section, tap **See all** to select a guide to start your security journey or bookmark any guide for later. 
-
-![Top tips see all](/img/top-tips-see-all.png)
 
 ![Select a guide to start your security journey or bookmark any guide for later](/img/see-all-popup.png)
 
 ### Custom checklists
 
-To create a custom checklist, navigate to the **Custom** tab and tap the plus icon (**+**) icon at the bottom right of the page. 
+To create a custom checklist, navigate to the **Custom** tab of the Checklist page and tap the plus icon (**+**) icon at the bottom right of the page. 
 
 ![Add custom checklist button](/img/add-custom-checklist.png)
 
@@ -351,7 +398,7 @@ When you're done adding Checklist items, you will be able to find your newly-cre
 
 ![Newly-created custom checklist](/img/new-custom-checklist.png)
 
-Just like with the default checklists, you can tap on a custom checklist's items to mark them as completed. At the top of the page, a percentage shows how far you have gone. 
+Just like with the default checklists, you can tap on a custom checklist's items to mark them as completed. At the top of the page, a percentage indicates the number of items completed. 
 
 ![Marking custom checklist](/img/custom-checklist-marked.png)
 
@@ -381,15 +428,11 @@ If you enable this option, you won't receive any other popups asking you set up 
 
 #### Refresh from the server
 
-This will fetch data from the server and refresh the Umbrella app. The process takes a few minutes.
-
-![Refresh from the server](/img/refresh-server.png)
+This will fetch data from the server and refresh the Umbrella app with any new content. The process takes a few minutes.
 
 #### Change repository
 
 You can load data from a new repository, which will be loaded over your current data. Since loading a new repository will reset all the progress you made, you should [back up your data](/img/#export-your-data) before you do it. 
-
-![Change repository](/img/change-repository.png)
 
 Next, enter a link to the git server you want to switch to and tap **OK**.
 
@@ -408,13 +451,14 @@ Umbrella is currently available in 7 languages: English, Spanish, Chinese, Arabi
 #### Import your data
 
 If you had an Umbrella account before and had exported data, you can import that data into a new Umbrella app. 
-Tap on **Import your data**, navigate to the directory of the file to import the data. 
+Tap on **Import your data** and navigate to the directory of the file to import the data. 
 
 #### Export your data
 
 Select this option to backup your database file. 
 On the popup that appears, enter a name for the export file. 
 Under **Wipe data**, check the checkbox to delete all reset all current Umbrella content after export. 
+
 Finally, select a backup type, which may either be **Share** (lets you share your Umbrella backup) or **Export** (saves the Umbrella backup as a file on your device).
 
 ![Export your data](/img/backup-database.png) 
@@ -425,19 +469,13 @@ You can decide how often you want custom Umbrella feeds to be updated with new c
 
 ![Feed settings](/img/feed-settings.png)
 
-![Interval settings](/img/interval-settings.png)
-
 #### Your location
 
 Tap this setting to specify a default location for your feeds.
 
-![Location settings](/img/location-settings.png)
-
 #### Security feeds sources
 
-You can specify sources for your feeds.
-
-![Feed source settings](/img/feed-sources-settings.png)
+Here, specify sources for your feeds. Select your prefered sources and tap **OK**. 
 
 #### Show updates as notification
 
@@ -448,7 +486,7 @@ When this option is enabled, Umbrella will show updates (such as feed changes) a
 ### Enable Mask
 
 The **Mask** feature is particularly useful when in high risk settings (or do emergency sums). 
-To enable the Mask feature, choose **Enable Mask** from the **Account** page.
+To enable the Mask, select **Enable Mask** from the **Account** page.
 
 ![Enable Mask button](/img/enable-mask-button.png)
 
@@ -462,7 +500,7 @@ When enabled, Umbrella will be disguised as a calculator app (called **SimpleCal
 
 ![Simple Calc](/img/simple-calc.png) 
 
-To unmask the app, simply shake your phone when the SimpleCalc app is open. 
+To unmask the app, simply shake your device when in the SimpleCalc app. 
 
 ### Set password
 
@@ -472,13 +510,13 @@ From here, you can set up a password for Umbrella. Your password must be at leas
 
 ![Set password setting box](/img/set-password-setting-box.png)
 
-It is recommended to set up a password for Umbrella, especially if you're entering personal idenfiable information into the app (through forms). 
+It is recommended to set up a password for Umbrella, especially if you're entering personal idenfiable information into the app (via forms). 
 
 If you set a password, you will be prompted to enter it every time you open the Umbrella app. 
 
 ### Logout
 
-If you have a password set, tap on **Log out** to log you out of the app and trigger the prompt to enter a password. If no password is set, the **Log out** button has no effect.
+If you have a password set, tap on **Logout** to log you out of the app and trigger the prompt to enter a password. If no password is set, the **Logout** button has no effect.
 
 ![Logout](/img/logout.png)
 
@@ -533,10 +571,10 @@ Tap on **Settings**, then go to **Manage installed apps**. Select **Umbrella** a
 
 ### Update Umbrella manually
 
-Visit the [Umbrella website](secfirst.org/umbrella) to download a copy of the latest Umbrella release, then [install it as before](/#direct-download). 
+Visit the [Umbrella website](www.secfirst.org/umbrella) to download a copy of the latest Umbrella release, then [install it as before](/#direct-download). 
 This latest Umbrella version should install over the older version, thereby upgrading the app. 
 
-If doing this fails to update the app, you may have to uninstall Umbrella before reinstalling it. To do this, remove Umbrella from your system by uninstalling it using your device's settings. Depending on your mobile device's brand, navigate to **Settings** > **Apps**, then select **Umbrella** and tap on the **Uninstall** button. Afterwards, download the .apk file of the latest Umbrella release and install it. 
+If doing this fails to update the app, you may have to [uninstall Umbrella](/#uninstallation) before reinstalling it. 
 
 ### iOS
 
@@ -545,10 +583,9 @@ Tap your profile icon at the top of the screen.
 Scroll down to see pending updates and release notes. 
 Tap **Update** next to the Umbrella app to update it. 
 
+## Uninstallation
 
-## Uninstalling
-
-**Warning:** If you uninstall Umbrella without first exporting your data, there's no way to recover your account. To save your progress and information, [export a backup of your data](/manual/#export-your-data) first. 
+**Warning:** If you uninstall Umbrella without exporting your data, there's no way to recover your account. To save your progress and information, [export a backup of your data](/#export-your-data) first. 
 
 You may uninstall Umbrella via Google Play, F-droid, or your device's settings. 
 
@@ -562,9 +599,9 @@ From the F-droid app, Tap on **Settings**, then go to **Manage installed apps**.
 
 ### iOS
 
-To uninstall Umbrella on iOS devices, touch and hold the app, tap the Remove App icon. Finally, tap **Delete App**, then tap **Delete** to confirm.
+To uninstall Umbrella on iOS devices, touch and hold the app, tap the Remove App icon. Press the **Delete App** button, then select **Delete** to confirm.
 
 ### Device app settings
 
-Depending on your mobile device's brand, navigate to **Settings** > **Apps**, then select **Umbrella** and tap on the **Uninstall** button. 
+Depending on your mobile device's brand, navigate to **Settings** --> **Apps**. Select **Umbrella** from the list of apps, then tap on the **Uninstall** button. 
 
