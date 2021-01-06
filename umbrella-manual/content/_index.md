@@ -9,8 +9,8 @@ It teaches about the latest risks and how to mitigate them.
 Umbrella is designed for and used by journalists, aid workers, human rights activists, and people travelling in high-risk areas. 
 
 Umbrella provides step-by-step advice to help you and your team operate safely in a hostile environment. 
-Whether you are sending sensitive emails, attending a protest or dealing with a kidnapping, 
-Umbrella is your one stop shop for the latest security tools and information.
+Whether you are sending sensitive emails, attending a protest, or dealing with a kidnapping, 
+Umbrella is your one-stop shop for the latest security tools and information.
 
 There are lessons on various topics and checklists to help you follow through. 
 Keep track of your progress in the dashboard. 
@@ -23,7 +23,7 @@ In an emergency, disguise Umbrella or integrate it with _Ripple_, a "Panic Butto
 
 ## Installation
 
-Umbrella is available on Android, iOS an on the web. 
+Umbrella is available on Android, iOS, and the web. 
  
 ### App Store
 
@@ -35,7 +35,7 @@ Umbrella is available on Google Play for devices running Android. Open [this lin
 This link should open in the Google Play app. 
 Tap the **Install** button to install Umbrella. 
 
-If you have an Android device but you prefer not to use Google Play, you can install the Umbrella app via [F-Droid](/#f-droid), [Amazon](/#amazon-appstore) or [direct download](#direct-apk-download).
+If you have an Android device but you prefer not to use Google Play, you can install the Umbrella app via [F-Droid](/#f-droid), [Amazon](/#amazon-appstore), or [direct download](#direct-apk-download).
 
 ### Amazon Appstore
 
@@ -85,12 +85,12 @@ Read through the **Terms and Conditions** and accept them to proceed.
 ![Accept Umbrella Terms and Conditions](/img/accept-terms.png)
 
 A popup appears asking you to download more content. 
-Umbrella has lots of lessons and contents, some of which needs to be downloaded so that they work offline. 
+Umbrella has lots of lessons and contents, some of which need to be downloaded so that they work offline. 
 Tap **OK** to download more content. 
 
 ![Download additional content](/img/download-more-content.png)
 
-After the content is done downloading, choose what security guide you need most, or explore on your own, if you prefer. 
+After the content is done downloading, choose what security guide you need most, or explore on your own if you prefer. 
 
 ![Download additional content](/img/what-do-you-need-most.png)
 
@@ -103,9 +103,9 @@ Once you have set a password, you will be prompted to enter it every time you op
 ![Set a password](/img/set-password.png)
 
 Alternatively, you may decide to skip the password setting step. 
-Note that doing this significatly diminishes your safety in regards with any identifiable data you input into Umbrella. 
+Note that doing this significantly diminishes your safety in regards with any identifiable data you input into Umbrella. 
 
-When you set a password, you will be prompted to enter it everytime you launch the Umbrella app. 
+When you set a password, you will be prompted to enter it every time you launch the Umbrella app. 
 
 ![Password prompt](/img/password-prompt.png)
 
@@ -123,7 +123,7 @@ To begin setting your feed, click on the **Set Now** button, under the **Set you
 ![Set your feed](/img/set-feed.png)
 
 A popup appears, requesting for an interval. 
-The interval dertermines how often your feed will be updated with new content from the source(s). 
+The interval determines how often your feed will be updated with new content from the source(s). 
 Enter your preferred interval in minutes and tap **OK** to continue. 
 
 ![Enter feed interval](/img/enter-interval.png)
@@ -135,28 +135,28 @@ We can’t see it, and neither can anyone else.
 
 ![Enter feed location](/img/enter-location.png)
 
-Finally, select your prefered feed sources and tap **OK**. The sources you select will determine the nature of the content in your feed. 
+Finally, select your preferred feed sources and tap **OK**. The sources you select will determine the nature of the content in your feed. 
 
 These are the sources that we currently include for real-time updated security feeds. For privacy reasons, users never connect directly to these services. We are always looking for more useful sources that will help users keep updated on the move.
 
 - [ReliefWeb / UN](http://reliefweb.int): excellent physical security updates that amalgamate information from the UN and various NGOs - though not available in every country
-- [Foreign and Commonwealth Office](https://www.gov.uk/government/organisations/foreign-commonwealth-office): foreign travel advice, consular help and services abroad and document legislation
+- [Foreign and Commonwealth Office](https://www.gov.uk/government/organisations/foreign-commonwealth-office): foreign travel advice, consular help, and services abroad and document legislation
 - [Centers for Disease Control](https://www.cdc.gov): updates on disease and health warnings
-- [Global Disaster Alert and Coordination System](http://www.gdacs.org): updates on natural disaster issues such as floods, earthquakes and tsunamis
+- [Global Disaster Alert and Coordination System](http://www.gdacs.org): updates on natural disaster issues such as floods, earthquakes, and tsunamis
 - [US State Department Country Warnings](https://www.state.gov/travel/): updates mainly focused on the security situation for travellers and internationals - available for every country
 
 ![Select feed sources](/img/select-feed-sources.png)
 
-That's it. Your feed should now be populated with content, ordered by newest content first.
+That's it. Your feed should now be populated with content, ordered by the newest content first.
 
 ![Feed populated with alerts](/img/sample-feed.png)
 
-Tapping on feed card will open a page with more information about the event, directly in the Umbrella app. 
+Tapping on the feed card will open a page with more information about the event, directly in the Umbrella app. 
 
 {{< figure src="/img/open-feed-alert.png" link="/img/open-feed-alert.png"
 class="fullwidth" alt="Open feed alert" >}}
 
-You may change your feed location, interval and sources at any time, using the **Set** buttons under their respective sections. 
+You may change your feed location, interval, and sources at any time, using the **Set** buttons under their respective sections. 
 
 ![Set Interval, location and feed sources](/img/set-interval-location-source.png)
 
@@ -190,7 +190,7 @@ class="fullwidth" alt="Open RSS post" >}}
 
 Forms enable you to compile secure itineraries and protocols, which can be shared with your team. 
 
-Forms allow a user to quickly fill out and share important information about issues such as their travel plan in a high risk location or report on a digital/physical security incident.
+Forms allow a user to quickly fill out and share important information about issues such as their travel plan in a high-risk location or report on a digital/physical security incident.
 
 ### Filling a form
 
@@ -204,13 +204,13 @@ Umbrella provides four default forms, and they can be filled as many times as yo
 * **Travel Security Memo:** Used to document safety precautions taken before travelling.
 * **Digital Security Incident:** Used to report a digital security event, where an organization's systems or data have been compromised or that measures put in place to protect them have failed.
 
-Tap on any of the available forms to begin filling it. The information you're required to fill depends on the type of form. 
+Tap on any of the available forms to begin filling it. The information you're required to fill in depends on the type of form. 
 
 Enter information into the fields and tap on **Next** to proceed to the next section of the form. You can also go back to edit your previous answers with the **Back** button. As you complete a form, a percentage indicates how far you have gone.
 
 ![Filling a form](/img/fill-form.png)
 
-You can exit a form anytime by clicking on the back arrow icon at the top left of the screen. Umbrella automatically saves how far you've gone. Once you have started filling a form, it is shown on the Forms page, under the **Filled our forms** section. You may edit it, share it or delete it. 
+You can exit a form anytime by clicking on the back arrow icon at the top left of the screen. Umbrella automatically saves how far you've gone. Once you have started filling a form, it is shown on the Forms page, under the **Filled our forms** section. You may edit it, share it, or delete it. 
 
 ![Filled out forms](/img/filled-out-forms.png)
 
@@ -223,7 +223,7 @@ The same form can be filled multiple times.
 Umbrella has many lessons, giving you simple step-by-step actions of what to
 do in any given security situation and showing you the best tools to do it with. 
 
-The general flow of lessons are presented in order to replicate the typical way that a user works. Protecting their own information -> Communicating with other people -> Arranging and travelling to a location -> Doing their operations and work -> Dealing with personal issues that may arise-> Seeking support if something goes wrong.
+The general flow of lessons is presented in order to replicate the typical way that a user works. Protecting their own information -> Communicating with other people -> Arranging and travelling to a location -> Doing their operations and work -> Dealing with personal issues that may arise-> Seeking support if something goes wrong.
 
 ![Umbrella lessons menu](/img/lessons.png)
 
@@ -264,7 +264,7 @@ These lessons mostly cover the security of information when it is sent or receiv
 
 ### Travel
 
-These lessons cover security of travelling in high risk areas.
+These lessons cover the security of travelling in high-risk areas.
 
 - Preparation
 - Borders
@@ -286,7 +286,7 @@ These lessons include topics that may affect you in your work.
 
 ### Incident Response
 
-These lessons covers how to respond to events. 
+These lessons cover how to respond to events. 
 
 - Arrests
 - Evacuation
@@ -341,7 +341,7 @@ The glossary contains explanations of the various terms used in the app. If you 
 
 ### About
 
-The About page provides more information about Umbrella, its licences and appreciation for the people involved in its development.
+The About page provides more information about Umbrella, its licences, and appreciation for the people involved in its development.
 
 ### Bookmarks
 
@@ -356,9 +356,9 @@ Now, when you click on **Bookmarked** in the Lessons menu, you'll see your bookm
 
 ## Checklists
 
-Every Umbrella lessons ends with an easy-to-use checklist that can help you track your progress. 
+Every Umbrella lesson ends with an easy-to-use checklist that can help you track your progress. 
 You can also create custom checklists. 
-Checklists are quick and easy references to help users implement the advice in the lessons. You can tick them off as you complete each item. Checklists can also be shared in through other apps such as your email.
+Checklists are quick and easy references to help users implement the advice in the lessons. You can tick them off as you complete each item. Checklists can also be shared through other apps such as your email.
 
 ### Existing checklists
 
@@ -366,7 +366,7 @@ At the final tab of every lesson, you will find the checklist. Tap on a checkbox
 
 ![Malware checklist](/img/example-checklist.png)
 
-Once you begin marking a checklist, your progress is saved and you can come back to complete it at anytime by navigating to **Checklists**, from the bottom navigation menu. The **Overview** tab shows you all your checklists and how far you are to completing them. 
+Once you begin marking a checklist, your progress is saved and you can come back to complete it at any time by navigating to **Checklists**, from the bottom navigation menu. The **Overview** tab shows you all your checklists and how far you are to completing them. 
 
 ![Checklist overview](/img/checklists.png)
 
@@ -485,7 +485,7 @@ When this option is enabled, Umbrella will show updates (such as feed changes) a
 
 ### Enable Mask
 
-The **Mask** feature is particularly useful when in high risk settings (or do emergency sums). 
+The **Mask** feature is particularly useful when in high-risk settings (or do emergency sums). 
 To enable the Mask, select **Enable Mask** from the **Account** page.
 
 ![Enable Mask button](/img/enable-mask-button.png)
@@ -510,7 +510,7 @@ From here, you can set up a password for Umbrella. Your password must be at leas
 
 ![Set password setting box](/img/set-password-setting-box.png)
 
-It is recommended to set up a password for Umbrella, especially if you're entering personal idenfiable information into the app (via forms). 
+It is recommended to set up a password for Umbrella, especially if you're entering personal identifiable information into the app (via forms). 
 
 If you set a password, you will be prompted to enter it every time you open the Umbrella app. 
 
@@ -563,7 +563,7 @@ Umbrella should be kept updated at all times. If you continue to use an outdated
 
 ### Google Play
 
-Tap on the hamburger menu next to the search bar and navigate to **My apps & games** --> **Updates**. If you find **Umbrella** on the list of apps which need updating, select it and tap the **Update** button.
+Tap on the hamburger menu next to the search bar and navigate to **My apps & games** --> **Updates**. If you find **Umbrella** on the list of apps that need updating, select it and tap the **Update** button.
 
 ### F-droid
 
