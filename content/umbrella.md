@@ -25,6 +25,27 @@ published: true
   {{< showcase_picture direction="left" number="03" title="Stay private." text="Keep your security protocols private with encryption and passwords. Hide the app when you cross a border with a simple gesture." image="/imgs/umbrella-private.png" >}}
   {{< showcase_picture direction="right" number="04" title="New! Get support." text="Inform others when the worst happens. Shareable incident forms walk you through the steps you need to take if your security is compromised." image="/imgs/umbrella-support.png" >}}
 {{< /showcase >}}
+
+<div class="users">
+   <h1>Who uses Umbrella</h1>
+   <div class="personas">
+      <div>
+         <p><span class="persona persona1">Activists</span><br/> use Umbrella to stay updated on risks their area and learn how to hide their identities, communicate security and avoid censorship.
+         </p>
+      </div>
+      <div>
+         <p><span class="persona persona2">NGO staff</span><br/> use Umbrella to compile secure itineraries/protocols, monitor local threats with live security alerts from trusted sources, and learn how to operate securely.</p>
+      </div>
+      <div>
+         <p><span class="persona persona3">Journalists and their sources</span> <br/>use Umbrella to learn how to use security tools to publish sensitive information and access the internet from unsafe places.
+         </p>
+      </div>
+      <div>
+         <p><span class="persona persona4">You</span><br/> if you live in a high-risk area, travel regularly or want to increase your security. 
+         </p>
+      </div>
+   </div>
+</div>
 <div class="gradient-parent row spacer-top150">
   <div class="col-lg-6 gradient-box red">
     <div class="gradient-content">
