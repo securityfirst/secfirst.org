@@ -34,7 +34,7 @@ published: true
          </p>
       </div>
       <div>
-         <p><span class="persona persona2">NGO staff</span><br/> use Umbrella to compile secure itineraries/protocols, monitor local threats with live security alerts from trusted sources, and learn how to operate securely.</p>
+         <p><span class="persona persona2">NGO staff</span><br/> use Umbrella to compile secure itineraries/protocols, report incidents, monitor local threats with live security alerts from trusted sources, and learn how to operate securely.</p>
       </div>
       <div>
          <p><span class="persona persona3">Journalists and their sources</span> <br/>use Umbrella to learn how to use security tools to publish sensitive information and access the internet from unsafe places.
