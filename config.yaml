@@ -73,3 +73,10 @@ languages:
     weight: 1
     params:
       flag: "US"
+
+markup:
+  TableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
+
