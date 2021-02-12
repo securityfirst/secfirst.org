@@ -514,4 +514,13 @@ a:hover {
   font-weight: bold;
   margin-top: -25px; }
 
+.inquiry-link:hover{
+  color: #F6C637; 
+}
+
+.press-table td, .press-table th {
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
 /*# sourceMappingURL=style.css.map */
