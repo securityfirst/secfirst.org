@@ -11,7 +11,7 @@ published: true
       <div class="col-lg-6 col-md-12">
         <div class="d-none d-lg-block spacer-top100"></div>
         <h1 class="">Get in touch.</h1>
-        <div class="home-description">Contact us for press inquiries at <a href="mailto:juliette@secfirst.org?&subject=Press">juliette@secfirst.org</a> or download our press kit and brand guidelines.</div>
+        <div class="home-description">Contact us for press inquiries at <a href="mailto:juliette@secfirst.org?&subject=Press" class="inquiry-link">juliette@secfirst.org</a> or download our press kit and brand guidelines.</div>
         <a href="https://drive.google.com/drive/folders/17IQfcnUWuf4jziGLoX-14yLqfzsr70vR?usp=sharing" target="_blank">
 		<button type="button" class="spacer-top30 btn btn-white spacer-bottom100">DOWNLOAD</button>
 	</a>   
@@ -54,6 +54,47 @@ published: true
       In Paris, Juliette Delay: <a href="mailto:juliette@secfirst.org?&subject=Press">juliette@secfirst.org</a> or +33-6-45-33-94-89 (mobile) or +1-646-477-4170 (Whatsapp/Signal)
       </p>
     </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+      <h1 id="content" class="spacer-top100 green">Media Appearances</h1>
+	    <p> Umbrella is mentioned occasionally in the press. This list is not comprehensive, but illustrates some of the significant articles that have been published about Umbrella.</p>
+    </div>
+    <div class="col-lg-8 offset-lg-2">
+ <table class="press-table">
+  <tr>
+    <th>Date</th>
+    <th>Publication</th>
+    <th>Topic</th>
+  </tr>
+  <tr>
+    <td>2021-01-19</td>
+    <td>HackersOnlineClub</td>
+    <td><a href="https://hackersonlineclub.com/umbrella-secure-app-manage-digital-and-physical-security/">Umbrella Secure App To Manage Digital And Physical Security</a></td>
+  </tr>
+  <tr>
+    <td>2019-05-09</td>
+    <td>gisf</td>
+    <td><a href="https://gisf.ngo/new-app-umbrella-offers-free-security-advice/">Umbrella App Offers Free Security Advice</a></td>
+  </tr>
+  <tr>
+    <td>2018-09-19</td>
+    <td>Aidex Voices</td>
+    <td><a href="https://www.aid-expo.com/blog/190-communication-that-doesn-t-compromise-security-introducing-the-umbrella-app">Communicating without compromising security – introducing the Umbrella app</a></td>
+  </tr>
+  <tr>
+    <td>2016-02-19</td>
+    <td>Small World News</td>
+    <td><a href="http://smallworldnews.com/blog/a-qa-about-security-firsts-umbrella-app">A Q&A about Security First's Umbrella App</a></td>
+  </tr>
+  <tr>
+    <td>2015-09-29</td>
+    <td>The Irish Times</td>
+    <td><a href="https://www.irishtimes.com/business/technology/new-android-app-to-help-human-rights-activist-to-operate-securely-1.2370098">New Android app to help human rights activist to operate securely</a></td>
+  </tr>
+</table> 
   </div>
 </div>
 <div class="container">
