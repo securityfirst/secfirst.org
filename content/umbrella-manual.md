@@ -186,12 +186,69 @@ Forms allow a user to quickly fill out and share important information about iss
 Tap on the  **Forms** tab from the bottom navigation menu to visit the forms page. 
 Umbrella provides four default forms, and they can be filled as many times as you want. 
 
+Any information you input into a form in Umbrella is encrypted. That means we can’t see it, and it will stay private if you use a strong password. (Go to **Set Password** under **Account** option in the navigation menu. To learn about strong passwords, read the *Information* --> *Passwords* lesson in Umbrella). 
+Forms are not encrypted when you share it by email, but should be reasonably secure if the person you’re sharing it with has a strong password and uses two-factor authentication (the *Passwords* lesson has more information about two-factor authentication). However, if you want to input really sensitive information, like credit card details, read the *Information* --> *Protecting Files*, and *Information* --> *Safely Deleting* lessons and think carefully about the risks of unauthorized access before exporting the form.
+
 ![Available forms](/imgs/manual/forms.png)
 
-* **Physical Security Incident:** Used to report a physical security event.
-* **Proof of life Form:** Used to show that an individual was alive at the time the form was completed.
-* **Travel Security Memo:** Used to document safety precautions taken before travelling.
-* **Digital Security Incident:** Used to report a digital security event, where an organization's systems or data have been compromised or that measures put in place to protect them have failed.
+#### Physical Security Incident
+
+The Physical Security Incident prompts you to report a physical security event, such as a robbery or kidnapping. 
+
+1. **Contact Information:** Note your name, title, phone number, email address, and a secure communication method, if you have any. 
+2. **Incident Description:** What happened during the incident? Provide a brief description. 
+3. **Type of Incident:** Pick an incident from the list or enter a custom incident. 
+4. **Impact/Potential Impact:** What assets were damaged during the incident? How many people were impacted? What threats were made? Was anyone injured? If yes, what type of injuries? 
+5. **Response:** Write down any steps you have taken in response to the incident.
+6. **Motive:** What do you think is the motive of the perpetrators? Did they want money or something else? 
+7. **Reporting the Incident:** If you have reported the incident to someone, mention this. Did you call the police or anyone else?
+8. **Security Guidelines:** Note if any security guidelines were followed during the incident.
+9. **Guidelines Revision:** Do the security guidelines or any other aspect of security management need to be revised to prevent similar incidents in the future? If yes, what sort of revisions do you think should be made? 
+10. **Lessons Learned:** Suggest specific measures that may help avoid this type of incident in the future. Enhanced security guidelines? Personel security training? 
+11. **Action Request:** Note any specific action requested during the event. 
+12. **Supporting Information:** Challenge yourself to put something you haven’t thought of here.
+
+#### Proof of Life Form
+
+This form is meant to indicate that an individual was alive at the time the form was completed.
+
+1. **Questions 1, 2, 3, and 4:** Write down 4 questions known only to you or someone close to you. 
+2. **Personal Duress Word:** Do you have a word that you can use to warn others that you are being forced to do something against your will?
+
+#### Travel Security Memo
+
+Umbrella’s Travel Security Memo prompts you to capture your itinerary, emergency contacts, and procedures for staying in touch with your home base, all in one secure location. You can carry this information with you in the app, or export it to share with others.
+1. **Name/Travel Date.** If you want the option to export and share your form with a partner, parent, or childminder, enter your name. If “travel dates” isn’t relevant, you could always enter the date as a reminder of when you last updated the form.
+2. **Destination/Purpose.** If you don’t have an immediate destination in mind, adapt this section. What’s a destination it would be useful to note in case of emergency? You could enter the evacuation/meeting point for a disaster plan here.
+3. **Itinerary/Travel**. Enter your travel plans and flight information
+4. **Immigration/Phone Numbers.** What important phone numbers could be useful here? Consider your doctor, insurance, driver breakdown, bank, or a local police station. 
+5. **Organisational/Procedures.** Note professional or institutional contacts (boss, secretary, colleague, teacher) for you and your family here. 
+6. **Personal/Medical.** Note personal contacts (parents, close friend, housemate) here. Do you or a family member have a medical condition that needs specific medication or treatment? 
+7. **Physical/Digital.** Write about your physical and digital security situation. What security measures have you taken? 
+8. **Key Contacts/Other.** Challenge yourself to put something you haven’t thought of here. What information could really help in an emergency? Here are some examples to get you thinking:
+    - **UK:** https://www.redcross.org.uk/~/media/BritishRedCross/Documents/What%20we%20do/Preparing%20for%20emergencies/Home-emergency-contacts.pdf
+    - **US:** https://www.redcross.org/images/MEDIA_CustomProductCatalog/m12140360_ARC_Family_Disaster_Plan_Template_r083012.pdf
+
+
+#### Digital Security Incident
+
+You can use Umbrella's Physical Security Incident form to report a digital security incident, such as an incident where an organization's systems or data have been compromised. 
+1. **Your Contact Information:** Enter your name, phone number, email address, and security information (such as a PGP Key ID), if you have any.
+2. **Details:** What happened during the incident? Select all that apply or write a custom description. 
+3. **Time:** At what day and time did you discover the incident? Be as specific as possible. 
+4. **Impact:** Note if any assets, information, or people were impacted by the event.
+5. **Impact details:** What devices, accounts, or services may have been compromised? Select from the list or write a custom entry. 
+6. **Scale:** Think about the severity of the incident and note how many people could be affected. 
+7. **Status:** Are you using the incident form to document what happened or to seek support? Record it here. 
+8. **Guidelines:** Are you are following any guidelines to resolve the incident?
+9. **Response:** If you are following any guidelines or performing any actions to handle the incident, check all the options that apply or describe a custom action. 
+10. **Notification:** Note persons who have been notified or are still to be notified. 
+11. **Responsibility:** If you have any information about the perpetrators of the incident, write down the details. 
+12. **Motive:** What do you think is the motive of the perpetrators of the incident? Do you think they were after money, company assets, or something else?
+13. **Evidence:** Have you saved any evidence (screenshots, error messages, emails, files) that show that the incident occurred?
+14. **Reflection:** Think back on how the incident happened. Is there anything you can change to prevent a similar incident from happening in the future?
+15. **Next steps:** Note actions that you need someone else to take to resolve the incident. 
+16. **Anything else** Get creative. Challenge yourself to write something you haven’t already mentioned here.
 
 Tap on any of the available forms to begin filling it. The information you're required to fill in depends on the type of form. 
 
