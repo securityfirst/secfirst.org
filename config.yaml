@@ -73,3 +73,9 @@ languages:
     weight: 1
     params:
       flag: "US"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
