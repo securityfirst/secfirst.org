@@ -1,5 +1,7 @@
 ---
 title: "Legal and Ethical"
+aliases:
+    - /legal.html
 ---
 # Legal and Ethical
 
@@ -27,6 +29,6 @@ That said, we know people don’t usually read them all that carefully, so we’
 
 # Responsible disclosure policy
 
-We take the safety and security of our users extremely seriously. If you find a security critical issue with Umbrella or any other activity related to Security First’s work, we ask that you disclose it to us confidentially before making it public. Ideally, please use security measures such as encryption to mail us. Our contact details are available [here](contact.html).
+We take the safety and security of our users extremely seriously. If you find a security critical issue with Umbrella or any other activity related to Security First’s work, we ask that you disclose it to us confidentially before making it public. Ideally, please use security measures such as encryption to mail us. Our contact details are available [here](/contact).
 
 We guarantee that we will respond to you within 72 hours. Our aim is to have any security issue fixed within 21 days, so we ask that you give us this amount of time before public disclosure. Our users are our passion and our reason for doing this work, but if you’re not satisfied you can email our mums ([mums@secfirst.org](mailto:mums@secfirst.org?Subject=Mums!) \- we promise this links directly to them) and tell them. Because there’s nothing more annoying than your mother asking why you haven’t done something.
