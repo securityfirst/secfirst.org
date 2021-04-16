@@ -52,20 +52,6 @@ When it finishes, tap the search icon at the bottom right of the home screen and
 
     ![Install Umbrella on F-droid](/imgs/manual/f-droid-install.png)
 
-### Direct download
-
-1. Open your device's **Settings** app, and find the **Security** section.
-
-2. Enable **Unknown sources** and confirm that you want to change the setting.
-
-3. Open the web browser and go to https://secfirst.org/umbrella/. 
-
-4. Confirm that you want to download the file.
-
-5. When the download completes, tap the notification to install Umbrella.
-
-6. Go back to the **Settings** app and disable **Unknown sources**.
-
 ### Umbrella Web
 
 The web version of Umbrella is available at [umbrella.secfirst.org](https://umbrella.secfirst.org/).
@@ -602,14 +588,7 @@ Tap on the hamburger menu next to the search bar and navigate to **My apps & gam
 
 ### F-droid
 
-Tap on **Settings**, then go to **Manage installed apps**. Select **Umbrella** and tap on the **Update** button.
-
-### Update Umbrella manually
-
-Visit the [Umbrella website](www.secfirst.org/umbrella) to download a copy of the latest Umbrella release, then [install it as before](/umbrella-manual/#direct-download). 
-This latest Umbrella version should install over the older version, thereby upgrading the app. 
-
-If doing this fails to update the app, you may have to [uninstall Umbrella](/umbrella-manual/#uninstallation) before reinstalling it. 
+Tap on **Settings**, then go to **Manage installed apps**. Select **Umbrella** and tap on the **Update** button. 
 
 ### iOS
 
