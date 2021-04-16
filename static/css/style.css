@@ -204,6 +204,15 @@ footer {
     padding: 10px 20px;
     border-radius: 22.5px; }
 
+.container .contribute *{
+  width:100% !important;
+}
+.container .contribute h2{
+  margin-top: 20px;
+  color: #97C64F;
+}
+
+
 .mask {
   border-radius: 12px;
   background-color: white;
@@ -557,7 +566,6 @@ a:hover {
   border: 1px solid #eee;
 }
 
-
 /** Umbrella manual styles **/
 
 #toc-wrapper .blog {
@@ -702,5 +710,4 @@ div.clear {
     display: table;
    }
 }
-
 /*# sourceMappingURL=style.css.map */

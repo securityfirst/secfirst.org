@@ -82,4 +82,7 @@ markup:
     endLevel: 2
     ordered: false
     startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
 
