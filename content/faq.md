@@ -67,7 +67,7 @@ published: true
    <div class="row">
       <div class="col-8 offset-lg-2 spacer-bottom30">
          <h3 class="green">How do I install/use Umbrella </h3>
-         <p>See the <a href="https://secfirst.org/manual">Umbrella user manual</a> for detailed instructions on how to install Umbrella and use its features.</p>
+         <p>See the <a href="https://secfirst.org/umbrella-manual">Umbrella user manual</a> for detailed instructions on how to install Umbrella and use its features.</p>
       </div>
    </div>
    <div class="row">
@@ -120,7 +120,7 @@ published: true
    <div class="row">
       <div class="col-8 offset-lg-2 spacer-bottom30">
          <h3 class="green">How can I get involved?</h3>
-         <p>See our <a href="#"> contributing guides </a> to know what sort of contributions we're looking for and how you can get involved.</p>
+         <p>See our <a href="/contribute"> contributing guides </a> to know what sort of contributions we're looking for and how you can get involved.</p>
       </div>
    </div>
    <div class="row spacer-bottom100">
