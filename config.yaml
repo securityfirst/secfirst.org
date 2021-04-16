@@ -9,6 +9,9 @@ menu:
   - name: umbrella
     url: /umbrella/
     weight: 2
+  - name: docs
+    url: /umbrella-manual/
+    weight: 3
   - name: tent
     url: /tent/
     weight: 3
@@ -75,6 +78,10 @@ languages:
       flag: "US"
 
 markup:
+  TableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
   goldmark:
     renderer:
       unsafe: true

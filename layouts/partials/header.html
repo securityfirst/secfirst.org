@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/personas.css">
 </head>
 <body class="{{.Params.class}}">
   <div id="top" class="header">
@@ -53,3 +52,6 @@
       </nav>
     </div>
   </div>
+{{ if isset .Params "manual" }}
+  {{- partial "toc-header.html" . -}}
+{{ end }}
