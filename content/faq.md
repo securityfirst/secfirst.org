@@ -10,7 +10,7 @@ published: true
          <div class="col-lg-12 col-md-12">
             <div class="d-none d-lg-block spacer-top100"></div>
             <h1 class="">What is Umbrella?</h1>
-            <div class="home-description spacer-bottom100">Umbrella is a free, open source Android and iOS app with everything you need to mitigate the most common digital and physical security threats in one place. Umbrella provides human rights defenders with the information on what to do in any given security situation and the tools to do it<br><br></div>
+            <div class="home-description spacer-bottom100">Umbrella is a free, open-source Android, iOS, and web app with everything you need to mitigate the most common digital and physical security threats in one place. Umbrella provides human rights defenders with the information on what to do in any given security situation and the tools to do it.<br><br></div>
          </div>
       </div>
    </div>
@@ -23,14 +23,13 @@ published: true
             <li>Lessons help you learn best practices, from beginner to advanced.</li>
             <li>Checklists make good advice easy to implement.</li>
             <li>Tool guides help you work with recommended security tools.</li>
-            <li>Checklists helps you track your progress.</li>
-            <li>Feeds update you with security alerts from trusted sources like the UN, Centres for Disease Control, Global Disaster Warning System and US State Department.</li>
+            <li>Checklists help you track your progress.</li>
+            <li>Feeds update you with security alerts from trusted sources like the UN, Centres for Disease Control, Global Disaster Warning System, and US State Department.</li>
             <li>RSS feeds update you with the latest news from your favourite blogs.</li>
             <li>Forms help you report incidents effectively.</li>
             <li>Encryption and passwords help ensure your information stays as secure as possible.</li>
             <li>Masking functionality and integration with  <a href="https://play.google.com/store/apps/details?id=info.guardianproject.ripple">
-               Ripple
-               </a>, a panic button from the Guardian Project, help you hide your security practices in an emergency.
+               Ripple</a>, a panic button from the Guardian Project, help you hide your security practices in an emergency.
             </li>
          </ul>
       </div>
@@ -54,14 +53,15 @@ published: true
          <p>Umbrella is available on Android 4.0 or later, and iOS 11.0 or later. We are currently building <a href="https://github.com/securityfirst/Umbrella_web">Umbrella Web</a>, which will be compatible with modern browsers.</p>
          Download Umbrella Android from  <a href="https://play.google.com/store/apps/details?id=org.secfirst.umbrella">
          Google Play
-         </a>,  <a href="https://secfirst.org/fdroid/repo/?fingerprint=39EB57052F8D684514176819D1645F6A0A7BD943DBC31AB101949006AC0BC228">
+        </a>,  <a href="https://secfirst.org/fdroid/repo/?fingerprint=39EB57052F8D684514176819D1645F6A0A7BD943DBC31AB101949006AC0BC228">
          F-Droid
-         </a>, and <a href="https://www.amazon.com/Security-First-Umbrella-made-easy/dp/B01AKN9M1Y">
+        </a>, and <a href="https://www.amazon.com/Security-First-Umbrella-made-easy/dp/B01AKN9M1Y">
          Amazon
-         </a>.
+        </a>.
          Download Umbrella iOS from the <a href="https://apps.apple.com/us/app/umbrella-security/id1453715310">
-         Apple App Stroe
+         Apple App Store.
          </a>
+         Visit Umbrella on the web at <a href="https://umbrella.secfirst.org/"> umbrella.secfirst.org.</a>
       </div>
    </div>
    <div class="row">
@@ -74,13 +74,13 @@ published: true
       <div class="col-8 offset-lg-2 spacer-bottom30">
          <h3 class="green">Should I use a password with Umbrella? Can I reset it? </h3>
          <p>If you want to save your checklists and keep an eye on your progress, we recommend you use a strong password. If someone gets their hands on your phone, you don’t want them to review your security protocols. We haven’t made this compulsory in case you weren’t storing much, but we think you’re better safe than sorry.</p>
-         <p>Anything you input into Umbrella is only stored on your device. We can’t see it or give it to anyone else. We also can’t recover your data if you accidently delete it or forget your password.</p>
+         <p>Anything you input into Umbrella is only stored on your device. We can’t see it or give it to anyone else. We also can’t recover your data if you accidentally delete it or forget your password.</p>
       </div>
    </div>
    <div class="row">
       <div class="col-8 offset-lg-2 spacer-bottom30">
          <h3 class="green">Can I transfer my progress to another device? </h3>
-         <p>If you want to transfer your progress (such as filled forms, checklists and settings) to another device, you may <a href="https://secfirst.org/manual">export your data</a>, then <a href="https://secfirst.org/manual">import it</a> into Umbrella on the other device.</p>
+         <p>If you want to transfer your progress (such as filled forms, checklists, and settings) to another device, you may <a href="https://secfirst.org/manual">export your data</a>, then <a href="https://secfirst.org/manual">import it</a> into Umbrella on the other device.</p>
       </div>
    </div>
    <div class="row">
@@ -99,28 +99,28 @@ published: true
    <div class="row">
       <div class="col-8 offset-lg-2 spacer-bottom30">
          <h3 class="green">How do I report a bug?</h3>
-         <p>If you find a security critical issue, please read our <a href="https://secfirst.org/legal">responsible disclosure policy.</a></p>
+         <p>If you find a security-critical issue, please read our <a href="https://secfirst.org/legal">responsible disclosure policy.</a></p>
          <p>If the bug doesn't have security implications, report it on our<a href="https://github.com/securityfirst/Umbrella_android/issues">GitHub issue tracker</a> or send us an email at <a href="mailto:info@secfirst.org"> info@secfirst.org</a>.</p>
       </div>
    </div>
    <div class="row">
       <div class="col-8 offset-lg-2 spacer-bottom30">
          <h3 class="green">Where do you source Umbrella content?</h3>
-         <p>Umbrella builds on the expertise of a wide range of partners in the human rights, humanitarian aid, and open tech sectors, as well as the industry leading security programme developed by Security First CEO, Rory Byrne. Content licences and credits are available <a href="https://github.com/securityfirst/Umbrella_content"> here</a>.</p>
+         <p>Umbrella builds on the expertise of a wide range of partners in the human rights, humanitarian aid, and open tech sectors, as well as the industry-leading security programme developed by Security First CEO, Rory Byrne. Content licences and credits are available <a href="https://github.com/securityfirst/Umbrella_content">here</a>.</p>
          <p>Umbrella content is published under a Creative Commons licence, CC BY-SA 3.0, so you can reuse it under the licence conditions. <a href="https://creativecommons.org/licenses/by-sa/3.0/"> Find out more</a>.</p>
       </div>
    </div>
    <div class="row">
       <div class="col-8 offset-lg-2 spacer-bottom30">
          <h3 class="green">What's next for Umbrella?</h3>
-         <p>We are currently building Umbrella Web, which can be accessed from browsers. We are trying to bring Umbrella to as many devices and platforms as possible. Read our <a href="https://github.com/securityfirst/secfirst.org/blob/master/umbrella-roadmap.md">roapmap</a> to learn about our plans for the upcoming years.</p>
+         <p>We are currently building Umbrella Web, which can be accessed from browsers. We are trying to bring Umbrella to as many devices and platforms as possible. Read our <a href="https://github.com/securityfirst/secfirst.org/blob/master/umbrella-roadmap.md">roadmap</a> to learn about our plans for the upcoming years.</p>
          <p>We’re only getting started. If you want to know more about our future plans or fund the next phase, drop us a mail at <a href="mailto:info@secfirst.org"> info@secfirst.org</a>.</p>
       </div>
    </div>
    <div class="row">
       <div class="col-8 offset-lg-2 spacer-bottom30">
          <h3 class="green">How can I get involved?</h3>
-         <p>See our <a href="/contribute"> contributing guides </a> to know what sort of contributions we're looking for and how you can get involved.</p>
+         <p>See our <a href="/contribute">contributing guides</a> to know what sort of contributions we're looking for and how you can get involved.</p>
       </div>
    </div>
    <div class="row spacer-bottom100">
