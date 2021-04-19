@@ -10,6 +10,14 @@ There are many ways you can contribute to Umbrella.
 No effort is too small and whatever you bring to this community will be appreciated. 
 So read on to find out how you can make a difference in Umbrella. 
 
+#### Contributor License Agreement
+
+Contributions to Security First software projects may be accompanied by a Contributor License Agreement. 
+You (or your employer) retain the copyright to your contribution; this simply gives us permission to use and redistribute your contributions as part of the project. 
+See your current agreements on file or to sign a new one [here](link-here).
+
+You generally only need to submit a CLA once, so if you've already submitted one (even if it was for a different project), you probably don't need to do it again.
+
 ## Spread the Word
 
 - Review Umbrella on [Google Play](https://play.google.com/store/apps/details?id=org.secfirst.umbrella) or [Amazon](https://www.amazon.com/Security-First-Umbrella-made-easy/dp/B01AKN9M1Y).
@@ -134,6 +142,7 @@ In addition, if you find a typo or an error on any page of the [secfirst.org](ht
 If you have a question about something you read in the documentation, please send us a mail to <info@secfirst.org>.
 
 Here are a few guidelines and Markdown conventions to keep in mind when writing documentation for Umbrella. Doing so helps creating a consistent language across the documentation:
+
 - Do not duplicate documentation. Duplicating documentation is almost always a bad idea, since it presents a maintainance issue. Almost all documentation has to be updated as some point, and when similar documentation appears in more than one place, it is very easy for it to get updated in one place but not the others When this happens, this leads to inconsitent, and the outdated documentation becomes a trap, especially for novice users. The solution is to link to existing documentation rather than duplicating it. There are some exceptions to this policy (e.g., information that is certain not to change for a very long time), but they are rare.
 - In order to enable offline browsing, always use relative (rather than absolute) links, e.g., /umbrella/manual/ instead of https://www.securityfirst.org/umbrella/manual/. An exception to this rule is when linking to files like README.md, CONTRIBUTING.md
 
@@ -144,6 +153,7 @@ Most of Umbrella can be translated directly online, through a simple web interfa
 Umbrella can be translated into more than 140 languages this way.
 
 To get started:
+
 - Create a free account with [Transifex](https://www.transifex.com/).
 - Click [Help Translate Umbrella App](https://www.transifex.com/otf/umbrella-app/).
 - Choose your language and translate something. Even a single sentence helps!
