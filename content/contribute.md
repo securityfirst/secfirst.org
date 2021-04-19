@@ -1,12 +1,8 @@
 ---
 title: Contribute
-layout: index
 class: tent
 published: true
 ---
-
-<div class="container spacer-top100">
-	<div class="row contribute">
 
 # Contributing to Umbrella
 
@@ -180,7 +176,3 @@ Even if you don't implement your suggestions yourself, create GitHub issues with
 
 Our team are based in Dublin, San Francisco, Madrid, Bristol and London. Let’s grab a coffee. Drop us an [email](https://secfirst.org/contribute/info@secfirst.org) at info@secfirst.org.
 
-<div class="spacer-bottom100">
-</div>
-</div>
-</div>
