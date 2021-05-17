@@ -13,6 +13,7 @@ This document outlines our priorities for 2021 - 2022
 ### New features
 * New languages: Norwegian, German, Japanese, Portuguese, Thai, Azerbaijani, Dutch, Greek, Hungarian, Italian, Ukrainian, Vietnamese, Filipino, Hindi, Khmer, Serbian, Slovenian, Croatian, Portuguese.
 * Better hiding and panic alert features.
+* Dark mode
 
 ### Supporting users
 * Improving documentation.
