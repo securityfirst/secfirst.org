@@ -101,7 +101,7 @@ published: true
 			<h6>Co-founder and Executive Director</h6>
 			<p class="grey">Rory co-founded Security First in 2013 to develop technology and training that makes security easy for everyone. He has overseen the development and launch of Umbrella, a free, open source Android app containing up-to-date digital and physical security resources for use in hostile environments, and Tent, a content management system for other organisations to publish their own version of Umbrella. He leads Security First trainings with organisations and activists operating in high-risk areas around the world.</p>
 			<p class="grey">Rory’s experience includes work in Westminster and with the military. He has spent the past decade working to share his expertise in risk analysis and mitigation with the people who need it most. In 2008 he helped establish Videre, a UK-based charity that equips and trains activists to gather, verify and distribute covert camera footage documenting human rights abuses. He served as Videre's Head of Security and Research for five years, training hundreds of human rights defenders across Africa, the Middle East, and Eastern Europe in areas as varied as encryption, counter-surveillance, covert filming, risk management and secure communications. The thirty-five module training program he developed was cited by USAID as the industry-leading standard. He is also a Certified Ethical Hacker.</p>
-			<a href="https://linkedin.com/in/rory-byrne-95a72b" class="_blank"><i class="fab fa-linkedin"></i></a>
+			<a href="https://www.linkedin.com/in/rorymbyrne" class="_blank"><i class="fab fa-linkedin"></i></a>
 			<a href="https://twitter.com/roryireland" class="_blank"><i class="fab fa-twitter-square"></i></a>
 		</div>
 		<div class="col-6">
